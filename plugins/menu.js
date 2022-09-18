@@ -187,7 +187,7 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args }) => {
     'nsfw': 'Nsfw'
   }
   if (teks == 'nocategory') tags = {
-    '': 'No Category'
+    'nocategory': 'No Category'
   }
   try {
   	// DEFAULT MENU
