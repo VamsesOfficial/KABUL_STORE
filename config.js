@@ -46,8 +46,8 @@ global.ppulsa2 = '08XXXXXXXXXX' // kalau ada kartu lain isi aja
 global.psaweria = 'https://saweria.com/mrw4h1d'
 
 /*============== NOMOR ==============*/
-global.nomorbot = '6289518462920'
-global.nomorown = '6282127487538'
+global.nomorbot = '628XXXXXXXXXX'
+global.nomorown = '628XXXXXXXXXX'
 global.namebot = 'WH-MODS-BOT-V1'
 global.nameown = 'WH MODS DEV'
 
@@ -58,7 +58,7 @@ global.lolkey = '8e66d0934cf741bfd2182c16' // PUNYA WAHID 357d3c85079c4e0818731e
 
 /*============== STAFF ==============*/
 global.owner = [
-  ['6282127487538', 'WH MODS DEV', true],
+  ['628XXXXXXXXXX', 'WH MODS DEV', true],
   ['-', 'isi_kalau_ada', true],
   ['-', 'isi_kalau_ada', true],
   ['-', 'isi_kalau_ada', true] //Ganti jd nomormu sama Namamu
