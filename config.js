@@ -47,9 +47,9 @@ global.psaweria = 'https://saweria.com/mrw4h1d'
 
 /*============== NOMOR ==============*/
 global.nomorbot = '6281386943282'
-global.nomorown = '6281386943282'
-global.namebot = 'KA-BUL-BOT-V1'
-global.nameown = 'KABUL CA '
+global.nomorown = '6285212649276'
+global.namebot = 'KABUL STORE'
+global.nameown = 'KABUL STORE '
 
 /*============== APIKEY SIMPEL ==============*/
 global.zenzkey = 'b8040941f7'
