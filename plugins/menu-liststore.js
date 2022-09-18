@@ -16,7 +16,7 @@ let handler  = async (m, { conn, command, args, usedPrefix, DevMode }) => {
 • Berbicaralah yang sopan & tidak spam
 • Owner Hanya merespon yang berkaitan dengan BOT
 • No Telp`
-
+let usrs = db.data.users[m.sender]
   let teks = `*${ucapan()} ${conn.getName(m.sender)}*
   
   Yuk Cek List Store Kami 🌟`
@@ -94,3 +94,21 @@ handler.tags = ['nocategoty']
 handler.command = /^(list|store|liststore|storelist)/i
 
 export default handler
+
+function ucapan() {
+  const time = moment.tz('Asia/Jakarta').format('HH')
+  let res = "Sudah Dini Hari Kok Belum Tidur Kak? 🥱"
+  if (time >= 4) {
+    res = "Pagi Lord 🌄"
+  }
+  if (time >= 10) {
+    res = "Selamat Siang Kak ☀️"
+  }
+  if (time >= 15) {
+    res = "Selamat Sore Kak 🌇"
+  }
+  if (time >= 18) {
+    res = "Malam Kak 🌙"
+  }
+  return res
+}
