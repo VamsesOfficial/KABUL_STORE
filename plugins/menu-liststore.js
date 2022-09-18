@@ -1,4 +1,5 @@
 let { MessageType } = (await import('@adiwajshing/baileys')).default
+import moment from 'moment-timezone'
 
 let handler  = async (m, { conn, command, args, usedPrefix, DevMode }) => {
   let type = (args[0] || '').toLowerCase()
@@ -17,6 +18,7 @@ let handler  = async (m, { conn, command, args, usedPrefix, DevMode }) => {
 • Owner Hanya merespon yang berkaitan dengan BOT
 • No Telp`
 let usrs = db.data.users[m.sender]
+
   let teks = `*${ucapan()} ${conn.getName(m.sender)}*
   
   Yuk Cek List Store Kami 🌟`
