@@ -22,7 +22,7 @@ const sections = [
 const listMessage = {
   text: info,
   footer: botdate,
-  mentions: await conn.parseMention(tek),
+  mentions: await conn.parseMention(info),
   title: "KABUL STORE M.M💎28K✅",
   buttonText: "Click Here!",
   sections
