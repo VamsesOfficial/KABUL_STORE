@@ -38,19 +38,49 @@ const sections = [
 	{title: "📱 • PULSA  TRI", rowId: ".game30"},
         {title: "📱 • KOUTA SMARTFREN DATA UNLIMITED ", rowId: ".game31"},            
 	
-        {title: "📱 • KOUTA SMARTFREN MINI DATA ", rowId: ".game32"},
-	
-        {title: "📱 • KOUTA SMARTFREN DATA COMBO ", rowId: ".game33}
-{title: "📱 • KOUTA TELKOMSEL BULANAN", rowId: ".game29"},
-        {title: "📱 • KOUTA TELKOMSEL BULANAN", rowId: ".game29"},
+  const listMessage = {
 
-        {title: "📱 • KOUTA TELKOMSEL MINI HARIAN ", rowId: ".game29"},
+  text: info,
 
-        {title: "📱 • KOUTA TELKOMSEL MINGGUAN ", rowId: ".game29"},
+  footer: botdate,
 
-        {title: "📱 • KOUTA TELKOMSEL KOUTA MALAM ", rowId: ".game29"},
+  mentions: await conn.parseMention(info),
+
+  title: "👑KABUL STORE/READY STOK👑",
+
+  buttonText: "Click Here!",
+
+  sections
+
+}
+
+await conn.sendMessage(m.chat, listMessage, { quoted: m, mentions: await conn.parseMention(info), contextInfo:{ forwardingScore: 99999, isForwarded: true }})
+
+//conn.sendHydrated(m.chat, info, wm, null, sgc, "🌎 Group Official", null,null, [['Owner','.owner']], m)
+
+}
+
+handler.help = ['liststore']
+
+handler.tags = ['nocategoty']
+
+handler.command = /^(list|store|liststore|storelist)$/i
+
+export default handler
+
+      
  
+
   
+	
+
+	
+
+	
+
+	
+        
+        
 
   
 
@@ -79,20 +109,3 @@ const sections = [
 
        
 
-const listMessage = {
-  text: info,
-  footer: botdate,
-  mentions: await conn.parseMention(info),
-  title: "👑KABUL STORE/READY STOK👑",
-  buttonText: "Click Here!",
-  sections
-}
-await conn.sendMessage(m.chat, listMessage, { quoted: m, mentions: await conn.parseMention(info), contextInfo:{ forwardingScore: 99999, isForwarded: true }})
-//conn.sendHydrated(m.chat, info, wm, null, sgc, "🌎 Group Official", null,null, [['Owner','.owner']], m)
-}
-
-handler.help = ['liststore']
-handler.tags = ['nocategoty']
-handler.command = /^(list|store|liststore|storelist)$/i
-
-export default handler
