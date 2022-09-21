@@ -33,10 +33,10 @@ const sections = [
         {title: "📱 • KOUTA INDOSAT UNLIMITED HARIAN", rowId: ".game25"},
         {title: "📱 • KOUTA INDOSAT FREEDOM U UNLIMITED", rowId: ".game26"},
 	{title: "📱 • KOUTA INDOSAT FREEDOM INTERNET", rowId: ".game27"},
-        {title: "📱 • PULSA PULSA INDOSAT ", rowId: ".game28"},
-        {title: "📱 • PULSA INDOSA", rowId: ".game29"},
-	{title: "📱 • PULSA  TRI", rowId: ".game30"},
-        {title: "📱 • KOUTA SMARTFREN DATA UNLIMITED ", rowId: ".game31"},            
+        {title: "📱 • PULSA INDOSAT ", rowId: ".game28"},
+        {title: "📱 • PULSA AXIS", rowId: ".game29"},
+	{title: "📱 • PULSA TRI", rowId: ".game30"},
+        {title: "📱 • PULSA TELKOMSEL  ", rowId: ".game31"},            
       ]
     },
 ]
