@@ -4,7 +4,7 @@ let info = `
 Yuk Cek List Store Kami 🌟`
 const sections = [
    {
-    title: `${htjava} KABUL STORE M.M💎28K✅ –––––––––·•`,
+    title: `${htjava} 👑KABUL STORE/READY STOK👑–––––––––·•`,
     rows: [
         {title: "💎 • Top Up FREE FIRE", rowId: ".game1"},
         {title: "💎 • Top Up DOMINO QIU QIU", rowId: ".game2"},
@@ -35,19 +35,21 @@ const sections = [
 	{title: "📱 • KOUTA INDOSAT FREEDOM INTERNET", rowId: ".game27"},
         {title: "📱 • PULSA PULSA INDOSAT ", rowId: ".game28"},
         {title: "📱 • PULSA INDOSA", rowId: ".game29"},
+	{title: "📱 • PULSA  TRI", rowId: ".game30"},
+        {title: "📱 • KOUTA SMARTFREN DATA UNLIMITED ", rowId: ".game31"},            
 	
-                  
+        {title: "📱 • KOUTA SMARTFREN MINI DATA ", rowId: ".game32"},
 	
+        {title: "📱 • KOUTA SMARTFREN DATA COMBO ", rowId: ".game33}
+{title: "📱 • KOUTA TELKOMSEL BULANAN", rowId: ".game29"},
+        {title: "📱 • KOUTA TELKOMSEL BULANAN", rowId: ".game29"},
 
-	
+        {title: "📱 • KOUTA TELKOMSEL MINI HARIAN ", rowId: ".game29"},
 
+        {title: "📱 • KOUTA TELKOMSEL MINGGUAN ", rowId: ".game29"},
 
-  
-
-  
-
-  
-
+        {title: "📱 • KOUTA TELKOMSEL KOUTA MALAM ", rowId: ".game29"},
+ 
   
 
   
@@ -81,7 +83,7 @@ const listMessage = {
   text: info,
   footer: botdate,
   mentions: await conn.parseMention(info),
-  title: "KABUL STORE M.M💎28K✅",
+  title: "👑KABUL STORE/READY STOK👑",
   buttonText: "Click Here!",
   sections
 }
