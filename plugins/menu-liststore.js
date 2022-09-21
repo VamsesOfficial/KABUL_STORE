@@ -4,7 +4,7 @@ let info = `
 Yuk Cek List Store Kami 🌟`
 const sections = [
    {
-    title: `${htjava} 👑KABUL STORE/READY STOK👑–––––––––·•`,
+    title: `${htjava} 👑KABUL STORE/READY STOCK👑 –––––––––·•`,
     rows: [
         {title: "💎 • Top Up FREE FIRE", rowId: ".game1"},
         {title: "💎 • Top Up DOMINO QIU QIU", rowId: ".game2"},
@@ -45,7 +45,7 @@ const listMessage = {
     text: info,
     footer: botdate,
     mentions: await conn.parseMention(info),
-    title: "👑KABUL STORE/READY STOK👑",
+    title: "👑KABUL STORE/READY STOCK👑",
     buttonText: "Click Here!",
     sections
   }
