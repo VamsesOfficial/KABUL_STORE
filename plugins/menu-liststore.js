@@ -38,17 +38,22 @@ const sections = [
 	{title: "📱 • PULSA  TRI", rowId: ".game30"},
         {title: "📱 • KOUTA SMARTFREN DATA UNLIMITED ", rowId: ".game31"},            
 	
+	
+	    
   const listMessage = {
-  text: info,
-   footer: botdate,
-mentions: await conn.parseMention(info),
-  title: "👑KABUL STORE/READY STOK👑",
+    text: info,
+    footer: botdate,
+    mentions: await conn.parseMention(info),
+    title: "👑KABUL STORE/READY STOK👑",
 buttonText: "Click Here!",
   sections
   }
+	
 await conn.sendMessage(m.chat, listMessage, { quoted: m, mentions: await conn.parseMention(info), contextInfo:{ forwardingScore: 99999, isForwarded: true }})
 //conn.sendHydrated(m.chat, info, wm, null, sgc, "🌎 Group Official", null,null, [['Owner','.owner']], m)
 }
+
+
 handler.help = ['liststore']
 handler.tags = ['nocategoty']
 handler.command = /^(list|store|liststore|storelist)$/i
