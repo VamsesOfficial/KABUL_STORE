@@ -47,17 +47,24 @@ const sections = [
     title: "👑KABUL STORE/READY STOK👑",
 buttonText: "Click Here!",
   sections
-  }
-	
 await conn.sendMessage(m.chat, listMessage, { quoted: m, mentions: await conn.parseMention(info), contextInfo:{ forwardingScore: 99999, isForwarded: true }})
 //conn.sendHydrated(m.chat, info, wm, null, sgc, "🌎 Group Official", null,null, [['Owner','.owner']], m)
-}
-
-
 handler.help = ['liststore']
 handler.tags = ['nocategoty']
 handler.command = /^(list|store|liststore|storelist)$/i
-export default handler
+export default handler 
+
+
+
+
+
+
+	
+	
+
+
+
+
 
 
 
