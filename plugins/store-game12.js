@@ -9,11 +9,22 @@ let ff5 = 'Rp 66.000'
 let info = `
 ✨PRICELIST CHIP DOMINO ✨
 	
- 1Million Koin Non VIP    🪙${ff1}
- 60Million Koin Non VIP   🪙${ff2}
- 200Million Koin Non VIP  🪙${ff3}
- 400Million Koin Non VIP  🪙${ff4}
- 1Billion Koin Non VIP    🪙${ff5}
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
  
 *>VIA ID*
 *>PROSES 1 - 5 MENIT*
