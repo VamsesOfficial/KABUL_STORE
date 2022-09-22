@@ -14,12 +14,12 @@ let ff4 = 'Rp 23.000'
 let info = `
 
 ✨PRICELIST KOUTA AXIS 7 hari ✨
-*📱2,5GB  7 Hari  Rp : 16.000* ${ff1}
-*📱3GB.    7 Hari  Rp : 19.000* ${ff1}
-*📱4,5GB  7 Hari  Rp : 21.000* ${ff1}
-*📱10GB   7 Hari  Rp :32.000* ${ff1}
+*📱2,5GB  7 Hari* ${ff1}
+*📱3GB.    7 Hari* ${ff1}
+*📱4,5GB  7 Hari* ${ff1}
+*📱10GB   7 Hari* ${ff1}
  
-    🎮KABUL STORE 
+    *🎮KABUL STORE* 
  
 
  
