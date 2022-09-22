@@ -15,9 +15,9 @@ let info = `
 
 ✨PRICELIST KOUTA AXIS 7 hari ✨
 *📱2,5GB  7 Hari* ${ff1}
-*📱3GB.    7 Hari* ${ff1}
-*📱4,5GB  7 Hari* ${ff1}
-*📱10GB   7 Hari* ${ff1}
+*📱3GB.    7 Hari* $ff2}
+*📱4,5GB  7 Hari* ${ff3}
+*📱10GB   7 Hari* ${ff4}
  
     *🎮KABUL STORE* 
  
