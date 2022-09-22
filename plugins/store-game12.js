@@ -84,9 +84,9 @@ await conn.sendMessage(m.chat, listMessage, { quoted: m, mentions: await conn.pa
 
 }
 
-handler.help = ['game10']
+handler.help = ['game12']
 
-handler.command = /^(game10)$/i
+handler.command = /^(game12)$/i
 
 	
 
