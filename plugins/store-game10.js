@@ -19,11 +19,11 @@ let info = `
 ✅PROSES 1 - 5 MENIT
 ✅TANYAKAN STOCK SEBELUM ORDER
 
+
+   
+   
 const sections = [
    [
-   
-
-
         title: `${htjava} List Store ✦-------`,
         rows: [
 	{title: "1M Koin", rowId: '.order *Top Up:* 1M Koin • DOMINO QIU QIU', description: 'PRICE: ' + ff1 + ', 1M Koin DOMINO QIU QIU' },
