@@ -17,16 +17,16 @@ let ff11 = 'Rp 24.000'
 let info = `
 ✨PRICELIST KOUTA AXIS 3-5 HARI✨
 *📱1GB 1 HARI* ${ff1}
-*📱500MB 3 HARI* ${ff1}
-*📱5GB (malam)5 HARI* ${ff1}
-*📱1,5GB 3 HARI* ${ff1}
-*📱1,5GB 5 HARI* ${ff1}
-*📱1,5GB 5 HARI* ${ff1}
-*📱1,5GB 5 HARI* ${ff1}
-*📱2GB 5 HARI* ${ff1}
-*📱5GB 3 HARI* ${ff1}
-*📱4GB 5 HARI* ${ff1}
-*📱7GB 5 HARI* ${ff1}
+*📱500MB 3 HARI* ${ff2}
+*📱5GB (malam)5 HARI* ${ff3}
+*📱1,5GB 3 HARI* ${ff4}
+*📱1,5GB 5 HARI* ${ff5}
+*📱1,5GB 5 HARI* ${ff6}
+*📱1,5GB 5 HARI* ${ff7}
+*📱2GB 5 HARI* ${ff8}
+*📱5GB 3 HARI* ${ff9}
+*📱4GB 5 HARI* ${ff10}
+*📱7GB 5 HARI* ${ff11}
 
       🎮KABUL STORE
 
