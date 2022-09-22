@@ -11,44 +11,54 @@ let ff3 = 'Rp 70.000'
 let ff4 = 'Rp 135.000'
 
 let ff5 = 'Rp 270.000'
-
-let ff6 = 'Rp 406.000
+let ff6 = `Rp 406.000
 
 let info = `
 
-✨PRICELIST CHIP DOMINO ✨
-
-60        Rp 14.000  🍬${ff1}
-180       Rp 43.000  🍬${ff1}
-300+16    Rp 70.000  🍬${ff1}
-680+38    Rp 135.000 🍬${ff1}
-1280+88   Rp 270.000 🍬${ff1}
-1980+138  Rp 406.000 🍬${ff1}
-
+✨PRICELIST CANDY SAUSAGE MAN ✨
+*60🍬 Rp 14.000*
+*180🍬 Rp 43.000*
+*300+16🍬 Rp 70.000*
+*680+38🍬 Rp 135.000*
+*1280+88🍬 Rp 270.000*
+*1980+138🍬 Rp 406.000*
+ 
 *>VIA ID*
-*>PROSES 1 - 5 MENIT*
-*>TANYAKAN STOCK SEBELUM ORDER*` 
+*>PROSES 1 - 5 MENIT* 
+*>TANYAKAN STOCK SEBELUM ORDER*
+ 
 
+ 
+
+
+
+
+
+ `
 
 const sections = [
-	
-	{
-   
-           title: `${htjava} List Store ✦-------`,
-           rows: [
-            {title: "60 CANDY", rowId: '.order *Top Up:* 60 CANDY • CANDY SAUSAGE MAN ', description: 'PRICE: ' + ff1 + ', 60 CANDY CANDY SAUSAGE MAN' },
-            {title: "180 ", rowId: '. order *Top Up:* 180 • CANDY SAUSAGE MAN', description: 'PRICE: ' + ff2 + ', 180 CANDY CANDY SAUSAGE MAN' },
-            {title: "300+16 CANDY", rowId: '.order *Top Up:* 300+16 CANDY • CANDY SAUSAGE MAN', description: 'PRICE: ' + ff3 + ', 300+16 CANDY SAUSAGE MAN' },
-            {title: "1280+88 CANDY", rowId: '.order *Top Up:* 1280+88 CANDY • CANDY SAUSAGE MAN', description: 'PRICE: ' + ff4 + ', 1280+88 CANDY SAUSAGE MAN' },
-            {title: "680+38 CANDY", rowId: '.order *Top Up:* 680+38 CANDY • CANDY SAUSAGE MAN', description: 'PRICE: ' + ff5 + ', 680+38 CANDY CANDY SAUSAGE MAN' }, 
-            {title: "1980+138 CANDY", rowId: '.order *Top Up:* 1980+138 CANDY • CANDY SAUSAGE MAN', description: 'PRICE: ' + ff6 + ', 1980+138 CANDY CANDY SAUSAGE MAN' },  
-             
-	    ]
-		
-        },
-	
-  ]
 
+   {
+
+        title: `${htjava} List Store ✦-------`,
+
+        rows: [
+
+	{title: "60 Candy", rowId: '.order *Top Up:* 1M Koin • DOMINO QIU QIU', description: 'PRICE: ' + ff1 + ', 1M Koin DOMINO QIU QIU' },
+
+	{title: "180 Candy", rowId: '.order *Top Up:* 60M Koin • DOMINO QIU QIU', description: 'PRICE: ' + ff2 + ', 60M Koin DOMINO QIU QIU' },
+
+        {title: "300+16 Candy", rowId: '.order *Top Up:* 200M Koin • DOMINO QIU QIU', description: 'PRICE: ' + ff3 + ', 200M Koin DOMINO QIU QIU' },
+
+        {title: "680+38 Candy", rowId: '.order *Top Up:* 400M Koin • DOMINO QIU QIU', description: 'PRICE: ' + ff4 + ', 400M Koin DOMINO QIU QIU' },
+
+        {title: "1280+88 Koin", rowId: '.order *Top Up:* 1B Koin • DOMINO QIU QIU', description: 'PRICE: ' + ff5 + ', 1B Koin DOMINO QIU QIU' }, 
+
+        ]
+
+   },
+
+]
 
 const listMessage = {
 
@@ -72,16 +82,36 @@ await conn.sendMessage(m.chat, listMessage, { quoted: m, mentions: await conn.pa
 
 }
 
-handler.help = ['game12']
+handler.help = ['game10']
 
-handler.command = /^(game12)$/i
+handler.command = /^(game10)$/i
+
+	
 
 export default handler
-        
-        
-       
+ 
 
-   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+		
+
+	
+  
+
 
 
 
