@@ -34,9 +34,9 @@ let info = `
 
 
 
+*🎮KABUL STORE*`
 
 
-`
 const sections = [
 
    {
