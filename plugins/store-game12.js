@@ -62,7 +62,7 @@ const sections = [
 
         {title: "680+38 CANDY", rowId: '.order *Top Up:* 680+38 CANDY • CANDY SAUSAGE MAN', description: 'PRICE: ' + ff5 + ', 680+38 CANDY CANDY SAUSAGE MAN' }, 
 
-        {title: "1980+138 CANDY", rowId: '.order *Top Up:* 1980+138 CANDY • CANDY SAUSAGE MAN', description: 'PRICE: ' + ff5 + ', 1980+138 CANDY CANDY SAUSAGE MAN' },  
+        {title: "1980+138 CANDY", rowId: '.order *Top Up:* 1980+138 CANDY • CANDY SAUSAGE MAN', description: 'PRICE: ' + ff6 + ', 1980+138 CANDY CANDY SAUSAGE MAN' },  
 
        ]
 
