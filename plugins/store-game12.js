@@ -17,11 +17,11 @@ let info = `
 
 ✨PRICELIST CANDY SAUSAGE MAN ✨
 *60*   🍬${ff1}
-*180*   🍬${ff1}
-*300+16* 🍬${ff1}
-*680+38*  🍬${ff1}
-*1280+88*  🍬${ff1}
-*1980+138*  🍬${ff1}
+*180*   🍬${ff2}
+*300+16* 🍬${ff3}
+*680+38*  🍬${ff4}
+*1280+88*  🍬${ff5}
+*1980+138*  🍬${ff6}
  
 *>VIA ID*
 *>PROSES 1 - 5 MENIT* 
@@ -55,7 +55,7 @@ const sections = [
         {title: "1280+88 Candy", rowId: '.order *Top Up:* 1280+88 Candy • CANDY SAUSAGE MAN', description: 'PRICE: ' + ff5 + ', 1280+88 Candy CANDY SAUSAGE MAN' }, 
         
 
-        {title: "1980+138 Candy", rowId: '.order *Top Up:* 1980+138 Candy • CANDY SAUSAGE MAN', description: 'PRICE: ' + ff5 + ', 1980+138 Candy CANDY SAUSAGE MAN' }, 
+        {title: "1980+138 Candy", rowId: '.order *Top Up:* 1980+138 Candy • CANDY SAUSAGE MAN', description: 'PRICE: ' + ff6 + ', 1980+138 Candy CANDY SAUSAGE MAN' }, 
         ]
 
    },
