@@ -47,16 +47,16 @@ const sections = [
 
         {title: "payment ovo", rowId: '.order *Top Up:* payment • OVO', description: 'PRICE: ' + ff2 + ', Payment OVO' },
 
-        {title: "payment qris", rowId: '.order *Top Up:* payment • QRIS', description: 'PRICE: ' + ff3 + ', payment QRIS },`
-
+        {title: "payment qris", rowId: '.order *Top Up:* payment • QRIS', description: 'PRICE: ' + ff3 + ', payment QRIS },
+       ]
+   },       
+]         
         
-        
-        ]
 
-    },
+    
 
-]
-`
+
+
 const listMessage = {
 
   text: info,
