@@ -44,16 +44,18 @@ const sections = [
 
         rows: [
 
-	{title: "60 Candy", rowId: '.order *Top Up:* 1M Koin • DOMINO QIU QIU', description: 'PRICE: ' + ff1 + ', 1M Koin DOMINO QIU QIU' },
+	{title: "60 Candy", rowId: '.order *Top Up:* 60 Candy • CANDY SAUSAGE MAN', description: 'PRICE: ' + ff1 + ', 60 Candy CANDY SAUSAGE MAN' },
 
-	{title: "180 Candy", rowId: '.order *Top Up:* 60M Koin • DOMINO QIU QIU', description: 'PRICE: ' + ff2 + ', 60M Koin DOMINO QIU QIU' },
+	{title: "180 Candy", rowId: '.order *Top Up:* 180 Candy • CANDY SAUSAGE MAN', description: 'PRICE: ' + ff2 + ', 180 Candy CANDY SAUSAGE MAN' },
 
-        {title: "300+16 Candy", rowId: '.order *Top Up:* 200M Koin • DOMINO QIU QIU', description: 'PRICE: ' + ff3 + ', 200M Koin DOMINO QIU QIU' },
+        {title: "300+16 Candy", rowId: '.order *Top Up:* 300+16 Candy • CANDY SAUSAGE MAN', description: 'PRICE: ' + ff3 + ', 300+16 Candy CANDY SAUSAGE MAN' },
 
-        {title: "680+38 Candy", rowId: '.order *Top Up:* 400M Koin • DOMINO QIU QIU', description: 'PRICE: ' + ff4 + ', 400M Koin DOMINO QIU QIU' },
+        {title: "680+38 Candy", rowId: '.order *Top Up:* 680+38 Candy • CANDY SAUSAGE MAN', description: 'PRICE: ' + ff4 + ', 680+38 Candy CANDY SAUSAGE MAN' },
 
-        {title: "1280+88 Koin", rowId: '.order *Top Up:* 1B Koin • DOMINO QIU QIU', description: 'PRICE: ' + ff5 + ', 1B Koin DOMINO QIU QIU' }, 
+        {title: "1280+88 Candy", rowId: '.order *Top Up:* 1280+88 Candy • CANDY SAUSAGE MAN', description: 'PRICE: ' + ff5 + ', 1280+88 Candy CANDY SAUSAGE MAN' }, 
+        
 
+        {title: "1980+138 Candy", rowId: '.order *Top Up:* 1980+138 Candy • CANDY SAUSAGE MAN', description: 'PRICE: ' + ff5 + ', 1980+138 Candy CANDY SAUSAGE MAN' }, 
         ]
 
    },
