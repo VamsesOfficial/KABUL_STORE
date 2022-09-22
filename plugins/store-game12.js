@@ -1,15 +1,32 @@
 let handler = async (m, { conn }) => {
         //-----PRICE
-let ff1 = 'Rp 896'
-let ff2 = 'Rp 6.000'
-let ff3 = 'Rp 18.000'
-let ff4 = 'Rp 35.000'
-let ff5 = 'Rp 66.000'
+let ff1 = 'Rp 14.000'
+let ff2 = 'Rp 43.000'
+let ff3 = 'Rp 70.000'
+let ff4 = 'Rp 135.000'
+let ff5 = 'Rp 270.000'
+let ff6 = 'Rp 406.000
 
 let info = `
-✨PRICELIST CHIP DOMINO ✨
+✨PRICELIST CANDY SAUSAGE MAN ✨
 	
+┏━━❏PRICE LIST
 
+┃CANDY SAUSAGE MAN
+
+┗━━━━━━━━━━━━❏
+
+60        Rp 14.000  🪙${ff1}  
+
+180       Rp 43.000  🪙${ff1}
+
+300+16    Rp 70.000  🪙${ff1}
+
+680+38    Rp 135.000 🪙${ff1}
+
+1280+88   Rp 270.000 🪙${ff1}
+
+1980+138  Rp 406.000 🪙${ff1}
 	
 
 	
@@ -34,11 +51,13 @@ const sections = [
    {
         title: `${htjava} List Store ✦-------`,
         rows: [
-	{title: "1M Koin", rowId: '.order *Top Up:* 1M Koin • DOMINO QIU QIU', description: 'PRICE: ' + ff1 + ', 1M Koin DOMINO QIU QIU' },
-	{title: "60M Koin", rowId: '.order *Top Up:* 60M Koin • DOMINO QIU QIU', description: 'PRICE: ' + ff2 + ', 60M Koin DOMINO QIU QIU' },
-        {title: "200M Koin", rowId: '.order *Top Up:* 200M Koin • DOMINO QIU QIU', description: 'PRICE: ' + ff3 + ', 200M Koin DOMINO QIU QIU' },
-        {title: "400M Koin", rowId: '.order *Top Up:* 400M Koin • DOMINO QIU QIU', description: 'PRICE: ' + ff4 + ', 400M Koin DOMINO QIU QIU' },
-        {title: "1B Koin", rowId: '.order *Top Up:* 1B Koin • DOMINO QIU QIU', description: 'PRICE: ' + ff5 + ', 1B Koin DOMINO QIU QIU' }, 
+	{title: "1M Koin", rowId: '.order *Top Up:* 1M Koin • CANDY SAUSAGE MAN', description: 'PRICE: ' + ff1 + ', 1M Koin CANDY SAUSAGE MAN' },
+	{title: "60M Koin", rowId: '.order *Top Up:* 60M Koin • CANDY SAUSAGE MAN', description: 'PRICE: ' + ff2 + ', 60M Koin CANDY SAUSAGE MAN' },
+        {title: "200M Koin", rowId: '.order *Top Up:* 200M Koin • CANDY SAUSAGE MAN', description: 'PRICE: ' + ff3 + ', 200M Koin CANDY SAUSAGE MAN' },
+        {title: "400M Koin", rowId: '.order *Top Up:* 400M Koin • CANDY SAUSAGE MAN', description: 'PRICE: ' + ff4 + ', 400M Koin CANDY SAUSAGE MAN' },
+        {title: "1B Koin", rowId: '.order *Top Up:* 1B Koin • CANDY SAUSAGE MAN', description: 'PRICE: ' + ff5 + ', 1B Koin CANDY SAUSAGE MAN' },
+	{title: "1B Koin", rowId: '.order *Top Up:* 1B Koin • CANDY SAUSAGE MAN', description: 'PRICE: ' + ff5 + ', 1B Koin CANDY SAUSAGE MAN' },
+	
         ]
    },
 ]
