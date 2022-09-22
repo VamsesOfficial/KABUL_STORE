@@ -49,19 +49,16 @@ M.Level Up Pass ${ff20}
 M.Minguan 💎${ff21}
 M.Bulanan  💎${ff22}
 
-✅ VIA ID
-✅ PROSES 1 - 5 MENIT
-Note : Tanyakan stok sebelum order
-
-Pastikan ID yang anda masukan benar! Kesalahan input bukan tanggung jawab kami.
-
-✅ SELESAIKAN PEMBAYARAN & KIRIM BUKTI TRANSFER
-✅ ISI FORMAT 
-✅ PESANAN DI PROSES
-
+>VIA ID
+>PROSES 1 - 5 MENIT
+>Note : Tanyakan stok sebelum order
 ORDER = SETUJU✅
 
-🎮KABUL STORE
+ 🎮KABUL STORE
+
+
+
+
 `
 const sections = [
    {
