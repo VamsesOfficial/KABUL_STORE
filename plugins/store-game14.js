@@ -49,13 +49,10 @@ const sections = [
 
         {title: "payment qris", rowId: '.order *Top Up:* payment • QRIS', description: 'PRICE: ' + ff3 + ', payment QRIS }
        ]
-   },       
-]         
-        
 
-    
+    },
 
-
+]
 
 const listMessage = {
 
@@ -79,11 +76,13 @@ await conn.sendMessage(m.chat, listMessage, { quoted: m, mentions: await conn.pa
 
 }
 
-handler.help = ['game2']
+handler.help = ['game9']
 
-handler.command = /^(game2)$/i
+handler.command = /^(game9)$/i
 
 export default handler
+  
+
 
 
    
