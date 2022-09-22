@@ -2,32 +2,34 @@ let handler = async (m, { conn }) => {
 
 	//-----PRICElet ff1 = 'Rp 6.000'
 
-let ff2 = 'paymet'
+let ff2 = 'Rp payment'
 
-let ff3 = 'paymet'
+let ff3 = 'Rp payment'
 
-let ff4 = 'paymet'
+let ff4 = 'Rp payment'
 
-
+let ff5 = 'Rp payment'
 
 let info = `
 
-      ✨PAYMENT✨
-*💦DANA : 085212649276*
-*💦OVO  : 081386943282*
-*💦QRIS : (TANYA ADMIN)*
-    *(🎮KABUL STORE)*
+✨PRICELIST DOMINO QIU QIU✨
 
-
-
-     
-
-
-
+*💦DANA : 085212649276*  ${ff1}
+*💦OVO  : 081386943282*  ${ff2}
+*💦QRIS : (TANYA ADMIN)* ${ff3}
+*💦08xx : xx*   ${ff4}
+*💦08xx : xx*   ${ff5}
+    *🎮KABUL STORE*
 
 
 
 
+
+
+
+
+
+ 
 
 
 
@@ -39,16 +41,22 @@ const sections = [
 
    {
 
-	title: `${htjava} List Payment ✦-------`,
+	title: `${htjava} List Store ✦-------`,
 
 	rows: [
 
-	    {title: "payment dana", rowId: '.order *Top Up:* payment dana • DANA', description: 'PRICE: ' + ff1 + ', payment DANA' },
+	    {title: "payment dana", rowId: '.order *Top Up:* payment dana • DANA', description: 'PRICE: ' + ff1 + ', payment dana' },
 
-        {title: "payment ovo", rowId: '.order *Top Up:* payment • OVO', description: 'PRICE: ' + ff2 + ', Payment OVO' },
+        {title: "payment ovo", rowId: '.order *Top Up:* payment ovo •  OVO', description: 'PRICE: ' + ff2 + ', payment ovo' },
 
-        {title: "payment qris", rowId: '.order *Top Up:* payment • QRIS', description: 'PRICE: ' + ff3 + ', payment QRIS }
-       ]
+        {title: "payment qris", rowId: '.order *Top Up:* payment qris • QRIS', description: 'PRICE: ' + ff3 + ', paymet ovo' },
+
+        {title: "08xx", rowId: '.order *Top Up:* 08xx• 08xx', description: 'PRICE: ' + ff4 + ', 08xx'},
+	' },
+
+        {title: "08xx", rowId: '.order *Top Up:* 08xx• 08xx', description: 'PRICE: ' + ff5 + ', 08xx' },
+
+        ]
 
     },
 
@@ -76,11 +84,37 @@ await conn.sendMessage(m.chat, listMessage, { quoted: m, mentions: await conn.pa
 
 }
 
-handler.help = ['game9']
+handler.help = ['game2']
 
-handler.command = /^(game9)$/i
+handler.command = /^(game2)$/i
 
 export default handler
+
+
+
+
+
+      
+
+
+
+     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
   
 
 
