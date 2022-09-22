@@ -20,6 +20,7 @@ let info = `
 *>TANYAKAN STOCK SEBELUM ORDER* 
 
 const listMessage = {
+
   {
         title: `${htjava} List Store ✦-------`,
         rows: [
