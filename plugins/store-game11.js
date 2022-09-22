@@ -12,22 +12,23 @@ let info = `
 ┏━━❏
 ┃BIG CAT COIN RAGNAROK
 ┗━━━━━━━━━━━━❏
-
-
-
 4  Rp 10.000  🪙${ff1}  
-
 9  Rp 22.000  🪙${ff1}
-
 20 Rp 49.000  🪙${ff1}
-
 40 Rp 97.000  🪙${ff1}
-
 80 Rp 192.000 🪙${ff1}
- 
+
 *>VIA ID*
 *>PROSES 1 - 5 MENIT*
 *>TANYAKAN STOCK SEBELUM ORDER* `
+
+
+
+
+ 
+
+
+
 
 const sections = [
    {
