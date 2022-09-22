@@ -2,24 +2,24 @@ let handler = async (m, { conn }) => {
 
 	//-----PRICElet ff1 = 'Rp 6.000'
 
-let ff2 = 'Rp payment'
+let ff1 = 'Rp 2004'
 
-let ff3 = 'Rp payment'
+let ff2 = 'Rp 2004
 
-let ff4 = 'Rp payment'
+let ff3 = 'Rp 2004'
 
-let ff5 = 'Rp payment'
+let ff4 = 'Rp 2004'
 
 let info = `
 
-✨PRICELIST DOMINO QIU QIU✨
+       ✨PAYMENT✨
 
 *💦DANA : 085212649276*  ${ff1}
 *💦OVO  : 081386943282*  ${ff2}
 *💦QRIS : (TANYA ADMIN)* ${ff3}
 *💦08xx : xx*   ${ff4}
-*💦08xx : xx*   ${ff5}
-    *🎮KABUL STORE*
+        *🎮KABUL STORE*
+    
 
 
 
@@ -51,10 +51,10 @@ const sections = [
 
         {title: "payment qris", rowId: '.order *Top Up:* payment qris • QRIS', description: 'PRICE: ' + ff3 + ', paymet ovo' },
 
-        {title: "08xx", rowId: '.order *Top Up:* 08xx• 08xx', description: 'PRICE: ' + ff4 + ', 08xx'},
-	' },
+        
+	
 
-        {title: "08xx", rowId: '.order *Top Up:* 08xx• 08xx', description: 'PRICE: ' + ff5 + ', 08xx' },
+        {title: "08xx", rowId: '.order *Top Up:* 08xx• 08xx', description: 'PRICE: ' + ff4 + ', 08xx' },
 
         ]
 
