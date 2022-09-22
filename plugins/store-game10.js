@@ -16,8 +16,8 @@ let info = `
 
 ✨PRICELIST CHIP DOMINO ✨
 
-	 1Million Koin Non VIP    🪙${ff1}
-
+	 
+ 1M    🪙${ff1}
  60M   🪙${ff2}
 
  200M  🪙${ff3}
