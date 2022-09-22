@@ -27,14 +27,16 @@ let info = `
 
 *>VIA ID*
 *>PROSES 1 - 5 MENIT*
-*>TANYAKAN STOCK SEBELUM ORDER* 
-`
+*>TANYAKAN STOCK SEBELUM ORDER*` 
+
+
 const sections = [
+	
 	{
    
            title: `${htjava} List Store ✦-------`,
            rows: [
-                 {title: "60 CANDY", rowId: '.order *Top Up:* 60 CANDY • CANDY SAUSAGE MAN ', description: 'PRICE: ' + ff1 + ', 60 CANDY CANDY SAUSAGE MAN' },
+            {title: "60 CANDY", rowId: '.order *Top Up:* 60 CANDY • CANDY SAUSAGE MAN ', description: 'PRICE: ' + ff1 + ', 60 CANDY CANDY SAUSAGE MAN' },
             {title: "180 ", rowId: '. order *Top Up:* 180 • CANDY SAUSAGE MAN', description: 'PRICE: ' + ff2 + ', 180 CANDY CANDY SAUSAGE MAN' },
             {title: "300+16 CANDY", rowId: '.order *Top Up:* 300+16 CANDY • CANDY SAUSAGE MAN', description: 'PRICE: ' + ff3 + ', 300+16 CANDY SAUSAGE MAN' },
             {title: "1280+88 CANDY", rowId: '.order *Top Up:* 1280+88 CANDY • CANDY SAUSAGE MAN', description: 'PRICE: ' + ff4 + ', 1280+88 CANDY SAUSAGE MAN' },
@@ -42,8 +44,12 @@ const sections = [
             {title: "1980+138 CANDY", rowId: '.order *Top Up:* 1980+138 CANDY • CANDY SAUSAGE MAN', description: 'PRICE: ' + ff6 + ', 1980+138 CANDY CANDY SAUSAGE MAN' },  
              
 	    ]
+		
         },
+	
   ]
+
+
 const listMessage = {
 
   text: info,
