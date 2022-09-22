@@ -19,7 +19,7 @@ let info = `
 ✅PROSES 1 - 5 MENIT
 ✅TANYAKAN STOCK SEBELUM ORDER
 
-const sections =[
+const sections = [
    [
    
 
