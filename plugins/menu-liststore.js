@@ -6,7 +6,7 @@ const sections = [
    {
     title: `${htjava} 👑KABUL STORE/READY STOCK👑 –––––––––·•`,
     rows: [
-	{title: "💲 •  PAYMENT", rowId: ".game32"},
+	
         {title: "💎 • Top Up FREE FIRE", rowId: ".game1"},
         {title: "💎 • Top Up DOMINO QIU QIU", rowId: ".game2"},
         {title: "💎 • Top Up ARENA OF VALOR(AOV)", rowId: ".game3"},
@@ -37,7 +37,8 @@ const sections = [
         {title: "📱 • PULSA INDOSAT ", rowId: ".game28"},
         {title: "📱 • PULSA AXIS", rowId: ".game29"},
 	{title: "📱 • PULSA TRI", rowId: ".game30"},
-        {title: "📱 • PULSA TELKOMSEL  ", rowId: ".game31"},            
+        {title: "📱 • PULSA TELKOMSEL  ", rowId: ".game31"},
+	 {title: "💲 •  PAYMENT", rowId: ".game32"},   
       ]
     },
 ]
