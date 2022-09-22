@@ -15,9 +15,9 @@ let info = `
  400Million Koin Non VIP  🪙${ff4}
  1Billion Koin Non VIP    🪙${ff5}
  
-*✅VIA ID*
-*✅PROSES 1 - 5 MENIT*
-*✅TANYAKAN STOCK SEBELUM ORDER* 
+✅VIA ID
+✅PROSES 1 - 5 MENIT
+✅TANYAKAN STOCK SEBELUM ORDER
 
 const sections = [
    {
