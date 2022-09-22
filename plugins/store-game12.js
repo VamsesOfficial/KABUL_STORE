@@ -17,19 +17,18 @@ let ff6 = 'Rp 406.000
 let info = `
 
 ✨PRICELIST CHIP DOMINO ✨
- ┏━━❏PRICE LIST
- ┃CANDY SAUSAGE MAN	
- ┗━━━━━━━━━━━━❏
+
 60        Rp 14.000  🍬${ff1}
 180       Rp 43.000  🍬${ff1}
 300+16    Rp 70.000  🍬${ff1}
 680+38    Rp 135.000 🍬${ff1}
 1280+88   Rp 270.000 🍬${ff1}
 1980+138  Rp 406.000 🍬${ff1}
+
 *>VIA ID*
 *>PROSES 1 - 5 MENIT*
-*>TANYAKAN STOCK SEBELUM ORDER* `
-
+*>TANYAKAN STOCK SEBELUM ORDER* 
+`
 const sections = [
 	{
    
@@ -67,9 +66,9 @@ await conn.sendMessage(m.chat, listMessage, { quoted: m, mentions: await conn.pa
 
 }
 
-handler.help = ['game5']
+handler.help = ['game12']
 
-handler.command = /^(game5)$/i
+handler.command = /^(game12)$/i
 
 export default handler
         
