@@ -6,7 +6,7 @@ const sections = [
    {
     title: `${htjava} 👑KABUL STORE/READY STOCK👑 –––––––––·•`,
     rows: [
-	{title: "💲 •  PAYMENT", rowId: ".game1"},
+	{title: "💲 •  PAYMENT", rowId: ".game32"},
         {title: "💎 • Top Up FREE FIRE", rowId: ".game1"},
         {title: "💎 • Top Up DOMINO QIU QIU", rowId: ".game2"},
         {title: "💎 • Top Up ARENA OF VALOR(AOV)", rowId: ".game3"},
