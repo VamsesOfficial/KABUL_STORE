@@ -18,7 +18,7 @@ let info = `
 *💦OVO  : 081386943282*  ${ff2}
 *💦QRIS : (TANYA ADMIN)* ${ff3}
 *💦08xx : xx*   ${ff4}
-        *🎮KABUL STORE*
+        *🎮KABUL STORE* `
     
 
 
@@ -35,7 +35,7 @@ let info = `
 
 
 
-`
+
 
 const sections = [
 
