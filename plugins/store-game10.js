@@ -18,13 +18,13 @@ let info = `
 
 	 1Million Koin Non VIP    🪙${ff1}
 
- 60Million Koin Non VIP   🪙${ff2}
+ 60M   🪙${ff2}
 
- 200Million Koin Non VIP  🪙${ff3}
+ 200M  🪙${ff3}
 
- 400Million Koin Non VIP  🪙${ff4}
+ 400M  🪙${ff4}
 
- 1Billion Koin Non VIP    🪙${ff5}
+ 1B    🪙${ff5}
 
  
 
