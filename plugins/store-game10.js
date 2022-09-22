@@ -15,24 +15,24 @@ let ff5 = 'Rp 66.000'
 let info = `
 
 ✨PRICELIST CHIP DOMINO ✨
-
-	 
- 1M    🪙${ff1}
- 60M   🪙${ff2}
-
- 200M  🪙${ff3}
-
- 400M  🪙${ff4}
-
- 1B    🪙${ff5}
+1M    🪙${ff1}
+60M   🪙${ff2}	 
+200M  🪙${ff3}
+400M  🪙${ff4} 
+1B    🪙${ff5}
+ 
+*>VIA ID*
+*>PROSES 1 - 5 MENIT* 
+*>TANYAKAN STOCK SEBELUM ORDER*
+ 
 
  
 
-*>VIA ID*
 
-*>PROSES 1 - 5 MENIT*
 
-*>TANYAKAN STOCK SEBELUM ORDER* `
+
+
+ `
 
 const sections = [
 
