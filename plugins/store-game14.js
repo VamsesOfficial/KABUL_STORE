@@ -36,7 +36,7 @@ let info = `
 
 
 
-kabul store `
+
 const sections = [
 
    {
