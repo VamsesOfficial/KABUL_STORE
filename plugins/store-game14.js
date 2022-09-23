@@ -4,7 +4,7 @@ let ff1 = 'Rp DANA'
 let ff2 = 'OVO'
 let ff3 = 'QRIS'
 let info = `
-            ✨PAYMENT✨
+         ✨PAYMENT✨
 *💦DANA : 085212649276*  ${ff1}
 *💦OVO  : 081386943282*  ${ff2}
 *💦QRIS : (TANYA ADMIN)* ${ff3}
