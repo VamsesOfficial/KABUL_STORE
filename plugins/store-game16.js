@@ -102,7 +102,7 @@ await conn.sendMessage(m.chat, listMessage, { quoted: m, mentions: await conn.pa
 //conn.sendHydrated(m.chat, info, wm, null, sgc, "🌎 Group Official", null,null, [['Owner','.owner']], m)
 }
 
-handler.help = ['game1']
-handler.command = /^(game1)$/i
+handler.help = ['game2']
+handler.command = /^(game2)$/i
 
 export default handler
