@@ -74,6 +74,6 @@ const listMessage = {
 await conn.sendMessage(m.chat, listMessage, { quoted: m, mentions: await conn.parseMention(info), contextInfo:{ forwardingScore: 99999, isForwarded: true }})
 //conn.sendHydrated(m.chat, info, wm, null, sgc, "🌎 Group Official", null,null, [['Owner','.owner']], m)
 }
-handler.help = ['game13']
-handler.command = /^(game13)$/i
+handler.help = ['game19']
+handler.command = /^(game19)$/i
 export default handler
