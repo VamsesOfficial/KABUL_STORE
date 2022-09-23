@@ -25,7 +25,7 @@ let ff11 = 'Rp 24.000'
 *📱4GB 5 HARI* ${ff10}
 *📱7GB 5 HARI* ${ff11}
 
-      🎮KABUL STORE
+    🎮KABUL STORE
 `
 const sections = [
    {
