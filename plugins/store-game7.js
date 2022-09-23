@@ -26,11 +26,8 @@ let ff23 = 'Rp 456.990'
 let ff24 = 'Rp 132.825'
 let ff25 = 'Rp 132.989'
 let ff26 = 'Rp 301.482'
-
-
 let info = `
 ✨PRICELIST MOBILE LEGEND✨
-
 5  Diamond   💎${ff1}
 12 Diamond   💎${ff2}
 19 Diamond   💎${ff3}
@@ -58,19 +55,11 @@ Twilight pass  ${ff24}
 Starlight      ${ff25}
 Starlight P    ${ff26}
 
-✅ VIA ID
-✅ PROSES 1 - 5 MENIT
-Note : Tanyakan stok sebelum order
-
-Pastikan ID yang anda masukan benar! Kesalahan input bukan tanggung jawab kami.
-
-✅ SELESAIKAN PEMBAYARAN & KIRIM BUKTI TRANSFER
-✅ ISI FORMAT 
-✅ PESANAN DI PROSES
-
-ORDER = SETUJU✅
-
-🎮KABUL STORE
+> VIA ID +SERVER
+> PROSES 1 - 5 MENIT
+>Note : Tanyakan stok sebelum order
+       
+  *🎮KABUL STORE*
 `
 const sections = [
    {
@@ -105,7 +94,6 @@ const sections = [
 	    ]
     },
 ]
-
 const listMessage = {
   text: info,
   footer: botdate,
@@ -117,8 +105,6 @@ const listMessage = {
 await conn.sendMessage(m.chat, listMessage, { quoted: m, mentions: await conn.parseMention(info), contextInfo:{ forwardingScore: 99999, isForwarded: true }})
 //conn.sendHydrated(m.chat, info, wm, null, sgc, "🌎 Group Official", null,null, [['Owner','.owner']], m)
 }
-
 handler.help = ['game7']
 handler.command = /^(game7)$/i
-
 export default handler
