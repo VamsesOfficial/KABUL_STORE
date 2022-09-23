@@ -29,7 +29,7 @@ const sections = [
         {title: "📱 • PULSA AXIS", rowId: ".game20"},    
         {title: "📱 • PULSA TRI", rowId: ".game21"},
         {title: "📱 • PULSA TELKOMSEL  ", rowId: ".game22"},
-        
+        {title: "🎮 • FORMAT SEMUA TOP UP GAME  ", rowId: ".game24"},
             
         
         
