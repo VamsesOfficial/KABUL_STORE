@@ -5,29 +5,19 @@ let ff2 = 'Rp 11.000'
 let ff3 = 'Rp 20.000'
 let ff4 = 'Rp 50.000'
 let ff5 = 'Rp 99.000'
-
 let info = `
 ✨PRICELIST POKER TEXAS✨
-
 22M Koin   ${ff1}
 45M Koin   ${ff2}
 100M Koin  ${ff3}
 300M Koin  ${ff4}
 700M Koin  ${ff5}
 
-✅ VIA ID
-✅ PROSES 1 - 5 MENIT
+> VIA ID
+> PROSES 1 - 5 MENIT
 Note : Tanyakan stok sebelum order
 
-Pastikan ID yang anda masukan benar! Kesalahan input bukan tanggung jawab kami.
-
-✅ SELESAIKAN PEMBAYARAN & KIRIM BUKTI TRANSFER
-✅ ISI FORMAT 
-✅ PESANAN DI PROSES
-
-ORDER = SETUJU✅
-
-🎮KABUL STORE
+     🎮KABUL STORE
 `
 const sections = [
    {
@@ -41,7 +31,6 @@ const sections = [
         ]
     },
 ]
-
 const listMessage = {
   text: info,
   footer: botdate,
@@ -53,8 +42,7 @@ const listMessage = {
 await conn.sendMessage(m.chat, listMessage, { quoted: m, mentions: await conn.parseMention(info), contextInfo:{ forwardingScore: 99999, isForwarded: true }})
 //conn.sendHydrated(m.chat, info, wm, null, sgc, "🌎 Group Official", null,null, [['Owner','.owner']], m)
 }
-
 handler.help = ['game4']
 handler.command = /^(game4)$/i
-
 export default handler
+ 
