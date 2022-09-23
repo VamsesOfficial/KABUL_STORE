@@ -5,13 +5,8 @@ let ff2 = 'Rp 22.000'
 let ff3 = 'Rp 49.000'
 let ff4 = 'Rp 97.000'
 let ff5 = 'Rp 192.000'
-
 let info = `
-✨PRICELIST BIG CAT COIN RAGNAROK ✨
-	
-┏━━❏
-┃BIG CAT COIN RAGNAROK
-┗━━━━━━━━━━━━❏
+✨PRICELIST BIG CAT COIN RAGNAROK✨
 4 🪙${ff1}  
 9 🪙${ff2}
 20🪙${ff3}
@@ -20,16 +15,8 @@ let info = `
 
 *>VIA ID*
 *>PROSES 1 - 5 MENIT*
-*>TANYAKAN STOCK SEBELUM ORDER* `
-
-
-
-
- 
-
-
-
-
+*>TANYAKAN STOCK SEBELUM ORDER* 
+      *🎮KABUL STORE* `
 const sections = [
    {
         title: `${htjava} List Store ✦-------`,
@@ -42,7 +29,6 @@ const sections = [
         ]
    },
 ]
-
 const listMessage = {
   text: info,
   footer: botdate,
@@ -54,8 +40,9 @@ const listMessage = {
 await conn.sendMessage(m.chat, listMessage, { quoted: m, mentions: await conn.parseMention(info), contextInfo:{ forwardingScore: 99999, isForwarded: true }})
 //conn.sendHydrated(m.chat, info, wm, null, sgc, "🌎 Group Official", null,null, [['Owner','.owner']], m)
 }
-
 handler.help = ['game11']
 handler.command = /^(game11)$/i
-	
-export default handler
+	export default handler
+
+
+
