@@ -5,7 +5,7 @@ let ff2 = 'Rp 43.000'
 let ff3 = 'Rp 70.000'
 let ff4 = 'Rp 135.000'
 let ff5 = 'Rp 270.000'
-let ff6 = `Rp 406.000
+let ff6 = 'Rp 406.000'
 let info = `
 ✨PRICELIST CANDY SAUSAGE MAN ✨
 *60*   🍬${ff1}
