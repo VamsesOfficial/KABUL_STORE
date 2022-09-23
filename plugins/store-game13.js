@@ -11,10 +11,7 @@ let ff8 = 'Rp 15.00'
 let ff9 = 'Rp 19.000'
 let ff10 = 'Rp 20.000'
 let ff11 = 'Rp 24.000'
- 
-
-
-let info = `
+ let info = `
 ✨PRICELIST KOUTA AXIS 3-5 HARI✨
 *📱1GB 1 HARI* ${ff1}
 *📱500MB 3 HARI* ${ff2}
@@ -29,8 +26,6 @@ let info = `
 *📱7GB 5 HARI* ${ff11}
 
       🎮KABUL STORE
-
-
 `
 const sections = [
    {
@@ -50,7 +45,6 @@ const sections = [
               ]
     },
 ]
-
 const listMessage = {
   text: info,
   footer: botdate,
@@ -62,8 +56,7 @@ const listMessage = {
 await conn.sendMessage(m.chat, listMessage, { quoted: m, mentions: await conn.parseMention(info), contextInfo:{ forwardingScore: 99999, isForwarded: true }})
 //conn.sendHydrated(m.chat, info, wm, null, sgc, "🌎 Group Official", null,null, [['Owner','.owner']], m)
 }
-
 handler.help = ['game13']
 handler.command = /^(game13)$/i
-
 export default handler
+
