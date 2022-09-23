@@ -1,6 +1,6 @@
 let handler = async (m, { conn }) => {
           //-----PRICE
-let ff1 = 'Rp DANA'
+let ff1 = 'DANA'
 let ff2 = 'OVO'
 let ff3 = 'QRIS'
 let info = `
