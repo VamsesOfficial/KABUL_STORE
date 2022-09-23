@@ -18,7 +18,7 @@ let info = `
  *>VIA ID*
 *>PROSES 1 - 5 MENIT* 
 *>TANYAKAN STOCK SEBELUM ORDER* `
- `
+ 
 const sections = [
    {
           title: `${htjava} List Store ✦-------`,
