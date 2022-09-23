@@ -6,13 +6,13 @@ const sections = [
    {
     title: `${htjava} 👑KABUL STORE/READY STOCK👑 –––––––––·•`,
     rows: [
-	{title: "💲 •  PAYMENT", rowId: ".game1"},
+	{title: "💲 •  PAYMENT", rowId: ".game23"},
         {title: "💎 • Top Up FREE FIRE", rowId: ".game1"},
         {title: "💎 • Top Up DOMINO QIU QIU", rowId: ".game2"},
         {title: "💎 • Top Up ARENA OF VALOR(AOV)", rowId: ".game3"},
         {title: "💎 • Top Up POKER TEXAS", rowId: ".game4"},
         {title: "💎 • Top Up POINT BLANK ZEPETTO", rowId: ".game5"},
-        {title: "💎 • Top Up BIG ZENY RAGNAROK", rowId: ".game7"},
+        {title: "💎 • Top Up BIG ZENY RAGNAROK", rowId: ".game6"},
         {title: "💎 • Top Up MOBILE LEGEND", rowId: ".game7"},
         {title: "💎 • Top Up CALL OF DUTY", rowId: ".game8"},
         {title: "💎 • Top Up MOBILE PUBG", rowId: ".game9"},
@@ -24,11 +24,11 @@ const sections = [
         {title: "📱 • KOUTA AXIS 7 HARI", rowId: ".game15"},
         {title: "📱 • KOUTA AXIS BRONET 30 HARI", rowId: ".game16"},    
         {title: "📱 • KOUTA AXIS WEST CANNEL", rowId: ".game17"},
-	{title: "📱 • KOUTA INDOSAT PURE MINI", rowId: ".game22"},
-        {title: "📱 • PULSA INDOSAT ", rowId: ".game28"},
-        {title: "📱 • PULSA AXIS", rowId: ".game29"},    
-        {title: "📱 • PULSA TRI", rowId: ".game30"},
-        {title: "📱 • PULSA TELKOMSEL  ", rowId: ".game31"},
+	{title: "📱 • KOUTA INDOSAT PURE MINI", rowId: ".game18"},
+        {title: "📱 • PULSA INDOSAT ", rowId: ".game19"},
+        {title: "📱 • PULSA AXIS", rowId: ".game20"},    
+        {title: "📱 • PULSA TRI", rowId: ".game21"},
+        {title: "📱 • PULSA TELKOMSEL  ", rowId: ".game22"},
         
             
         
