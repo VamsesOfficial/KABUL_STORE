@@ -3,16 +3,17 @@
 let krtu = `Kartu Intro`
 m.reply(`
 0ཻུ۪۪ꦽꦼ̷⸙‹•══════════════♡᭄
-│   *「 Kartu Intro 」*
-│ *Nama     :* 
-│ *Gender   :* 
-│ *Umur      :* 
-│ *Hobby    :* 
-│ *Kelas      :* 
-│ *Asal         :* 
-│ *Agama    :* 
-|  *Status     :* 
+│  *「SELMAT DATANG STORE KAMI」*
+│ Welcome KABUL STORE/READY
+│ STOCK Jangan Lupa Baca Deskripsi Group
+│ Sebelum Bertindak
+│ 
+│ Untuk Melihat Semua Pricelist/pembayaran
+│ Ketik/*.list* Semoga Betah Di Store Kami🙏
 ╰═════ꪶ ཻུ۪۪ꦽꦼ̷⸙ ━ ━ ━ ━ ꪶ ཻུ۪۪ꦽꦼ̷⸙
+
+
+ 
 `.trim()) // Tambah sendiri kalo mau
 }
 handler.command = /^(intro)$/i
@@ -24,20 +25,20 @@ let handler = async(m, { conn, text, usedPrefix, command }) => {
 let pp = await conn.profilePictureUrl(m.chat).catch(_ => null)
 
 let krtu = `0ཻུ۪۪ꦽꦼ̷⸙‹•══════════════♡᭄
-│    *「 Kartu Intro 」*
-│ *Nama     :* 
-│ *Gender   :* 
-│ *Umur      :* 
-│ *Hobby    :* 
-│ *Kelas      :* 
-│ *Asal         :* 
-│ *Agama    :* 
-|  *Status     :* 
+│  *「SELMAT DATANG STORE KAMI」*
+│ Welcome KABUL STORE/READY
+│ STOCK Jangan Lupa Baca Deskripsi Group
+│ Sebelum Bertindak
+│ 
+│ Untuk Melihat Semua Pricelist/pembayaran
+│ Ketik/*.list* Semoga Betah Di Store Kami🙏
 ╰═════ꪶ ཻུ۪۪ꦽꦼ̷⸙ ━ ━ ━ ━ ꪶ ཻུ۪۪ꦽꦼ̷⸙
+
+
 `
 let wibu = `https://api-reysekha.herokuapp.com/api/random/cosplay?apikey=apirey` 
 let thumb = await(await fetch(wibu)).buffer()
-conn.sendButtonDoc(m.chat, krtu, wm,'.LIST','.list', m, { contextInfo: { externalAdReply: { showAdAttribution: true,
+conn.sendButtonDoc(m.chat, krtu, wm,'LIST','.list', m, { contextInfo: { externalAdReply: { showAdAttribution: true,
     mediaUrl: "https://Instagram.com/kabull_store",
     mediaType: "VIDEO",
     description: "https://instagram.com/kabull_store?igshid=YmMyMTA2M2Y=", 
