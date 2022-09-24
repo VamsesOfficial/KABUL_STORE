@@ -37,7 +37,7 @@ const listMessage = {
     text: info,
     footer: botdate,
     mentions: await conn.parseMention(info),
-    title: "🎮KABUL STORE READY/STOCK🎮",
+    title: "👑KABUL STORE | READY👑",
     buttonText: "Click Here!",
     sections
   }
