@@ -4,7 +4,7 @@ let info = `
 Yuk Cek List Store Kami👑`
 const sections = [
    {
-    title: `${htjava} -----👑KABUL STORE || READY👑-––––·•`,
+    title: `${htjava} ----👑KABUL STORE || READY👑-––––·•`,
     rows: [
 	{title: "💲 •  PAYMENT", rowId: ".game23"},
         {title: "💎 • Top Up FREE FIRE", rowId: ".game1"},
