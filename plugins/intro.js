@@ -3,14 +3,14 @@
 let krtu = `Kartu Intro`
 m.reply(`
 0ཻུ۪۪ꦽꦼ̷⸙‹•══════════════♡᭄
-│  *「SELMAT DATANG STORE KAMI」*
-│ Welcome KABUL STORE/READY
-│ STOCK Jangan Lupa Baca Deskripsi Group
-│ Sebelum Bertindak
-│ 
-│ Untuk Melihat Semua Pricelist/pembayaran
-│ Ketik/*.list* Semoga Betah Di Store Kami🙏
-╰═════ꪶ ཻུ۪۪ꦽꦼ̷⸙ ━ ━ ━ ━ ꪶ ཻུ۪۪ꦽꦼ̷⸙
+ *「SELMAT DATANG STORE KAMI」*
+Welcome KABUL STORE/READY
+STOCK Jangan Lupa Baca Deskripsi Group
+Sebelum Bertindak
+ 
+Untuk Melihat Semua Pricelist/pembayaran
+Ketik/*.list* Semoga Betah Di Store Kami🙏
+═════ꪶ ཻུ۪۪ꦽꦼ̷⸙ ━ ━ ━ ━ ꪶ ཻུ۪۪ꦽꦼ̷⸙
 
 
  
@@ -25,14 +25,14 @@ let handler = async(m, { conn, text, usedPrefix, command }) => {
 let pp = await conn.profilePictureUrl(m.chat).catch(_ => null)
 
 let krtu = `0ཻུ۪۪ꦽꦼ̷⸙‹•══════════════♡᭄
-│  *「SELMAT DATANG STORE KAMI」*
-│ Welcome KABUL STORE/READY
-│ STOCK Jangan Lupa Baca Deskripsi Group
-│ Sebelum Bertindak
-│ 
-│ Untuk Melihat Semua Pricelist/pembayaran
-│ Ketik/*.list* Semoga Betah Di Store Kami🙏
-╰═════ꪶ ཻུ۪۪ꦽꦼ̷⸙ ━ ━ ━ ━ ꪶ ཻུ۪۪ꦽꦼ̷⸙
+ *「SELMAT DATANG STORE KAMI」*
+Welcome KABUL STORE/READY
+STOCK Jangan Lupa Baca Deskripsi Group
+Sebelum Bertindak
+ 
+Untuk Melihat Semua Pricelist/pembayaran
+Ketik/*.list* Semoga Betah Di Store Kami🙏
+═════ꪶ ཻུ۪۪ꦽꦼ̷⸙ ━ ━ ━ ━ ꪶ ཻུ۪۪ꦽꦼ̷⸙
 
 
 `
