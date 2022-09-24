@@ -160,7 +160,7 @@ global.reloadHandler = async function (restatConn) {
   }
 
   conn.welcome = '❖━━━━[*いらっしゃいませ*]━━━━❖\n\n┏––––––━━━━━━━━•\n│☘︎ @subject\n┣━━━━━━━━┅┅┅\nHallo @user Welcome KABUL STORE/READY STOCK Jangan Lupa Baca Deskripsi Group Sebelum Bertindak\n  Untuk Melihat Semua Pricelist Pembayaran Ketik/*.list* Atau *.liststore* Semoga Betah Di Store Kami🙏\n––––┅┅ *ᴅᴇsᴄʀɪᴘᴛɪᴏɴ* ┅┅––––\n@desc'
-  conn.bye = '❖━━━━━━[*さようなら*]━━━━━━❖\n𝚂𝚊𝚢𝚘𝚗𝚊𝚛𝚊𝚊 kak *@user* 👋😃'
+  conn.bye = '❖━━━━━━[*さようなら*]━━━━━━❖\n𝚂𝚊𝚢𝚘𝚗𝚊𝚛𝚊𝚊 kak *%name* 👋😃'
   conn.spromote = '@user sekarang admin! '
   conn.sdemote = '@user sekarang bukan admin!'
   conn.sDesc = 'Deskripsi telah diubah ke \n@desc'
