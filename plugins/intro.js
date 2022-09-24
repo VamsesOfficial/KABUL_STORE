@@ -3,7 +3,7 @@
 let krtu = `Kartu Intro`
 m.reply(`
 0ཻུ۪۪ꦽꦼ̷⸙‹•══════════════♡᭄
-│       *「 Kartu Intro 」*
+│   *「 Kartu Intro 」*
 │ *Nama     :* 
 │ *Gender   :* 
 │ *Umur      :* 
@@ -24,7 +24,7 @@ let handler = async(m, { conn, text, usedPrefix, command }) => {
 let pp = await conn.profilePictureUrl(m.chat).catch(_ => null)
 
 let krtu = `0ཻུ۪۪ꦽꦼ̷⸙‹•══════════════♡᭄
-│       *「 Kartu Intro 」*
+│    *「 Kartu Intro 」*
 │ *Nama     :* 
 │ *Gender   :* 
 │ *Umur      :* 
@@ -37,11 +37,11 @@ let krtu = `0ཻུ۪۪ꦽꦼ̷⸙‹•═════════════�
 `
 let wibu = `https://api-reysekha.herokuapp.com/api/random/cosplay?apikey=apirey` 
 let thumb = await(await fetch(wibu)).buffer()
-conn.sendButtonDoc(m.chat, krtu, wm,'MENU','.menu', m, { contextInfo: { externalAdReply: { showAdAttribution: true,
-    mediaUrl: "https://Instagram.com/_ctzhid",
+conn.sendButtonDoc(m.chat, krtu, wm,'.LIST','.list', m, { contextInfo: { externalAdReply: { showAdAttribution: true,
+    mediaUrl: "https://Instagram.com/kabull_store",
     mediaType: "VIDEO",
-    description: "https://www.instagram.com/p/CevoCg5hG-p/?utm_source=ig_web_copy_link", 
-    title: 'WH-MODS-DEV-V1 MultiDevice',
+    description: "https://instagram.com/kabull_store?igshid=YmMyMTA2M2Y=", 
+    title: 'WELCOME KABUL STORE',
     body: wm,
     thumbnail: thumb,
     sourceUrl: sgc
