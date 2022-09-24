@@ -1,10 +1,10 @@
 let handler = async (m, { conn }) => {
 	//-----PRICE
 let info = `
-Yuk Cek List Store Kami 💫`
+Yuk Cek List Store Kami👑`
 const sections = [
    {
-    title: `${htjava} 🎮KABUL STORE/READY STOCK🎮 –––––––––·•`,
+    title: `${htjava} -----👑KABUL STORE || READY👑-––––·•`,
     rows: [
 	{title: "💲 •  PAYMENT", rowId: ".game23"},
         {title: "💎 • Top Up FREE FIRE", rowId: ".game1"},
@@ -37,7 +37,7 @@ const listMessage = {
     text: info,
     footer: botdate,
     mentions: await conn.parseMention(info),
-    title: "👑KABUL STORE | READY👑",
+    title: "👑KABUL STORE || READY👑",
     buttonText: "Click Here!",
     sections
   }
