@@ -159,8 +159,8 @@ global.reloadHandler = async function (restatConn) {
     conn.ev.off('creds.update', conn.credsUpdate)
   }
 
-  conn.welcome = '❖━━━━[*WELCOME*]━━━━❖\n\n┏––––––━━━━━━━━•\n│☘︎ @subject\n┣━━━━━━━━┅┅┅\n*Hallo* @user Welcome KABUL STORE/READY STOCK Jangan Lupa Baca Deskripsi Group Sebelum Bertindak\nUntuk Melihat Semua Pricelist Pembayaran Ketik*/.list* Atau *.liststore* Semoga Betah Di Store Kami🙏\n--––-––┅┅ *ᴅᴇsᴄʀɪᴘᴛɪᴏɴ* ┅┅–––---–\n@desc'
-  conn.bye = '❖━━━━━━[*さようなら*]━━━━━━❖\n𝚂𝚊𝚢𝚘𝚗𝚊𝚛𝚊𝚊 kak *@user* 👋😃'
+  conn.welcome = '❖━━━━[*WELCOME*]━━━━❖\n\n┏––––––━━━━━━━━•\n│☘︎ @subject\n┣━━━━━━━━┅┅┅\n*Hallo* @user Welcome 👑KABUL STORE || READY👑 Jangan Lupa Baca Deskripsi Group Sebelum Bertindak\nUntuk Melihat Semua Pricelist Pembayaran Ketik*.list Atau .liststore* Semoga Betah Di Store Kami🙏\n--––-––┅┅ *ᴅᴇsᴄʀɪᴘᴛɪᴏɴ* ┅┅–––---–\n@desc'
+  conn.bye = '❖━━━━━━[*GOOD BYE*]━━━━━━❖\n𝚂𝚊𝚢𝚘𝚗𝚊𝚛𝚊𝚊 kak *@user* 👋😃'
   conn.spromote = '@user sekarang admin! '
   conn.sdemote = '@user sekarang bukan admin!'
   conn.sDesc = 'Deskripsi telah diubah ke \n@desc'
