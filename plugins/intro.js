@@ -4,19 +4,19 @@ let krtu = `Kartu Intro`
 m.reply(`
 0ཻུ۪۪ꦽꦼ̷⸙‹•══════════════♡᭄
  *「SELMAT DATANG STORE KAMI」*
-Welcome KABUL STORE/READY
-STOCK Jangan Lupa Baca Deskripsi Group
+Welcome 👑KABUL STORE || READY👑
+Jangan Lupa Baca Deskripsi Group
 Sebelum Bertindak
  
 Untuk Melihat Semua Pricelist/pembayaran
-Ketik/*.list* Semoga Betah Di Store Kami🙏
+Ketik/.list Semoga Betah Di Store Kami🙏
 ═════ꪶ ཻུ۪۪ꦽꦼ̷⸙ ━ ━ ━ ━ ꪶ ཻུ۪۪ꦽꦼ̷⸙
 
 
  
 `.trim()) // Tambah sendiri kalo mau
 }
-handler.command = /^(intro)$/i
+handler.command = /^(welcome)$/i
 
 export default handler */
 
@@ -26,12 +26,12 @@ let pp = await conn.profilePictureUrl(m.chat).catch(_ => null)
 
 let krtu = `0ཻུ۪۪ꦽꦼ̷⸙‹•══════════════♡᭄
  *「SELMAT DATANG STORE KAMI」*
-Welcome KABUL STORE/READY
-STOCK Jangan Lupa Baca Deskripsi Group
+Welcome 👑KABUL STORE || READY👑
+Jangan Lupa Baca Deskripsi Group
 Sebelum Bertindak
  
 Untuk Melihat Semua Pricelist/pembayaran
-Ketik/*.list* Semoga Betah Di Store Kami🙏
+Ketik/.list Semoga Betah Di Store Kami🙏
 ═════ꪶ ཻུ۪۪ꦽꦼ̷⸙ ━ ━ ━ ━ ꪶ ཻུ۪۪ꦽꦼ̷⸙
 
 
@@ -49,7 +49,7 @@ conn.sendButtonDoc(m.chat, krtu, wm,'LIST','.list', m, { contextInfo: { external
   }
   } }) // Tambah sendiri kalo mau
 }
-handler.command = /^(intro)$/i
+handler.command = /^(welcome)$/i
 
 export default handler
 
