@@ -12,7 +12,7 @@ Ketik/.list Semoga Betah Di Store Kami🙏
 ═════ꪶ ཻུ۪۪ꦽꦼ̷⸙ ━ ━ ━ ━ ꪶ ཻུ۪۪ꦽꦼ̷⸙
 `.trim()) // Tambah sendiri kalo mau
 }
-handler.command = /^(welcome)$/i
+handler.command = /^(intro)$/i
 export default handler */
 import fetch from 'node-fetch'
 let handler = async(m, { conn, text, usedPrefix, command }) => {
@@ -41,5 +41,5 @@ conn.sendButtonDoc(m.chat, krtu, wm,'LIST','.list', m, { contextInfo: { external
   }
   } }) // Tambah sendiri kalo mau
 }
-handler.command = /^(welcome)$/i
+handler.command = /^(intro)$/i
 export default handler
