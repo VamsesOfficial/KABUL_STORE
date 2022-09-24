@@ -5,8 +5,7 @@ Yuk Cek List Store Kami👑`
 const sections = [
    {
     title: `${htjava} ----👑KABUL STORE || READY👑-––––·•`,
-    rows: [
-	{title: "💲 •  PAYMENT", rowId: ".game23"},
+    rows: [	
         {title: "💎 • Top Up FREE FIRE", rowId: ".game1"},
         {title: "💎 • Top Up DOMINO QIU QIU", rowId: ".game2"},
         {title: "💎 • Top Up ARENA OF VALOR(AOV)", rowId: ".game3"},
@@ -29,6 +28,7 @@ const sections = [
         {title: "📱 • PULSA AXIS", rowId: ".game20"},    
         {title: "📱 • PULSA TRI", rowId: ".game21"},
         {title: "📱 • PULSA TELKOMSEL  ", rowId: ".game22"},
+        {title: "💲 •  PAYMENT", rowId: ".game23"},
         {title: "🎮 • FORMAT SEMUA TOP UP GAME  ", rowId: ".game24"},	    
       ]
     },
