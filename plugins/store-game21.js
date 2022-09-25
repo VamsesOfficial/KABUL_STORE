@@ -35,7 +35,7 @@ let ff16 = 'Rp 202.000'
 *📱150.000*${ff15}
 *📱200.000*${ff16}
 
-   🎮KABUL STORE
+*👑KABUL STORE || READY👑*
 `
 const sections = [
    {
@@ -50,7 +50,7 @@ const sections = [
         {title: "📱 15.000  pulsa", rowId: '.order *Top Up:* 15.000 pulsa • PULSA TRI', description: 'PRICE: ' + ff7 + ', PULSA TRI' },
         {title: "📱 20.000 pulsa", rowId: '.order *Top Up:* 20.000 pulsa • PULSA TRI', description: 'PRICE: ' + ff8 + ', PULSA TRI' },
         {title: "📱 25.000 pulsa", rowId: '.order *Top Up:* 25.000 pulsa • PULSA TRI', description: 'PRICE: ' + ff9 + ', PULSA TRI' },
-        {title: "📱 30.000 pulsa", rowId: '.order *Top Up:* 30.000 pulsa  • PULSA TRI', description: 'PRICE: ' + ff10 + ;PULSA TRI ' },
+        {title: "📱 30.000 pulsa", rowId: '.order *Top Up:* 30.000 pulsa  • PULSA TRI', description: 'PRICE: ' + ff10 + ', PULSA TRI ' },
         {title: "📱 40.000 pulsa", rowId: '.order *Top Up:* 40.000 pulsa • PULSA TRI', description: 'PRICE: ' + ff11 + ', PULSA TRI' },
         {title: "📱 50.000 pulsa", rowId: '.order *Top Up:* 50.000 pulsa • PULSA TRI', description: 'PRICE: ' + ff12 + ', PULSA TRI' },
         {title: "📱75.00 pulsa", rowId: '.order *Top Up:* 75.000 pulsa • PULSA TRI', description: 'PRICE: ' + ff13 + ', PULSA TRI' },
