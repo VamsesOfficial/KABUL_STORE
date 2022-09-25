@@ -24,28 +24,28 @@ let ff21 = 'Rp 72.000'
 let ff22 = 'Rp 80.000'
 let info = `
 ✨PRICELIST KOUTA INDOSAT PURE MINI✨
-*📱100MB 30 Hari :*${ff1}
-*📱200MB 30 Hari :*${ff2}
-*📱250MB 30 Hari :*${ff3}
-*📱300MB 30 Hari :*${ff4}
-*📱400MB 30 Hari :*${ff5}
-*📱500MB 30 Hari :*${ff6}
-*📱600MB 30 Hari :*${ff7}
-*📱700MB 30 Hari :*${ff8}
-*📱750MB 30 Hari :*${ff9}
-*📱800MB 30 Hari :*${ff10}
-*📱1GB 30  Hari  :*${ff11}
-*📱1,5GB 30 Hari :*${ff12}
-*📱2GB 30 Hari   :*${ff13}
-*📱2,5GB 30 Hari :*${ff14}
-*📱3GB 30 Hari   :*${ff15}
-*📱4GB 30 Hari   :*${ff16}
-*📱5GB 30 Hari   :*${ff17}
-*📱6GB 30 Hari   :*${ff18}
-*📱7GB 30 Hari   :*${ff19}
-*📱8GB 30 Hari   :*${ff20}
-*📱9GB 30 Hari   :*${ff21}
-*📱10GB 30 Hari  :*${ff22}
+*📱100MB 30 Hari :* ${ff1}
+*📱200MB 30 Hari :* ${ff2}
+*📱250MB 30 Hari :* ${ff3}
+*📱300MB 30 Hari :* ${ff4}
+*📱400MB 30 Hari :* ${ff5}
+*📱500MB 30 Hari :* ${ff6}
+*📱600MB 30 Hari :* ${ff7}
+*📱700MB 30 Hari :* ${ff8}
+*📱750MB 30 Hari :* ${ff9}
+*📱800MB 30 Hari :* ${ff10}
+*📱1GB 30  Hari  :* ${ff11}
+*📱1,5GB 30 Hari :* ${ff12}
+*📱2GB 30 Hari   :* ${ff13}
+*📱2,5GB 30 Hari :* ${ff14}
+*📱3GB 30 Hari   :* ${ff15}
+*📱4GB 30 Hari   :* ${ff16}
+*📱5GB 30 Hari   :* ${ff17}
+*📱6GB 30 Hari   :* ${ff18}
+*📱7GB 30 Hari   :* ${ff19}
+*📱8GB 30 Hari   :* ${ff20}
+*📱9GB 30 Hari   :* ${ff21}
+*📱10GB 30 Hari  :* ${ff22}
 
 *👑KABUL STORE || READY👑* `
 const sections = [
