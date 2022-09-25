@@ -10,7 +10,7 @@ let ff7 = 'Rp 70.000'
 let ff8 = 'Rp 82.000'
 let info = `
 ✨PRICELIST KOUTA AXIS WEST CANNEL✨
-*📱1,5GB 30 Hari:*${ff1}
+*📱1,5GB 30 Hari:* ${ff1}
 *📱3GB  30 Hari:* ${ff2}
 *📱5GB 30 Hari:*  ${ff3}
 *📱8GB 30 Hari:*  ${ff4}
@@ -19,19 +19,20 @@ let info = `
 *📱16GB 30 Hari:* ${ff7}
 *📱24GB 30 Hari:* ${ff8}
 
-*🎮👑KABUL STORE || READY👑* `
+*🎮👑KABUL STORE || READY👑* 
+`
 const sections = [
    {
           title: `${htjava} List Store ✦-------`,
          rows: [
-        {title: "1,5G KOUTA", rowId: '.order *Top Up:* 1,5GB KOUTA • KOUTA AXIS WEST CANNEL', description: 'PRICE: ' + ff1 + ', 1,5GB KOUTA KOUTA  AXIS WEST CANNEL },
-	{title: "3GB KOUTA", rowId: '.order *Top Up:* 3GB KOUTA • KOUTA AXIS WEST CANNEL', description: 'PRICE: ' + ff2 + ', 3GB KOUTA KOUTA AXIS WEST CANNEL' },
-        {title: "5GB KOUTA", rowId: '.order *Top Up:* 5GB KOUTA • KOUTA AXIS WEST CANNEL', description: 'PRICE: ' + ff3 + ', 5GB KOUTA AXIS WEST CANNEL' },
-        {title: "8GB KOUTA", rowId: '.order *Top Up:* 8GB KOUTA • KOUTA AXIS WEST CANNEL', description: 'PRICE: ' + ff4 + ', 8GB KOUTA KOUTA AXIS WEST CANNEL' },
-	{title: "12GB KOUTA", rowId: '.order *Top Up:* 12GB KOUTA • KOUTA AXIS WEST CANNEL', description: 'PRICE: ' + ff5 + ', 12GB KOUTA KOUTA AXIS WEST CANNEL' },
-        {title: "13GB KOUTA", rowId: '.order *Top Up:* 13GB KOUTA • KOUTA AXIS WEST CANNEL ', description: 'PRICE: ' + ff6 + ', 13GB KOUTA KOUTA AXIS WEST CANNEL' },
-        {title: "16GB KOUTA", rowId: '.order *Top Up:* 16GB KOUTA • KOUTA AXIS WEST CANNEL', description: 'PRICE: ' + ff7 + ', 16GB KOUTA KOUTA AXIS WEST CANNEL' },
-	{title: "24GB KOUTA", rowId: '.order *Top Up:* 24GB KOUTA • KOUTA AXIS WEST CANNEL', description: 'PRICE: ' + ff8 + ', 24GB KOUTA KOUTA AXIS WEST CANNEL' },
+        {title: "1,5GB KOUTA", rowId: '.order *Top Up:* 1,5GB KOUTA • KOUTA AXIS WEST CANNEL', description: 'PRICE: ' + ff1 + ', KOUTA  AXIS WEST CANNEL' },
+	{title: "3GB KOUTA", rowId: '.order *Top Up:* 3GB KOUTA • KOUTA AXIS WEST CANNEL', description: 'PRICE: ' + ff2 + ', KOUTA AXIS WEST CANNEL' },
+        {title: "5GB KOUTA", rowId: '.order *Top Up:* 5GB KOUTA • KOUTA AXIS WEST CANNEL', description: 'PRICE: ' + ff3 + ', KOUTA AXIS WEST CANNEL' },
+        {title: "8GB KOUTA", rowId: '.order *Top Up:* 8GB KOUTA • KOUTA AXIS WEST CANNEL', description: 'PRICE: ' + ff4 + ',  KOUTA AXIS WEST CANNEL' },
+	{title: "12GB KOUTA", rowId: '.order *Top Up:* 12GB KOUTA • KOUTA AXIS WEST CANNEL', description: 'PRICE: ' + ff5 + ',  KOUTA AXIS WEST CANNEL' },
+        {title: "13GB KOUTA", rowId: '.order *Top Up:* 13GB KOUTA • KOUTA AXIS WEST CANNEL ', description: 'PRICE: ' + ff6 + ',  KOUTA AXIS WEST CANNEL' },
+        {title: "16GB KOUTA", rowId: '.order *Top Up:* 16GB KOUTA • KOUTA AXIS WEST CANNEL', description: 'PRICE: ' + ff7 + ',  KOUTA AXIS WEST CANNEL' },
+	{title: "24GB KOUTA", rowId: '.order *Top Up:* 24GB KOUTA • KOUTA AXIS WEST CANNEL', description: 'PRICE: ' + ff8 + ',  KOUTA AXIS WEST CANNEL' },
       ]   
   },
 ]       
