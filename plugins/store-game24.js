@@ -1,6 +1,9 @@
 let handler = async (m, { conn }) => {
         //-----PRICE
-let info = `
+let ff1 = 
+let ff2 = 
+let ff3 = 
+	let info = `
 *┏━━❏FORMAT PEMBELIAN TOP UP GAME*
 *┃FORMAT SEMUA TOP UP GAME*
 *┗━━━━━━━━━━━━❏*
@@ -16,11 +19,17 @@ let info = `
 *>SELESAIKAN PEMBAYARAN* & *KIRIM BUKTI TRANSFER*
 *>PESANAN DI PROSES*
 
- *🎮KABUL STORE* `
+*👑KABUL STORE || READY👑* `
 const sections = [
    {
+       {title: "payment dana", rowId: '.order *Top Up:* payment dana • DANA', description: 'PRICE: ' + ff1 + ', payment dana' },
+
+       {title: "payment ovo", rowId: '.order *Top Up:* payment ovo •  OVO', description: 'PRICE: ' + ff2 + ', payment ovo' },
+
+       {title: "payment qris", rowId: '.order *Top Up:* payment qris • QRIS', description: 'PRICE: ' + ff3 + ', paymet qris' },
+
+     ]      
         
-        ]
    },
 ]
 const listMessage = {
