@@ -25,7 +25,7 @@ let info = `
 *📱150.000*  ${ff10}
 *📱200.000*  ${ff11}
 
-      🎮KABUL STORE
+*👑KABUL STORE || READY👑
 `
 const sections = [
    {
@@ -39,7 +39,7 @@ const sections = [
         {title: "📱 30.000  pulsa", rowId: '.order *Top Up:* 30.000 pulsa • PULSA AXIS', description: 'PRICE: ' + ff6 + ', PULSA AXIS' },
         {title: "📱 40.000 pulsa", rowId: '.order *Top Up:* 40.000 pulsa • PULSA AXIS', description: 'PRICE: ' + ff7 + ', PULSA AXIS' },
         {title: "📱 50.000 pulsa", rowId: '.order *Top Up:* 50.000 pulsa • PULSA AXIS', description: 'PRICE: ' + ff8 + ', PULSA AXIS' },
-        {title: "📱 100.000 pulsa", rowId: '.order *Top Up:* 100.000 pulsa  • PULSA AXIS', description: 'PRICE: ' + ff9 + ;PULSA AXIS ' },
+        {title: "📱 100.000 pulsa", rowId: '.order *Top Up:* 100.000 pulsa  • PULSA AXIS', description: 'PRICE: ' + ff9 + ', PULSA AXIS ' },
         {title: "📱 150.000 pulsa", rowId: '.order *Top Up:* 150.000 pulsa • PULSA AXIS', description: 'PRICE: ' + ff10 + ', PULSA AXIS' },
         {title: "📱 200.000 pulsa", rowId: '.order *Top Up:* 200.000 pulsa • PULSA AXIS', description: 'PRICE: ' + ff11 + ', PULSA AXIS' },
         ]
