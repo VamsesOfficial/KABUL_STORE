@@ -13,17 +13,17 @@ let ff10 = 'Rp 69.000'
 let ff11 = 'Rp 79.000'
 let info = `
 ✨PRICELIST KOUTA AXIS BRONET 30 HARI✨
-*📱 500MB 30 hari:*${ff1}
-*📱 1GB   30 Hari:*${ff2}
-*📱 1,5GB 30 Hari:*${ff3}
-*📱 2GB   30 Hari:*${ff4}
-*📱 3GB   30 Hari:*${ff5}
-*📱 5GB   30 Hari:*${ff6}
-*📱 8GB   30 Hari:*${ff7}
-*📱 12GB  30 Hari:*${ff8}
-*📱 15GB  30 Hari:*${ff9}
-*📱 19,5GB 30 Hari:*${ff10}
-*📱 24GB  30 Hari:*${ff11}
+*📱500MB 30 hari:* ${ff1}
+*📱1GB   30 Hari:* ${ff2}
+*📱1,5GB 30 Hari:* ${ff3}
+*📱2GB   30 Hari:* ${ff4}
+*📱3GB   30 Hari:* ${ff5}
+*📱5GB   30 Hari:* ${ff6}
+*📱8GB   30 Hari:* ${ff7}
+*📱12GB  30 Hari:* ${ff8}
+*📱15GB  30 Hari:* ${ff9}
+*📱19,5GB 30 Hari:* ${ff10}
+*📱24GB  30 Hari:* ${ff11}
 
 *👑KABUL STORE || READY👑* `
 const sections = [
