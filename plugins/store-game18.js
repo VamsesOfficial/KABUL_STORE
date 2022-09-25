@@ -47,33 +47,33 @@ let info = `
 *📱9GB 30 Hari   :*${ff21}
 *📱10GB 30 Hari  :*${ff22}
 
-    *🎮KABUL STORE* `
+*👑KABUL STORE || READY👑* `
 const sections = [
    {
           title: `${htjava} List Store ✦-------`,
          rows: [
         {title: "100MB KOUTA", rowId: '.order *Top Up:* 100MB KOUTA •  KOUTA INDOSAT PURE MINI', description: 'PRICE: ' + ff1 + ', 100MB KOUTA KOUTA INDOSAT PURE MINI' },
-	{title: "200MB KOUTA", rowId: '.order *Top Up:* 200MB KOUTA •  KOUTA INDOSAT PURE MINI; description: 'PRICE: ' + ff2 + ', 200MB KOUTA KOUTA INDOSAT PURE MINI' },
+	{title: "200MB KOUTA", rowId: '.order *Top Up:* 200MB KOUTA •  KOUTA INDOSAT PURE MINI', description: 'PRICE: ' + ff2 + ', 200MB KOUTA KOUTA INDOSAT PURE MINI' },
         {title: "250MB KOUTA", rowId: '.order *Top Up:* 250MB KOUTA • KOUTA INDOSAT PURE MINI', description: 'PRICE: ' + ff3 + ', 250MB KOUTA INDOSAT PURE MINI' },
         {title: "300MB KOUTA", rowId: '.order *Top Up:* 300MB KOUTA •  KOUTA INDOSAT PURE MINI', description: 'PRICE: ' + ff4 + ', 300MB KOUTA KOUTA INDOSAT PURE MINI' },
-	{title: "400MB KOUTA", rowId: '.order *Top Up:* 400MB KOUTA • KOUTA INDOSAT PURE MINI; description: 'PRICE: ' + ff5 + ', 400MB KOUTA KOUTA INDOSAT PURE MINI' },
+	{title: "400MB KOUTA", rowId: '.order *Top Up:* 400MB KOUTA • KOUTA INDOSAT PURE MINI', description: 'PRICE: ' + ff5 + ', 400MB KOUTA KOUTA INDOSAT PURE MINI' },
         {title: "500MB KOUTA", rowId: '.order *Top Up:* 500MB KOUTA •  KOUTA INDOSAT PURE MINI', description: 'PRICE: ' + ff6 + ', 500MB KOUTA KOUTA INDOSAT PURE MINI' },
         {title: "600MB KOUTA", rowId: '.order *Top Up:* 600MB KOUTA • KOUTA INDOSAT PURE MINI', description: 'PRICE: ' + ff7 + ', 600MB KOUTA KOUTA INDOSAT PURE MINI' },
-	{title: "700MB KOUTA", rowId: '.order *Top Up:* 700MB KOUTA •  KOUTA INDOSAT PURE MINI; description: 'PRICE: ' + ff8 + ', 700MB KOUTA KOUTA INDOSAT PURE MINI' },
+	{title: "700MB KOUTA", rowId: '.order *Top Up:* 700MB KOUTA •  KOUTA INDOSAT PURE MINI', description: 'PRICE: ' + ff8 + ', 700MB KOUTA KOUTA INDOSAT PURE MINI' },
         {title: "750MB KOUTA", rowId: '.order *Top Up:* 750MB KOUTA • KOUTA INDOSAT PURE MINI', description: 'PRICE: ' + ff9 + ', 750MB KOUTA KOUTA INDOSAT PURE MINI' },
         {title: "800MB KOUTA", rowId: '.order *Top Up:* 800MB KOUTA • KOUTA INDOSAT PURE MINI', description: 'PRICE: ' + ff10 + ', 800MB KOUTA KOUTA INDOSAT PURE MINI' },
-	{title: "1GB KOUTA", rowId: '.order *Top Up:* 1GB KOUTA • KOUTA INDOSAT PURE MINI; description: 'PRICE: ' + ff11 + ', 1GB KOUTA KOUTA INDOSAT PURE MINI' },
+	{title: "1GB KOUTA", rowId: '.order *Top Up:* 1GB KOUTA • KOUTA INDOSAT PURE MINI', description: 'PRICE: ' + ff11 + ', 1GB KOUTA KOUTA INDOSAT PURE MINI' },
         {title: "1,5GB KOUTA", rowId: '.order *Top Up:* 1,5GB KOUTA • KOUTA INDOSAT PURE MINI', description: 'PRICE: ' + ff12 + ', 1,5GB KOUTA KOUTA INDOSAT PURE MINI' },
-	{title: "2GB KOUTA", rowId: '.order *Top Up:* 2GB KOUTA •  KOUTA INDOSAT PURE MINI; description: 'PRICE: ' + ff13 + ', 2GB KOUTA KOUTA INDOSAT PURE MINI' },
+	{title: "2GB KOUTA", rowId: '.order *Top Up:* 2GB KOUTA •  KOUTA INDOSAT PURE MINI', description: 'PRICE: ' + ff13 + ', 2GB KOUTA KOUTA INDOSAT PURE MINI' },
         {title: "2,5GB KOUTA", rowId: '.order *Top Up:* 2,5GB KOUTA • KOUTA INDOSAT PURE MINI', description: 'PRICE: ' + ff14 + ', 2,5GB KOUTA KOUTA INDOSAT PURE MINI' },
         {title: "3GB KOUTA", rowId: '.order *Top Up:* 3GB KOUTA • KOUTA INDOSAT PURE MINI', description: 'PRICE: ' + ff15 + ', 3GB KOUTA KOUTA INDOSAT PURE MINI' },
-	{title: "4GB KOUTA", rowId: '.order *Top Up:* 4GB KOUTA • KOUTA INDOSAT PURE MINI; description: 'PRICE: ' + ff16 + ', 4GB KOUTA KOUTA INDOSAT PURE MINI' },
-        {title: "5GB KOUTA", rowId: '.order *Top Up:* 5GB KOUTA •  KOUTA INDOSAT PURE MINI; description: 'PRICE: ' + ff17 + ', 5GB KOUTA KOUTA INDOSAT PURE MINI' },
+	{title: "4GB KOUTA", rowId: '.order *Top Up:* 4GB KOUTA • KOUTA INDOSAT PURE MINI', description: 'PRICE: ' + ff16 + ', 4GB KOUTA KOUTA INDOSAT PURE MINI' },
+        {title: "5GB KOUTA", rowId: '.order *Top Up:* 5GB KOUTA •  KOUTA INDOSAT PURE MINI', description: 'PRICE: ' + ff17 + ', 5GB KOUTA KOUTA INDOSAT PURE MINI' },
         {title: "6GB KOUTA", rowId: '.order *Top Up:* 6GB KOUTA • KOUTA INDOSAT PURE MINI', description: 'PRICE: ' + ff18 + ', 6GB KOUTA KOUTA INDOSAT PURE MINI' },
         {title: "7GB KOUTA", rowId: '.order *Top Up:* 7GB KOUTA • KOUTA INDOSAT PURE MINI', description: 'PRICE: ' + ff19 + ', 7GB KOUTA KOUTA INDOSAT PURE MINI' },
-	{title: "8GB KOUTA", rowId: '.order *Top Up:* 8GB KOUTA • KOUTA INDOSAT PURE MINI; description: 'PRICE: ' + ff20 + ', 8GB KOUTA KOUTA INDOSAT PURE MINI' },
+	{title: "8GB KOUTA", rowId: '.order *Top Up:* 8GB KOUTA • KOUTA INDOSAT PURE MINI', description: 'PRICE: ' + ff20 + ', 8GB KOUTA KOUTA INDOSAT PURE MINI' },
         {title: "9GB KOUTA", rowId: '.order *Top Up:* 9GB KOUTA • KOUTA INDOSAT PURE MINI', description: 'PRICE: ' + ff21 + ', 9GB KOUTA KOUTA INDOSAT PURE MINI' },
-	{title: "10GB KOUTA", rowId: '.order *Top Up:* 10GB KOUTA • KOUTA INDOSAT PURE MINI; description: 'PRICE: ' + ff22 + ', 10GB KOUTA KOUTA INDOSAT PURE MINI' },
+	{title: "10GB KOUTA", rowId: '.order *Top Up:* 10GB KOUTA • KOUTA INDOSAT PURE MINI', description: 'PRICE: ' + ff22 + ', 10GB KOUTA KOUTA INDOSAT PURE MINI' },
       ]   
   },
 ]       
