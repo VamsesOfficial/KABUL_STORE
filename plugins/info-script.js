@@ -14,7 +14,7 @@ https://youtu.be/Pgv_GuQTPyo
 Pengen yang udah di recode oleh owner?
 Script bot ini dijual bila kalian mau bisa chat owner
 
-wa.me/6282127487538`
+wa.me/6285715382503`
 let wibu = `https://api-reysekha.herokuapp.com/api/random/cosplay?apikey=apirey` 
 let thumb = await(await fetch(wibu)).buffer()
 conn.sendButtonDoc(m.chat, str, wm,'Thankyou','Bilek', m, { contextInfo: { externalAdReply: { showAdAttribution: true,
