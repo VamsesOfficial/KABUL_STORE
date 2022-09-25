@@ -8,7 +8,8 @@ let info = `
 *💦DANA : 085212649276*  ${ff1}
 *💦OVO  : 081386943282*  ${ff2}
 *💦QRIS : (TANYA ADMIN)* ${ff3}
-         *🎮KABUL STORE* `
+
+    *👑KABUL STORE || READY👑* `
 const sections = [
        {
    	title: `${htjava} list payment ✦-------`,
