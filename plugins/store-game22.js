@@ -59,7 +59,7 @@ let info = `
 *📱200.000*    ${ff27}
 *📱500.000*    ${ff28}
 
-    🎮KABUL STORE
+*👑KABUL STORE || READY👑*
 `
 const sections = [
    {
@@ -75,8 +75,8 @@ const sections = [
               {title: "📱 15.000  pulsa", rowId: '.order *Top Up:* 15.000 pulsa • PULSA TELKOMSEL', description: 'PRICE: ' + ff8 + ', PULSA TELKOMSEL' },
               {title: "📱 20.000 pulsa", rowId: '.order *Top Up:* 20.000 pulsa • PULSA TELKOMSEL', description: 'PRICE: ' + ff9 + ', PULSA TELKOMSEL' },
               {title: "📱 25.000 pulsa", rowId: '.order *Top Up:* 25.000 pulsa • PULSA TELKOMSEL', description: 'PRICE: ' + ff10 + ', TELKOMSEL' },
-              {title: "📱 30.000 pulsa", rowId: '.order *Top Up:* 30.000 pulsa  • PULSA TELKOMSEL', description: 'PRICE: ' + ff11 + ;PULSA TELKOMSEL ' },
-              {title: "📱 35.000 pulsa", rowId: '.order *Top Up:* 35.000 pulsa  • PULSA TELKOMSEL', description: 'PRICE: ' + ff12 + ;PULSA TELKOMSEL ' },
+              {title: "📱 30.000 pulsa", rowId: '.order *Top Up:* 30.000 pulsa  • PULSA TELKOMSEL', description: 'PRICE: ' + ff11 + ', PULSA TELKOMSEL ' },
+              {title: "📱 35.000 pulsa", rowId: '.order *Top Up:* 35.000 pulsa  • PULSA TELKOMSEL', description: 'PRICE: ' + ff12 + ', PULSA TELKOMSEL ' },
               {title: "📱 40.000 pulsa", rowId: '.order *Top Up:* 40.000 pulsa • PULSA TELKOMSEL', description: 'PRICE: ' + ff13 + ', PULSA TELKOMSEL' },
               {title: "📱 45.000 pulsa", rowId: '.order *Top Up:* 45.000 pulsa • PULSA TELKOMSEL', description: 'PRICE: ' + ff14 + ', PULSA TELKOMSEL' },
               {title: "📱 50.000 pulsa", rowId: '.order *Top Up:* 50.000 pulsa • PULSA TELKOMSEL', description: 'PRICE: ' + ff15 + ', PULSA TELKOMSEL' },
