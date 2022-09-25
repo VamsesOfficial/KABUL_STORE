@@ -37,7 +37,7 @@ let ff17 = 'Rp 582.000'
 *📱Pulsa  200.000   ${ff16}
 *📱Pulsa  500.000   ${ff17}
 
-      🎮KABUL STORE
+*👑KABUL STORE || READY👑*
 `
 const sections = [
    {
@@ -51,11 +51,11 @@ const sections = [
         {title: "📱 25.000 pulsa ", rowId: '.order *Top Up:* 25.000 pulsa • PULSA INDOSAT', description: 'PRICE: ' + ff6 + ', PULSA INDOSAT' },
         {title: "📱 30.000  pulsa", rowId: '.order *Top Up:* 30.000 pulsa • PULSA INDOSAT', description: 'PRICE: ' + ff7 + ', PULSA INDOSAT' },
         {title: "📱 40.000 pulsa", rowId: '.order *Top Up:* 40.000 pulsa • PULSA INDOSAT', description: 'PRICE: ' + ff8 + ', PULSA INDOSAT' },
-{title: "📱 50.000 pulsa", rowId: '.order *Top Up:* 50.000 pulsa • PULSA INDOSAT', description: 'PRICE: ' + ff9 + ', PULSA INDOSAT' },
-     {title: "📱 60.000 pulsa", rowId: '.order *Top Up:* 60.000 pulsa  • PULSA INDOSAT', description: 'PRICE: ' + ff10 + ;PULSA INDOSAT ' },
+        {title: "📱 50.000 pulsa", rowId: '.order *Top Up:* 50.000 pulsa • PULSA INDOSAT', description: 'PRICE: ' + ff9 + ', PULSA INDOSAT' },
+        {title: "📱 60.000 pulsa", rowId: '.order *Top Up:* 60.000 pulsa  • PULSA INDOSAT', description: 'PRICE: ' + ff10 + ',PULSA INDOSAT ' },
         {title: "📱 70.000 pulsa", rowId: '.order *Top Up:* 70.000 pulsa • PULSA INDOSAT', description: 'PRICE: ' + ff11 + ', PULSA INDOSAT' },
         {title: "📱 80.000 pulsa", rowId: '.order *Top Up:* 80.000 pulsa • PULSA INDOSAT', description: 'PRICE: ' + ff12 + ', PULSA INDOSAT' },
-{title: "📱90.00 pulsa", rowId: '.order *Top Up:* 90.000 pulsa • PULSA INDOSAT', description: 'PRICE: ' + ff13 + ', PULSA INDOSAT' },
+        {title: "📱90.00 pulsa", rowId: '.order *Top Up:* 90.000 pulsa • PULSA INDOSAT', description: 'PRICE: ' + ff13 + ', PULSA INDOSAT' },
         {title: "📱100.000 pulsa", rowId: '.order *Top Up:* 100.000 pulsa • PULSA INDOSAT', description: 'PRICE: ' + ff14 + ', PULSA INDOSAT' },
         {title: "📱150.000 pulsa", rowId: '.order *Top Up:* 150.000 pulsa • PULSA INDOSAT', description: 'PRICE: ' + ff15 + ', PULSA INDOSAT' },
         {title: "📱 200.000 pulsa", rowId: '.order *Top Up:* 200.000 pulsa • PULSA INDOSAT', description: 'PRICE: ' + ff16 + ', PULSA INDOSAT' },
