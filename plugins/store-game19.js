@@ -19,23 +19,23 @@ let ff16 = 'Rp 202.000'
 let ff17 = 'Rp 582.000'
  let info = `
 *✨PRICELIST PULSA INDOSAT✨*
-*📱Pulsa    5.000   ${ff1}
-*📱Pulsa   10.000   ${ff2}
-*📱Pulsa   12.000   ${ff3}
-*📱Pulsa   15.000   ${ff4}
-*📱Pulsa   20.000   ${ff5}
-*📱Pulsa   25.000   ${ff6}
-*📱Pulsa   30.000   ${ff7}
-*📱Pulsa   40.000   ${ff8}
-*📱Pulsa   50.000   ${ff9}
-*📱Pulsa    60.00   ${ff10}
-*📱Pulsa   70.000   ${ff11}
-*📱Pulsa   80.000   ${ff12}
-*📱Pulsa   90.000   ${ff13}
-*📱Pulsa  100.000   ${ff14}
-*📱Pulsa  150.000   ${ff15}
-*📱Pulsa  200.000   ${ff16}
-*📱Pulsa  500.000   ${ff17}
+*📱Pulsa   5.000:* ${ff1}
+*📱Pulsa  10.000:* ${ff2}
+*📱Pulsa  12.000:* ${ff3}
+*📱Pulsa  15.000:* ${ff4}
+*📱Pulsa  20.000:* ${ff5}
+*📱Pulsa  25.000:* ${ff6}
+*📱Pulsa  30.000:* ${ff7}
+*📱Pulsa  40.000:* ${ff8}
+*📱Pulsa  50.000:* ${ff9}
+*📱Pulsa  60.000:* ${ff10}
+*📱Pulsa  70.000;* ${ff11}
+*📱Pulsa  80.000:" ${ff12}
+*📱Pulsa  90.000:* ${ff13}
+*📱Pulsa 100.000:* ${ff14}
+*📱Pulsa 150.000:* ${ff15}
+*📱Pulsa 200.000:* ${ff16}
+*📱Pulsa 500.000:* ${ff17}
 
 *👑KABUL STORE || READY👑*
 `
