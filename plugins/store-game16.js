@@ -16,30 +16,31 @@ let info = `
 *📱 500MB 30 hari:*${ff1}
 *📱 1GB   30 Hari:*${ff2}
 *📱 1,5GB 30 Hari:*${ff3}
-*📱 2GB    30 Hari:*${ff4}
-*📱 3GB    30 Hari:*${ff5}
-*📱 5GB    30 Hari:*${ff6}
-*📱 8GB    30 Hari:*${ff7}
+*📱 2GB   30 Hari:*${ff4}
+*📱 3GB   30 Hari:*${ff5}
+*📱 5GB   30 Hari:*${ff6}
+*📱 8GB   30 Hari:*${ff7}
 *📱 12GB  30 Hari:*${ff8}
 *📱 15GB  30 Hari:*${ff9}
 *📱 19,5GB 30 Hari:*${ff10}
 *📱 24GB  30 Hari:*${ff11}
-       *🎮KABUL STORE* `
+
+*👑KABUL STORE || READY👑* `
 const sections = [
    {
           title: `${htjava} List Store ✦-------`,
          rows: [
-        {title: "500MB KOUTA", rowId: '.order *Top Up:* 500MB KOUTA • KOUTA AXIS BRONET 30 HARI', description: 'PRICE: ' + ff1 + ', 500MB KOUTA KOUTA AXIS BRONET 30 HARI' },
-	{title: "1GB KOUTA", rowId: '.order *Top Up:* 1GB KOUTA • KOUTA AXIS BRONET 30 HARI; description: 'PRICE: ' + ff2 + ', 1GB KOUTA KOUTA AXIS BRONET 30 HARI' },
-        {title: "1,5GB KOUTA", rowId: '.order *Top Up:* 1,5GB KOUTA • KOUTA AXIS BRONET 30 HARI', description: 'PRICE: ' + ff3 + ', 1,5GB KOUTA KOUTA AXIS BRONET 30 HARI' },
-        {title: "2GB KOUTA", rowId: '.order *Top Up:* 2GB KOUTA • KOUTA AXIS BRONET 30 HARI', description: 'PRICE: ' + ff4 + ', 2GB KOUTA KOUTA AXIS BRONET 30 HARI' },
-	{title: "3GB KOUTA", rowId: '.order *Top Up:* 3GB KOUTA • KOUTA AXIS BRONET 30 HARI; description: 'PRICE: ' + ff5 + ', 3GB KOUTA KOUTA AXIS BRONET 30 HARI' },
-        {title: "5GB KOUTA", rowId: '.order *Top Up:* 5GB KOUTA • KOUTA AXIS BRONET 30 HARI', description: 'PRICE: ' + ff6 + ', 5GB KOUTA KOUTA AXIS BRONET 30 HARI' },
-        {title: "8GB KOUTA", rowId: '.order *Top Up:* 8GB KOUTA • KOUTA AXIS BRONET 30 HARI', description: 'PRICE: ' + ff7 + ', 8GB KOUTA KOUTA AXIS BRONET 30 HARI' },
-	{title: "12GB KOUTA", rowId: '.order *Top Up:* 12GB KOUTA • KOUTA AXIS BRONET 30 HARI; description: 'PRICE: ' + ff8 + ', 12GB KOUTA KOUTA AXIS BRONET 30 HARI' },
-        {title: "15GB KOUTA", rowId: '.order *Top Up:* 15GB KOUTA • KOUTA AXIS BRONET 30 HARI', description: 'PRICE: ' + ff9 + ', 15GB KOUTA KOUTA AXIS BRONET 30 HARI' },
-        {title: "19,5GB KOUTA", rowId: '.order *Top Up:* 19,5GB KOUTA • KOUTA AXIS BRONET 30 HARI', description: 'PRICE: ' + ff10 + ', 19,5GB KOUTA KOUTA AXIS BRONET 30 HARI' },
-	{title: "24GB KOUTA", rowId: '.order *Top Up:* 24GB KOUTA • KOUTA AXIS BRONET 30 HARI; description: 'PRICE: ' + ff11 + ', 24GB KOUTA KOUTA AXIS BRONET 30 HARI' },
+        {title: "500MB KOUTA", rowId: '.order *Top Up:* 500MB KOUTA • KOUTA AXIS BRONET 30 HARI', description: 'PRICE: ' + ff1 + ',  KOUTA AXIS BRONET 30 HARI' },
+	{title: "1GB KOUTA", rowId: '.order *Top Up:* 1GB KOUTA • KOUTA AXIS BRONET 30 HARI',description: 'PRICE: ' + ff2 + ', KOUTA AXIS BRONET 30 HARI' },
+        {title: "1,5GB KOUTA", rowId: '.order *Top Up:* 1,5GB KOUTA • KOUTA AXIS BRONET 30 HARI', description: 'PRICE: ' + ff3 + ',KOUTA AXIS BRONET 30 HARI' },
+        {title: "2GB KOUTA", rowId: '.order *Top Up:* 2GB KOUTA • KOUTA AXIS BRONET 30 HARI', description: 'PRICE: ' + ff4 + ', KOUTA AXIS BRONET 30 HARI' },
+	{title: "3GB KOUTA", rowId: '.order *Top Up:* 3GB KOUTA • KOUTA AXIS BRONET 30 HARI', description: 'PRICE: ' + ff5 + ', KOUTA AXIS BRONET 30 HARI' },
+        {title: "5GB KOUTA", rowId: '.order *Top Up:* 5GB KOUTA • KOUTA AXIS BRONET 30 HARI', description: 'PRICE: ' + ff6 + ', KOUTA AXIS BRONET 30 HARI' },
+        {title: "8GB KOUTA", rowId: '.order *Top Up:* 8GB KOUTA • KOUTA AXIS BRONET 30 HARI', description: 'PRICE: ' + ff7 + ', KOUTA AXIS BRONET 30 HARI' },
+	{title: "12GB KOUTA", rowId: '.order *Top Up:* 12GB KOUTA • KOUTA AXIS BRONET 30 HARI', description: 'PRICE: ' + ff8 + ', KOUTA AXIS BRONET 30 HARI' },
+        {title: "15GB KOUTA", rowId: '.order *Top Up:* 15GB KOUTA • KOUTA AXIS BRONET 30 HARI', description: 'PRICE: ' + ff9 + ', KOUTA AXIS BRONET 30 HARI' },
+        {title: "19,5GB KOUTA", rowId: '.order *Top Up:* 19,5GB KOUTA • KOUTA AXIS BRONET 30 HARI', description: 'PRICE: ' + ff10 + ', KOUTA AXIS BRONET 30 HARI' },
+	{title: "24GB KOUTA", rowId: '.order *Top Up:* 24GB KOUTA • KOUTA AXIS BRONET 30 HARI', description: 'PRICE: ' + ff11 + ', KOUTA AXIS BRONET 30 HARI' },
       ]   
   },
 ]       
