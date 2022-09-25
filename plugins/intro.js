@@ -3,7 +3,7 @@ let krtu = `Kartu Intro`
 m.reply(`
 0ཻུ۪۪ꦽꦼ̷⸙‹•══════════════♡᭄
  *「SELMAT DATANG STORE KAMI」*
-Welcome 👑KABUL STORE || READY👑
+WELCOME 👑KABUL STORE || READY👑
 Jangan Lupa Baca Deskripsi Group
 Sebelum Bertindak
  
@@ -20,7 +20,7 @@ let pp = await conn.profilePictureUrl(m.chat).catch(_ => null)
 let krtu = `
 0ཻུ۪۪ꦽꦼ̷⸙‹•══════════════♡᭄
  *「SELMAT DATANG STORE KAMI」*
-Welcome 👑KABUL STORE || READY👑
+WELCOME 👑KABUL STORE || READY👑
 Jangan Lupa Baca Deskripsi Group
 Sebelum Bertindak
  
