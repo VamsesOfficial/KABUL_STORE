@@ -18,7 +18,8 @@ let info = `
 *📱13GB 30 Hari:* ${ff6}
 *📱16GB 30 Hari:* ${ff7}
 *📱24GB 30 Hari:* ${ff8}
-     *🎮KABUL STORE* `
+
+*🎮👑KABUL STORE || READY👑* `
 const sections = [
    {
           title: `${htjava} List Store ✦-------`,
