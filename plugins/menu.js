@@ -36,7 +36,7 @@ const defaultMenu = {
 %m2 *Type:* Node.Js
 %m2 *Baileys:* Multi Device
 %m2 *Prefix:* [ *%_p* ]
-%m2 *Uptime:* %muptime
+%m2 *⌚:* %muptime
 %m2 *Database:* %rtotalreg dari %totalreg
 %m3
 
@@ -283,8 +283,8 @@ let tek = `*${ucapan()} ${conn.getName(m.sender)}*
 ┗–––––––––––––––––✥
 ┌–––––––––––––––––✥
 ┊   「 *S t a t u s  I n f o 比* 」
-┊↬✗• *ᴜᴘᴛɪᴍᴇ:* ${mpt}
-┊↬✗• *ᴛɪᴍᴇ:* ${moment.tz('Asia/Jakarta').format('HH')} H  ${moment.tz('Asia/Jakarta').format('mm')} M  ${moment.tz('Asia/Jakarta').format('ss')} S
+┊↬✗• *⌚:* ${mpt}
+┊↬✗• *⌚:* ${moment.tz('Asia/Jakarta').format('HH')} H  ${moment.tz('Asia/Jakarta').format('mm')} M  ${moment.tz('Asia/Jakarta').format('ss')} S
 ┊↬✗• *ᴜsᴇʀs:* ${Object.keys(global.db.data.users).length}
 ┊↬✗• *ʟɪᴍɪᴛ:* ${usrs.limit}
 ┊↬✗• *ʟᴇᴠᴇʟ:* ${usrs.level}
