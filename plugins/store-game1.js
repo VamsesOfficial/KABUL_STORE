@@ -48,10 +48,10 @@ M.Minguan 💎${ff21}
 M.Bulanan  💎${ff22}
 
 *>VIA ID*
-">PROSES 1 - 5 MENIT*
+*>PROSES 1 - 5 MENIT*
 *>Note : Tanyakan stok sebelum order*
 
-    *🎮KABUL STORE*
+  *👑KABUL STORE || READY👑*
 `
 const sections = [
    {
