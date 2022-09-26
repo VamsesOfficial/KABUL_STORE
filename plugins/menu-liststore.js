@@ -1,4 +1,5 @@
 let handler = async (m, { conn }) => {
+	let name = getName [ m.sender ]
 	//-----PRICE
 let info = `
 Yuk Cek List Store Kami👑`
