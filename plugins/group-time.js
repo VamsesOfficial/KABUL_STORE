@@ -39,7 +39,7 @@ Maka grup akan di buka otomatis 1 jam kemudian.
   }
 handler.help = ['grouptime <open/close> <number>']
 handler.tags = ['group']
-handler.command = /^(grouptime|gctime)$/i
+handler.command = /^(grouptime|tutup|buka|b|t)$/i
 
 handler.botAdmin = true
 handler.group = true 
