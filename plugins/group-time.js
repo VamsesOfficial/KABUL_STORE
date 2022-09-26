@@ -10,11 +10,11 @@ let handler = async (m, { conn, isAdmin, isOwner, args, usedPrefix, command }) =
 	  '1': 'not_announcement',
 	  'close': 'announcement',
 	  'tutup': 'announcement',
-	  '': 'announcement',
-          '.': 'announcement',
-	  '?': 'announcement',
       'off': 'announcement',
       '0': 'announcement',
+      ' ': 'announcement',
+     ' b': 'announcement',
+     't': 'announcement',
   }[(args[0] || '')]
   if (isClose === undefined) {
 	  let caption = `
@@ -30,24 +30,19 @@ Maka grup akan di buka otomatis 1 jam kemudian.
   }
   let timeoutset = 86400000 * args[1] / 24
   await conn.groupSettingUpdate(m.chat, isClose).then(async _=> {
-	  m.reply(`mengubah setelan grup untuk mengizinkan agar semua peserta ${isClose == 'announcement' ? 'tutup' : 'buka'} dapat mengirimkan pesan ke grup ini.${args[1] ? `, grup akan dibuka setelah *${clockString(timeoutset)}*` : ''}`)
-	  await conn.groupSettingUpdate(m.chat, isClose).then(async _=> {
-	  m.reply(`Mengubah setelan grup untuk mengizinkan hanya admin  ${isClose == 'announcement' ? 'buka' : 'tutup'} yang dapat mengirim pesan ke grup ini${args[1] ? `, grup akan dibuka setelah *${clockString(timeoutset)}*` : ''}`)
-
+	  m.reply(`Sukses me${isClose == 'announcement' ? 'nnutup' : 'mbuka'} grup${args[1] ? `, grup akan dibuka setelah *${clockString(timeoutset)}*` : ''}`)
   })
   if (args[1]) {
 	 setTimeout(async () => {
             await conn.groupSettingUpdate(m.chat, `${isClose == 'announcement' ? 'not_announcement' : 'announcement'}`).then(async _=>{
-		
-		   conn.reply(m.chat, `Grup telah di ${isClose == 'not_announcement' ? 'tutup, sekarang hanya admin yang dapat mengirim pesan' : 'buka, sekarang semua member bisa mengirim pesan'}!`)
+		    conn.reply(m.chat, `Grup telah di ${isClose == 'not_announcement' ? 'tutup, Mengubah setelan grup untuk mengizinkan hanya admin yang  dapat mengirim pesan ke grup ini pesan' : 'Mengubah setelan grup untuk mengizinkan agar semua peserta dapat mengirim pesan ke grup ini.'}!`)
 	    })
-		
         }, timeoutset)
   }
   }
 handler.help = ['grouptime <open/close> <number>']
 handler.tags = ['group']
-handler.command = /^(grouptime|tutup|group|.|?|buka|b|t)$/i
+handler.command = /^(grouptime|tutup|buka|b|t)$/i
 
 handler.botAdmin = true
 handler.group = true 
