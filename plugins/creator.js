@@ -27,14 +27,14 @@ ${htjava} *🕋 Agama* : Islam
 ${htjava} *⏰ Tanggal lahir* : 21-12-2004
 ${htjava} *🎨 Umur* : 17
 ${htjava} *🧮 Kelas* : X1
-${htjava} *🧩 Hobby* : MODIFIKASI WHATSAPP "MODDER WHATSAPP"
+${htjava} *🧩 Hobby* : REBAHAN"
 ${htjava} *💬 Sifat* : ASIK DAH KALAU DAH KENAL
 ${htjava} *🗺️ Tinggal* : Jawa,Barat, Sukabumi 
 ${htjava} *❤️ Waifu* : -
-
 ${htjava} *📷 ɪɴsᴛᴀɢʀᴀᴍ* : ${sig}
 ${htjava} *🐈 ɢɪᴛʜᴜʙ:* ${sgh}
 •·––––––––––––––––––––––––––·•
+
 `
   let teks = 'Pilih dibawah kak ! o(〃＾▽＾〃)o'
 const sections = [
@@ -42,7 +42,8 @@ const sections = [
 	title: `${htjava} OWNER –––––––––·•`,
 	rows: [
 	    {title: "📱 • Nomor", rowId: ".owner nomor"},
-	{title: "🎨 • Biodata", rowId: ".owner bio"},
+	{title: "🎨 • Biodata Kabul", rowId: ".owner bio"},
+	{title: "🎨 • Biodata Lisa", rowId: ".owner bio"},	
 	{title: "🌎 • Script", rowId: ".sc"},
 	]
     },{
