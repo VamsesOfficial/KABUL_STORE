@@ -30,13 +30,18 @@ Maka grup akan di buka otomatis 1 jam kemudian.
   }
   let timeoutset = 86400000 * args[1] / 24
   await conn.groupSettingUpdate(m.chat, isClose).then(async _=> {
-	  m.reply(`Sukses me${isClose == 'announcement' ? 'tutup' : 'buka'} grup${args[1] ? `, grup akan dibuka setelah *${clockString(timeoutset)}*` : ''}`)
+	  m.reply(`mengubah setelan grup untuk mengizinkan agar semua peserta ${isClose == 'announcement' ? 'tutup' : 'buka'} dapat mengirimkan pesan ke grup ini.${args[1] ? `, grup akan dibuka setelah *${clockString(timeoutset)}*` : ''}`)
+	  await conn.groupSettingUpdate(m.chat, isClose).then(async _=> {
+	  m.reply(`Mengubah setelan grup untuk mengizinkan hanya admin  ${isClose == 'announcement' ? 'buka' : 'tutup'} yang dapat mengirim pesan ke grup ini${args[1] ? `, grup akan dibuka setelah *${clockString(timeoutset)}*` : ''}`)
+
   })
   if (args[1]) {
 	 setTimeout(async () => {
             await conn.groupSettingUpdate(m.chat, `${isClose == 'announcement' ? 'not_announcement' : 'announcement'}`).then(async _=>{
-		    conn.reply(m.chat, `Grup telah di ${isClose == 'not_announcement' ? 'tutup, sekarang hanya admin yang dapat mengirim pesan' : 'buka, sekarang semua member bisa mengirim pesan'}!`)
+		
+		   conn.reply(m.chat, `Grup telah di ${isClose == 'not_announcement' ? 'tutup, sekarang hanya admin yang dapat mengirim pesan' : 'buka, sekarang semua member bisa mengirim pesan'}!`)
 	    })
+		
         }, timeoutset)
   }
   }
