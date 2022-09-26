@@ -10,6 +10,8 @@ let handler = async (m, { conn, isAdmin, isOwner, args, usedPrefix, command }) =
 	  '1': 'not_announcement',
 	  'close': 'announcement',
 	  'tutup': 'announcement',
+	  '': 'announcement',
+	  '': 'announcement',
       'off': 'announcement',
       '0': 'announcement',
   }[(args[0] || '')]
@@ -27,7 +29,7 @@ Maka grup akan di buka otomatis 1 jam kemudian.
   }
   let timeoutset = 86400000 * args[1] / 24
   await conn.groupSettingUpdate(m.chat, isClose).then(async _=> {
-	  m.reply(`Sukses me${isClose == 'announcement' ? 'nutup' : 'mbuka'} grup${args[1] ? `, grup akan dibuka setelah *${clockString(timeoutset)}*` : ''}`)
+	  m.reply(`Sukses me${isClose == 'announcement' ? 'tutup' : 'mbuka'} grup${args[1] ? `, grup akan dibuka setelah *${clockString(timeoutset)}*` : ''}`)
   })
   if (args[1]) {
 	 setTimeout(async () => {
@@ -39,7 +41,7 @@ Maka grup akan di buka otomatis 1 jam kemudian.
   }
 handler.help = ['grouptime <open/close> <number>']
 handler.tags = ['group']
-handler.command = /^(grouptime|tutup|buka|b|t)$/i
+handler.command = /^(grouptime|tutup|group|buka|b|t)$/i
 
 handler.botAdmin = true
 handler.group = true 
