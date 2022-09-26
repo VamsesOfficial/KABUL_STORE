@@ -72,7 +72,7 @@ const listMessage = {
    handler.help = ['liststore'] 
   handler.help = ['sewa', 'premium']
 handler.tags = ['main']
-handler.command = /^(kabul)$/i
+handler.command = /^(tokoh|bul)$/i
 
 export default handler
 
