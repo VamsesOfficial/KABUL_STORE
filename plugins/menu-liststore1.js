@@ -126,7 +126,7 @@ title: `${htjava} List Store ✦-------`,
         {title: "💎 3640 DM", rowId: '.order *Top Up:* 3640 DM • Free Fire', description: 'PRICE: ' + ff19 + ', Diamond Free Fire' },
         {title: "💎 M.Level Up Pass", rowId: '.order *Top Up:* M.Level Up Pass • Free Fire', description: 'PRICE: ' + ff20 + ', M.Level Up Pass Free Fire' },
         {title: "💎 M.Minguan", rowId: '.order *Top Up:* M.Minguan • Free Fire', description: 'PRICE: ' + ff21 + ', M.Minguan Free Fire' },
-        {title: "💎 M.Bulanan", rowId: '.order *Top Up:* M.Bulanan • Free Fire', description: 'PRICE: ' + ff22 + ', M.Bulanan Free Fire' },
+        {title: "💎 M.Bulanan", rowId: '.order *Top Up:* M.Bulanan • Free Fire', description: 'PRICE: ' + ff22 + ', M.Bulanan Free Fire' }, */
 ]
 
 const listMessage = {
