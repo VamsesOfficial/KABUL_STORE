@@ -284,7 +284,7 @@ let tek = `*${ucapan()} ${conn.getName(m.sender)}*
 ┌–––––––––––––––––✥
 ┊   「 *S t a t u s  I n f o 比* 」
 ┊↬✗• *⌚:* ${mpt}
-┊↬✗• *⌚:* ${moment.tz('Asia/Jakarta').format('HH')}:${moment.tz('Asia/Jakarta').format('mm')}:${moment.tz('Asia/Jakarta').format('ss')} WIB
+┊↬✗• *⌚:* ${moment.tz('Asia/Jakarta').format('HH')} : ${moment.tz('Asia/Jakarta').format('mm')} : ${moment.tz('Asia/Jakarta').format('ss')} WIB
 ┊↬✗• *ᴜsᴇʀs:* ${Object.keys(global.db.data.users).length}
 ┊↬✗• *ʟɪᴍɪᴛ:* ${usrs.limit}
 ┊↬✗• *ʟᴇᴠᴇʟ:* ${usrs.level}
