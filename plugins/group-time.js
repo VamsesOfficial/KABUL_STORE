@@ -30,19 +30,19 @@ Maka grup akan di buka otomatis 1 jam kemudian.
   }
   let timeoutset = 86400000 * args[1] / 24
   await conn.groupSettingUpdate(m.chat, isClose).then(async _=> {
-	  m.reply(`Mengubah setelan grup untuk mengizinkan${isClose == 'announcement' ? 'hanya admin yang  dapat mengirim pesan ke' : 'agar semua peserta dapat mengirim pesan ke grup ini'} grup ini${args[1] ? `, grup akan dibuka setelah *${clockString(timeoutset)}*` : ''}`)
+	  m.reply(`Sukses Mengubah setelan grup untuk mengizinkan${isClose == 'announcement' ? 'hanya admin yang  dapat mengirim pesan ke' : 'agar semua peserta dapat mengirim pesan ke'} grup ini${args[1] ? `, grup akan dibuka setelah *${clockString(timeoutset)}*` : ''}`)
   })
   if (args[1]) {
 	 setTimeout(async () => {
             await conn.groupSettingUpdate(m.chat, `${isClose == 'announcement' ? 'not_announcement' : 'announcement'}`).then(async _=>{
-		    conn.reply(m.chat, `Grup telah di ${isClose == 'not_announcement' ? 'tutup, Mengubah setelan grup untuk mengizinkan hanya admin yang  dapat mengirim pesan ke grup ini pesan' : 'Mengubah setelan grup untuk mengizinkan agar semua peserta dapat mengirim pesan ke grup ini.'}!`)
+		    conn.reply(m.chat, `Grup telah di ${isClose == 'not_announcement' ? 'tutup, Mengubah setelan grup untuk mengizinkan hanya admin yang  dapat mengirim pesan ke grup ini pesan' : 'buka Mengubah setelan grup untuk mengizinkan agar semua peserta dapat mengirim pesan ke grup ini'}!`)
 	    })
         }, timeoutset)
   }
   }
 handler.help = ['grouptime <open/close> <number>']
 handler.tags = ['group']
-handler.command = /^(grouptime|tutup|buka|b|t)$/i
+handler.command = /^(grouptime|tutup|buka|b|t|.)$/i
 
 handler.botAdmin = true
 handler.group = true 
