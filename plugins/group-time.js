@@ -30,7 +30,7 @@ Maka grup akan di buka otomatis 1 jam kemudian.
   }
   let timeoutset = 86400000 * args[1] / 24
   await conn.groupSettingUpdate(m.chat, isClose).then(async _=> {
-	  m.reply(`Sukses Mengubah setelan grup untuk mengizinkan${isClose == 'announcement' ? 'hanya admin yang  dapat mengirim pesan ke' : 'agar semua peserta dapat mengirim pesan ke'} grup ini${args[1] ? `, grup akan dibuka setelah *${clockString(timeoutset)}*` : ''}`)
+	  m.reply(`Sukses Mengubah setelan grup untuk mengizinkan ${isClose == 'announcement' ? 'hanya admin yang  dapat mengirim pesan ke' : 'agar semua peserta dapat mengirim pesan ke'} grup ini${args[1] ? `, grup akan dibuka setelah *${clockString(timeoutset)}*` : ''}`)
   })
   if (args[1]) {
 	 setTimeout(async () => {
