@@ -49,6 +49,7 @@ const sections = [{
 title: `⟥⟝⟢⟨ 👑KABUL STORE || READY👑 ⟩⟣⟞⟤`,
 rows: [
         {title: "💎 • Top Up FREE FIRE", rowId: ".game1i"},
+	{title: "💎 • Top Up FREE FIRE", rowId: ".game2"},
         {title: "💎 • Top Up DOMINO QIU QIU", rowId: ".game2"},
         {title: "💎 • Top Up ARENA OF VALOR(AOV)", rowId: ".game3"},
         {title: "💎 • Top Up POKER TEXAS", rowId: ".game4"},
