@@ -1,6 +1,6 @@
 let handler = async (m, { conn }) => {
           //-----PRICE
-let ff1 = '  '
+let ff1 = '.'
 let ff2 = '  '
 let ff3 = '  '
 let ff4 = '  '
@@ -12,9 +12,9 @@ let info = `
 *┃FORMAT SEMUA TOP UP GAME*
 *┗━━━━━━━━━━━━❏*
 *GAME:*      ${ff1}
-*ID GAME:*   ${ff2}
-*ID SERVER:* ${ff3}
-*JUMLAH:*    ${ff4}
+*ID GAME:*   
+*ID SERVER:* 
+*JUMLAH:*    
 *PAYMENT:*
 
 *>jika salah id bukan tanggung jawab admin dan tidak ada pengembalian saldo*
