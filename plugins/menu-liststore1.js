@@ -37,7 +37,7 @@ let pn = '20'
 let pp = '40'
 let pv = '50'
 let ppm = '70'
-let wibb = `${wktuwib}`
+let wktuwib = `${wibh}:${wibm}:${wibs}`
 
 let info = 
 `
@@ -75,7 +75,7 @@ description: 'PRICE: ' + ph + 'k (1 minggu)' },
 
 const listMessage = {
   text: info,
-  footer:  `Hᴀʟʟᴏ ${name}\n⌚ : ${wibb}\n📆 : ${week} ${date}`,
+  footer:  `Hᴀʟʟᴏ ${name}\n⌚ : ${wibh}\n📆 : ${week} ${date}`,
   title: '⬒ ───⟢⟨ *Mʏ Lɪsᴛ Sᴛᴏʀᴇ* ⟩⟣─── ⬒',
   buttonText: "Click Here!",
   sections
