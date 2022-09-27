@@ -2,9 +2,13 @@ import moment from 'moment-timezone'
 let handler = async (m, { conn, usedPrefix, text, args, command }) => {
 //-----PRICE
 let wibh = moment.tz('Asia/Jakarta').format('HH')
+ let wib = moment.tz('Asia/Jakarta').format('HH:mm:ss')
+    let wibh = moment.tz('Asia/Jakarta').format('HH')
     let wibm = moment.tz('Asia/Jakarta').format('mm')
     let wibs = moment.tz('Asia/Jakarta').format('ss')
-    let wktuwib = `${wibh} H ${wibm} M ${wibs} S`
+    let wit = moment.tz('Asia/Jayapura').format('HH:mm:ss')
+    let wita = moment.tz('Asia/Makassar').format('HH:mm:ss')
+    let wktuwib = `${wibh} H ${wibm} M ${wibs} S`   
     
     let d = new Date(new Date + 3600000)
     let locale = 'id'
@@ -37,7 +41,8 @@ let pn = '20'
 let pp = '40'
 let pv = '50'
 let ppm = '70'
-let wktuwib = `${wibh}:${wibm}:${wibs}`
+
+
 
 let info = 
 `
@@ -75,7 +80,7 @@ description: 'PRICE: ' + ph + 'k (1 minggu)' },
 
 const listMessage = {
   text: info,
-  footer:  `Hᴀʟʟᴏ ${name}\n⌚ : ${wibb}\n📆 : ${week} ${date}`,
+  footer:  `Hᴀʟʟᴏ ${name}\n⌚ : %wib\n📆 : ${week} ${date}`,
   title: '⬒ ───⟢⟨ *Mʏ Lɪsᴛ Sᴛᴏʀᴇ* ⟩⟣─── ⬒',
   buttonText: "Click Here!",
   sections
@@ -104,7 +109,7 @@ conn.reply(global.nomorown + '@s.whatsapp.net', m.quoted ? teks + m.quoted.text 
 
 handler.help = ['sewa', 'premium']
 handler.tags = ['main']
-handler.command = /^(kabul)$/i
+handler.command = /^(caca)$/i
 
 export default handler
 
