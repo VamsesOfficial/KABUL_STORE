@@ -37,7 +37,10 @@ let pv = '50'
 let ppm = '70'
 let wibb = `${wktuwib}`
 let info = 
-`🛒 *KABUL STORE || READY*
+`
+🛒 *KABUL STORE || READY*
+Dijamin 100% amanah *#STAYHALAL*
+Silahkan pilih list Store dibawah ini
 `
   /*    {title: "🔖 HEMAT", rowId: '.order *Paket:* HEMAT • Sewa', description: 'PRICE: ' + sh + 'k (1 minggu)' },
 	{title: "🔖 NORMAL", rowId: '.order *Paket:* NORMAL • Sewa', description: 'PRICE: ' + sn + 'k (1 bulan)' },
@@ -65,7 +68,7 @@ rows: [
         {title: "📱 • KOUTA AXIS 7 HARI", rowId: ".game15"},
         {title: "📱 • KOUTA AXIS BRONET 30 HARI", rowId: ".game16"},    
         {title: "📱 • KOUTA AXIS WEST CANNEL", rowId: ".game17"},
-	    {title: "📱 • KOUTA INDOSAT PURE MINI", rowId: ".game18"},
+	{title: "📱 • KOUTA INDOSAT PURE MINI", rowId: ".game18"},
         {title: "📱 • PULSA INDOSAT ", rowId: ".game19"},
         {title: "📱 • PULSA AXIS", rowId: ".game20"},    
         {title: "📱 • PULSA TRI", rowId: ".game21"},
@@ -78,9 +81,6 @@ rows: [
 const listMessage = {
   text: info,
   footer:  `Hai kak ${name}\n⌚ : ${wibb}\n📆 : ${week} ${date}`,
-  
-  Dijamin 100% amanah *#STAYHALAL*
-  Silahkan pilih list Store dibawah ini
   title: '⬒ ───⟢⟨ *Mʏ Lɪsᴛ Sᴛᴏʀᴇ* ⟩⟣─── ⬒',
   buttonText: "Click Here!",
   sections
@@ -130,3 +130,4 @@ function ucapan() {
   }
   return res
 }
+
