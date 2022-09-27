@@ -10,7 +10,7 @@ import { group } from 'console'
 let wibh = moment.tz('Asia/Jakarta').format('HH')
     let wibm = moment.tz('Asia/Jakarta').format('mm')
     let wibs = moment.tz('Asia/Jakarta').format('ss')
-    let wktuwib = `${wibh} H ${wibm} M ${wibs} S`
+    let wktuwib = `${wibh}:${wibm}:${wibs}`
     
     let d = new Date(new Date + 3600000)
     let locale = 'id'
