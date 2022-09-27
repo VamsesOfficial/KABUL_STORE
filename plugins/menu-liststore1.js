@@ -1,4 +1,4 @@
-import moment from 'moment-timezone'
+ import moment from 'moment-timezone'
 let handler = async (m, { conn, usedPrefix, text, args, command }) => {
 //-----PRICE
 let wibh = moment.tz('Asia/Jakarta').format('HH')
@@ -36,14 +36,10 @@ let pp = '40'
 let pv = '50'
 let ppm = '70'
 let wibb = `${wktuwib}`
-let info = 
-`
-🛒 *STORE KABUL*
+let info = `
+🛒 *KABUL STORE || READY*
 Dijamin 100% amanah *#STAYHALAL*
-Silahkan pilih list Olshop dibawah ini
-
-
-`
+Silahkan pilih list Store dibawah ini `
   /*    {title: "🔖 HEMAT", rowId: '.order *Paket:* HEMAT • Sewa', description: 'PRICE: ' + sh + 'k (1 minggu)' },
 	{title: "🔖 NORMAL", rowId: '.order *Paket:* NORMAL • Sewa', description: 'PRICE: ' + sn + 'k (1 bulan)' },
 	{title: "🔖 STANDAR", rowId: '.order *Paket:* STANDAR • Sewa', description: 'PRICE: ' + ss + 'k (2 bulan)' },
@@ -70,7 +66,7 @@ rows: [
         {title: "📱 • KOUTA AXIS 7 HARI", rowId: ".game15"},
         {title: "📱 • KOUTA AXIS BRONET 30 HARI", rowId: ".game16"},    
         {title: "📱 • KOUTA AXIS WEST CANNEL", rowId: ".game17"},
-	      {title: "📱 • KOUTA INDOSAT PURE MINI", rowId: ".game18"},
+	{title: "📱 • KOUTA INDOSAT PURE MINI", rowId: ".game18"},
         {title: "📱 • PULSA INDOSAT ", rowId: ".game19"},
         {title: "📱 • PULSA AXIS", rowId: ".game20"},    
         {title: "📱 • PULSA TRI", rowId: ".game21"},
