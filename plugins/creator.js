@@ -20,43 +20,21 @@ let handler  = async (m, { conn, command, args, usedPrefix, DevMode }) => {
 //------------ BIO
 let ppown = await conn.profilePictureUrl(nomorown + '@s.whatsapp.net', 'image').catch(_ => hwaifu[1]) 
 let teksbio = `${htki} *BIODATA* ${htka}
-${htjava} *💌 Nama* : Kabul
+${htjava} *💌 Nama* : KABUL
 ${htjava} *✉️ Nama RL* : HAMBA ALLAH
 ${htjava} *♂️ Gender* : Boys
 ${htjava} *🕋 Agama* : Islam
 ${htjava} *⏰ Tanggal lahir* : 21-12-2004
 ${htjava} *🎨 Umur* : 17
 ${htjava} *🧮 Kelas* : X1
-${htjava} *🧩 Hobby* : REBAHAN"
+${htjava} *🧩 Hobby* : REBAHAN "
 ${htjava} *💬 Sifat* : ASIK DAH KALAU DAH KENAL
 ${htjava} *🗺️ Tinggal* : Jawa,Barat, Sukabumi 
-${htjava} *❤️ Waifu* : -
+${htjava} *❤️ Waifu* : - 
 ${htjava} *📷 ɪɴsᴛᴀɢʀᴀᴍ* : ${sig}
 ${htjava} *🐈 ɢɪᴛʜᴜʙ:* ${sgh}
 •·––––––––––––––––––––––––––·•
 `
-//------------ BIO
-let ppown = await conn.profilePictureUrl(nomorown + '@s.whatsapp.net', 'image').catch(_ => hwaifu[1]) 
-let teksbio = `${htki} *BIODATA* ${htka}
-${htjava} *💌 Nama* : LISA AMELIA 
-${htjava} *✉️ Nama RL* : HAMBA ALLAH
-${htjava} *♂️ Gender* :  Girl 
-${htjava} *🕋 Agama* : Islam
-${htjava} *⏰ Tanggal lahir* : 27-02-2006
-${htjava} *🎨 Umur* : 16
-${htjava} *🧮 Kelas* : X1
-${htjava} *🧩 Hobby* : makan"
-${htjava} *💬 Sifat* : ASIK DAH KALAU DAH KENAL
-${htjava} *🗺️ Tinggal* : Jawa,Barat, Sukabumi 
-${htjava} *❤️ Waifu* : -
-${htjava} *📷 ɪɴsᴛᴀɢʀᴀᴍ* : ${sig}
-${htjava} *🐈 ɢɪᴛʜᴜʙ:* ${sgh}
-•·––––––––––––––––––––––––––·•
-
-
-`
-
-
   let teks = 'Pilih dibawah kak ! o(〃＾▽＾〃)o'
 const sections = [
    {
@@ -64,7 +42,7 @@ const sections = [
 	rows: [
 	    {title: "📱 • Nomor", rowId: ".owner nomor"},
 	{title: "🎨 • Biodata Kabul", rowId: ".owner bio"},
-	{title: "🎨 • Biodata Lisa", rowId: ".owner bio"},	
+{title: "🎨 • Biodata Lisa", rowId: ".owner bio"},
 	{title: "🌎 • Script", rowId: ".sc"},
 	]
     },{
@@ -120,9 +98,7 @@ const listMessage = {
     m.reply("Error\n\n\n" + err.stack)
   }
 }
-
 handler.help = ['owner', 'creaor']
 handler.tags = ['main', 'info']
 handler.command = /^(owner|creator)/i
-
 export default handler
