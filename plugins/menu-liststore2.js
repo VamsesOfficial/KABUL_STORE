@@ -117,7 +117,7 @@ conn.reply(global.nomorown + '@s.whatsapp.net', m.quoted ? teks + m.quoted.text 
 
 handler.help = ['sewa', 'premium']
 handler.tags = ['main']
-handler.command = /^(kobul|list|liststore|store)$/i
+handler.command = /^(tuley)$/i
 
 export default handler
 
