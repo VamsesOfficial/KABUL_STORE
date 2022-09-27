@@ -1,16 +1,20 @@
 let handler = async (m, { conn }) => {
-        //-----PRICE
-let ff1 = 
-let ff2 = 
-let ff3 = 
-	let info = `
+          //-----PRICE
+let ff1 = 'format'
+let ff2 = 'format'
+let ff3 = 'format'
+let ff4 = 'format'
+
+
+
+let info = `
 *┏━━❏FORMAT PEMBELIAN TOP UP GAME*
 *┃FORMAT SEMUA TOP UP GAME*
 *┗━━━━━━━━━━━━❏*
-*GAME:*
-*ID GAME:*
-*ID SERVER:* 
-*JUMLAH:*
+*GAME:*      ${ff1}
+*ID GAME:*   ${ff2}
+*ID SERVER:* ${ff3}
+*JUMLAH:*    ${ff4}
 *PAYMENT:*
 
 *>jika salah id bukan tanggung jawab admin dan tidak ada pengembalian saldo*
@@ -21,28 +25,27 @@ let ff3 =
 
 *👑KABUL STORE || READY👑* `
 const sections = [
-   {
-       {title: "payment dana", rowId: '.order *Top Up:* payment dana • DANA', description: 'PRICE: ' + ff1 + ', payment dana' },
-
-       {title: "payment ovo", rowId: '.order *Top Up:* payment ovo •  OVO', description: 'PRICE: ' + ff2 + ', payment ovo' },
-
-       {title: "payment qris", rowId: '.order *Top Up:* payment qris • QRIS', description: 'PRICE: ' + ff3 + ', paymet qris' },
-
-     ]      
-        
+       {
+   	title: `${htjava} list payment ✦-------`,
+     rows: [    
+       {title: "format game", rowId: '.order *Top Up:* format game • game', description: 'PRICE: ' + ff1 + ', format game' },
+       {title: "format game", rowId: '.order *Top Up:* format game •  game', description: 'PRICE: ' + ff2 + ', format game' },
+       {title: "format game", rowId: '.order *Top Up:* format game • game', description: 'PRICE: ' + ff3 + ', format game' },
+       {title: "format game", rowId: '.order *Top Up:* format game • game', description: 'PRICE: ' + ff4 + ', format game' },
+         ]
    },
-]
+]        
 const listMessage = {
   text: info,
   footer: botdate,
   mentions: await conn.parseMention(info),
-  title: wm,
-  buttonText: "Click Here!",
-  sections
+ title: wm,
+ buttonText: "Click Here!",
+ sections   
 }
 await conn.sendMessage(m.chat, listMessage, { quoted: m, mentions: await conn.parseMention(info), contextInfo:{ forwardingScore: 99999, isForwarded: true }})
 //conn.sendHydrated(m.chat, info, wm, null, sgc, "🌎 Group Official", null,null, [['Owner','.owner']], m)
 }
 handler.help = ['game24']
 handler.command = /^(game24)$/i
-	export default handler
+export default handler
