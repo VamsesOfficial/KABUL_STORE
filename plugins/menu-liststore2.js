@@ -48,8 +48,8 @@ let info =
 const sections = [{
 title: `⟥⟝⟢⟨ 👑KABUL STORE || READY👑 ⟩⟣⟞⟤`,
 rows: [
-{title: "💎 • Top Up FREE FIRE", rowId: ".game1i"},
-{title: "💎 • Top Up DOMINO QIU QIU", rowId: ".game2"},
+        {title: "💎 • Top Up FREE FIRE", rowId: ".game1i"},
+        {title: "💎 • Top Up DOMINO QIU QIU", rowId: ".game2"},
         {title: "💎 • Top Up ARENA OF VALOR(AOV)", rowId: ".game3"},
         {title: "💎 • Top Up POKER TEXAS", rowId: ".game4"},
         {title: "💎 • Top Up POINT BLANK ZEPETTO", rowId: ".game5"},
@@ -65,7 +65,7 @@ rows: [
         {title: "📱 • KOUTA AXIS 7 HARI", rowId: ".game15"},
         {title: "📱 • KOUTA AXIS BRONET 30 HARI", rowId: ".game16"},    
         {title: "📱 • KOUTA AXIS WEST CANNEL", rowId: ".game17"},
-	    {title: "📱 • KOUTA INDOSAT PURE MINI", rowId: ".game18"},
+	{title: "📱 • KOUTA INDOSAT PURE MINI", rowId: ".game18"},
         {title: "📱 • PULSA INDOSAT ", rowId: ".game19"},
         {title: "📱 • PULSA AXIS", rowId: ".game20"},    
         {title: "📱 • PULSA TRI", rowId: ".game21"},
@@ -87,7 +87,7 @@ description: 'PRICE: ' + ph + 'k (1 minggu)' },
 
 const listMessage = {
   text: info,
-  footer:  `Hᴀʟʟᴏ ${name}\n📆 : ${week} ${weton} ${date}\n⌚: ${wibb}`,
+  footer:  `Hᴀʟʟᴏ ${name}\n⌚: ${wibb}\n📆 : ${week} ${weton} ${date}`,
   title: '⬒ ───⟢⟨ *Mʏ Lɪsᴛ Sᴛᴏʀᴇ* ⟩⟣─── ⬒',
   buttonText: "Click Here!",
   sections
