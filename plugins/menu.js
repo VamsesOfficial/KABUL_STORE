@@ -24,7 +24,7 @@ const defaultMenu = {
 %m1 *T O D A Y*
 %m2 *%ucpn*
 %m2 *Days:* %week %weton
-%m2 *⌚:* %wib
+%m2 *⌚:* %wib WIB
 %m2 *📆:* %date
 %m2 *Islamic Date:* %dateIslamic
 %m3 
@@ -284,7 +284,7 @@ let tek = `*${ucapan()} ${conn.getName(m.sender)}*
 ┌–––––––––––––––––✥
 ┊   「 *S t a t u s  I n f o 比* 」
 ┊↬✗• *⌚:* ${mpt}
-┊↬✗• *⌚:* ${moment.tz('Asia/Jakarta').format('HH')} H  ${moment.tz('Asia/Jakarta').format('mm')} M  ${moment.tz('Asia/Jakarta').format('ss')} S
+┊↬✗• *⌚:* ${moment.tz('Asia/Jakarta').format('HH')}:${moment.tz('Asia/Jakarta').format('mm')}:${moment.tz('Asia/Jakarta').format('ss')} WIB
 ┊↬✗• *ᴜsᴇʀs:* ${Object.keys(global.db.data.users).length}
 ┊↬✗• *ʟɪᴍɪᴛ:* ${usrs.limit}
 ┊↬✗• *ʟᴇᴠᴇʟ:* ${usrs.level}
@@ -312,7 +312,7 @@ const listMessage = {
     let wibs = moment.tz('Asia/Jakarta').format('ss')
     let wit = moment.tz('Asia/Jayapura').format('HH:mm:ss')
     let wita = moment.tz('Asia/Makassar').format('HH:mm:ss')
-    let wktuwib = `${wibh} H ${wibm} M ${wibs} S`
+    let wktuwib = `${wibh}:${wibm}:${wibs} WIB`
  
  let mode = global.opts['self'] ? 'Private' : 'Publik'
     let _package = JSON.parse(await promises.readFile(join(__dirname, '../package.json')).catch(_ => ({}))) || {}
