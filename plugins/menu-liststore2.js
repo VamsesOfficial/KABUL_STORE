@@ -4,7 +4,7 @@ let handler = async (m, { conn, usedPrefix, text, args, command }) => {
 let wibh = moment.tz('Asia/Jakarta').format('HH')
     let wibm = moment.tz('Asia/Jakarta').format('mm')
     let wibs = moment.tz('Asia/Jakarta').format('ss')
-    let wktuwib = `${wibh} H ${wibm} M ${wibs} S`
+    let wktuwib = `${wibh}:${wibm}:${wibs}WIB`
     
     let d = new Date(new Date + 3600000)
     let locale = 'id'
@@ -49,7 +49,7 @@ const sections = [{
 title: `⟥⟝⟢⟨ 👑KABUL STORE || READY👑 ⟩⟣⟞⟤`,
 rows: [
         {title: "💎 • Top Up FREE FIRE", rowId: ".game1i"},
-	{title: "💎 • Top Up FREE FIRE", rowId: ".game2"},
+	{title: "💎 • Top Up FREE FIRE", rowId: ".game1"},
         {title: "💎 • Top Up DOMINO QIU QIU", rowId: ".game2"},
         {title: "💎 • Top Up ARENA OF VALOR(AOV)", rowId: ".game3"},
         {title: "💎 • Top Up POKER TEXAS", rowId: ".game4"},
