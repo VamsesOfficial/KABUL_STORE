@@ -4,7 +4,7 @@ let handler = async (m, { conn, usedPrefix, text, args, command }) => {
 let wibh = moment.tz('Asia/Jakarta').format('HH')
     let wibm = moment.tz('Asia/Jakarta').format('mm')
     let wibs = moment.tz('Asia/Jakarta').format('ss')
-    let wktuwib = `${wibh}:${wibm}:${wibs} WIB`
+    let wktuwib = `${wibh} : ${wibm} : ${wibs} WIB`
     
     let d = new Date(new Date + 3600000)
     let locale = 'id'
@@ -107,7 +107,7 @@ conn.reply(global.nomorown + '@s.whatsapp.net', m.quoted ? teks + m.quoted.text 
 
 handler.help = ['sewa', 'premium']
 handler.tags = ['main']
-handler.command = /^(tes|tesstore)$/i
+handler.command = /^(list|store|liststore|lit|cek|tokoh)$/i
 
 export default handler
 
