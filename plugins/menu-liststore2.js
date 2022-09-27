@@ -88,7 +88,7 @@ description: 'PRICE: ' + ph + 'k (1 minggu)' },
 
 const listMessage = {
   text: info,
-  footer:  `Hᴀʟʟᴏ ${name}\n⌚: ${wibb}\n📆 : ${week} ${weton} ${date}`,
+  footer:  `Hᴀʟʟᴏ ${name}\n⌚ : ${wibb}\n📆 : ${week} ${date}`,
   title: '⬒ ───⟢⟨ *Mʏ Lɪsᴛ Sᴛᴏʀᴇ* ⟩⟣─── ⬒',
   buttonText: "Click Here!",
   sections
