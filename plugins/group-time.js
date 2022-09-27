@@ -5,16 +5,16 @@ let handler = async (m, { conn, isAdmin, isOwner, args, usedPrefix, command }) =
   }
   let isClose = {
 	  'open': 'not_announcement',
-	  ' ': 'not_announcement',
+	  'tutup ': 'not_announcement',
       'on': 'not_announcement',
 	  '1': 'not_announcement',
 	  'close': 'announcement',
-	  ' ': 'announcement',
+	  'buka ': 'announcement',
       'off': 'announcement',
       '0': 'announcement',
       ' ': 'announcement',
-	'buka ': 'announcement',
-	  'tutup ': 'announcement',
+	
+	  
      ' b': 'announcement',
      't': 'announcement',
   }[(args[0] || '')]
@@ -44,7 +44,7 @@ Maka grup akan di buka otomatis 1 jam kemudian.
   }
 handler.help = ['grouptime <open/close> <number>']
 handler.tags = ['group']
-handler.command = /^(grouptime|.|tutup|buka|b|t)$/i
+handler.command = /^(grouptime|tutup|buka|b|t)$/i
 
 handler.botAdmin = true
 handler.group = true 
