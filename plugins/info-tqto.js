@@ -35,9 +35,9 @@ let tqto = `*▸ - - - —「 BIG THANKS TO 」— - - - ◂*
 *❉ Papah-Chan:*
 
 
-*⫹⫺ KABUL STORE || READY* 
+*⫹⫺ KABUL STORE || READY* `
 
-`
+
 conn.sendButtonDoc(m.chat, tqto, wm,'Thanks','MENU','Owner','Bilek', m, { contextInfo: { externalAdReply: { showAdAttribution: true,
     mediaUrl: "https://Instagram.com/kabull_store",
     mediaType: "VIDEO",
