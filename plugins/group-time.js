@@ -35,7 +35,7 @@ Maka grup akan di buka otomatis 1 jam kemudian.
   if (args[1]) {
 	 setTimeout(async () => {
             await conn.groupSettingUpdate(m.chat, `${isClose == 'announcement' ? 'not_announcement' : 'announcement'}`).then(async _=>{
-		    conn.reply(m.chat, `Grup telah di ${isClose == 'not_announcement' ? 'tutup, Mengubah setelan grup untuk mengizinkan hanya admin yang  dapat mengirim pesan ke grup ini pesan' : 'buka Mengubah setelan grup untuk mengizinkan agar semua peserta dapat mengirim pesan ke grup ini'}!`)
+		    conn.reply(m.chat, `Grup telah di ${isClose == 'not_announcement' ? 'tutup, Mengubah setelan grup untuk mengizinkan hanya admin yang  dapat mengirim pesan ke grup ini pesan' : 'buka, Mengubah setelan grup untuk mengizinkan agar semua peserta dapat mengirim pesan ke grup ini'}!`)
 	    })
         }, timeoutset)
   }
