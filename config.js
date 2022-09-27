@@ -112,8 +112,8 @@ global.APIKeys = { // APIKey Here
 global.wm = '                「 KABUL STORE 」' //Main Watermark
 global.wm2 = '꒷︶꒷꒥꒷ ‧₊˚ ꒰ฅ˘KABUL STORE ˘ฅ ꒱ ‧₊˚꒷︶꒷꒥꒷'
 global.wm3 = '⫹⫺ KABUL STORE '
-global.botdate = `⌚: ${wktuwib}\n📆: ${week} ${date}`
-global.bottime = `T I M E : ${wktuwib}`
+global.botdate = `⌚: ${wktuwibb}\n📆: ${week} ${date}`
+global.bottime = `⌚: ${wktuwibb}`
 global.titlebot = `⫹⫺ WhatsApp Bot | By KABUL STORE`
 global.author = '                「 KABUL STORE  あ」'
 
