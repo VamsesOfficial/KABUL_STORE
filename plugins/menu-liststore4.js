@@ -80,7 +80,7 @@ const listMessage = {
   footer:  `Hai kak ${name}\n⌚ : ${wibb}\n📆 : ${week} ${date}`,
   
   Dijamin 100% amanah *#STAYHALAL*
-  Silahkan pilih list Olshop dibawah ini
+  Silahkan pilih list Store dibawah ini
   title: '⬒ ───⟢⟨ *Mʏ Lɪsᴛ Sᴛᴏʀᴇ* ⟩⟣─── ⬒',
   buttonText: "Click Here!",
   sections
