@@ -10,7 +10,7 @@ import { group } from 'console'
 let wibh = moment.tz('Asia/Jakarta').format('HH')
     let wibm = moment.tz('Asia/Jakarta').format('mm')
     let wibs = moment.tz('Asia/Jakarta').format('ss')
-    let wktuwib = `${wibb}WIB`
+    let wktuwib = `${wibh}:${wibm}:${wibs}WIB`
     
     let d = new Date(new Date + 3600000)
     let locale = 'id'
@@ -112,8 +112,8 @@ global.APIKeys = { // APIKey Here
 global.wm = '                「 KABUL STORE 」' //Main Watermark
 global.wm2 = '꒷︶꒷꒥꒷ ‧₊˚ ꒰ฅ˘KABUL STORE ˘ฅ ꒱ ‧₊˚꒷︶꒷꒥꒷'
 global.wm3 = '⫹⫺ KABUL STORE '
-global.botdate = `⌚: ${wktuwib}\n📆: ${week} ${date}`
-global.bottime = `⌚: ${wktuwib}`
+global.botdate = `⌚: ${wibb}\n📆: ${week} ${date}`
+global.bottime = `⌚: ${wibb}`
 global.titlebot = `⫹⫺ WhatsApp Bot | By KABUL STORE`
 global.author = '                「 KABUL STORE  あ」'
 
