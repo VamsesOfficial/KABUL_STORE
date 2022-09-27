@@ -24,7 +24,7 @@ const defaultMenu = {
 %m1 *T O D A Y*
 %m2 *%ucpn*
 %m2 *Days:* %week %weton
-%m2 *⌚:* %wib WIB
+%m2 *⌚:* %wib
 %m2 *📆:* %date
 %m2 *Islamic Date:* %dateIslamic
 %m3 
