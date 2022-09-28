@@ -1,3 +1,4 @@
+
 import './config.js'
 
 import { createRequire } from "module" // Bring in the ability to create the 'require' method
@@ -83,7 +84,6 @@ global.loadDatabase = async function loadDatabase() {
   global.db.chain = chain(global.db.data)
 }
 loadDatabase()
-
 global.authFile = `${opts._[0] || 'session'}.data.json`
 const { state, saveState } = useSingleFileAuthState(global.authFile)
 
@@ -158,10 +158,30 @@ global.reloadHandler = async function (restatConn) {
     conn.ev.off('connection.update', conn.connectionUpdate)
     conn.ev.off('creds.update', conn.credsUpdate)
   }
+  
+let welc = `
+❖━━━[ *WELCOME* ]━━━❖
+┏––––––━━━━━━━━•
+│☘︎ @subject
+┣━━━━━━━━┅┅┅
+│( 👋 Hallo @user
+├[ *ɪɴᴛʀᴏ* ]—
+│ *ɴᴀᴍᴀ:* 
+│ *ᴜᴍᴜʀ:* 
+│ *ɢᴇɴᴅᴇʀ:*
+┗–––━━┅┅┅
 
-  conn.welcome = '*❖━━━━━[WELCOME]━━━━━❖*\n\n┏––––––━━━━━━━━•\n│@subject\n┣━━━━━━━━┅┅┅\n*Hallo ka* @user\n├[ *ɪɴᴛʀᴏ* ]—\n│ *ɴᴀᴍᴀ:* \n│ *ᴜᴍᴜʀ:* \n│ *ɢᴇɴᴅᴇʀ:* \n--––-––┅┅ *ᴅᴇsᴄʀɪᴘᴛɪᴏɴ* ┅┅–––---–\n@desc'
-  conn.bye = '*❖━━━━━━[GOOD BYE]━━━━━━❖*\n*𝚂𝚊𝚢𝚘𝚗𝚊𝚛𝚊𝚊 kak @user* 👋😃'
-  conn.spromote = '@user sekarang admin! '
+–––┅┅ *ᴅᴇsᴄʀɪᴘᴛɪᴏɴ* ┅┅––––––
+@desc
+
+Script My Bot : https://youtube.com/channel/UCjoPsysjCn2Qa0dRalUb2mg`
+let lef = 
+`❖━━━[ *SEEYOU* ]━━━❖
+𝚂𝚊𝚢𝚘𝚗𝚊𝚛𝚊𝚊 *@user* 👋😃`
+
+  conn.welcome = welc
+  conn.bye = lef
+  conn.spromote = '@user sekarang admin!'
   conn.sdemote = '@user sekarang bukan admin!'
   conn.sDesc = 'Deskripsi telah diubah ke \n@desc'
   conn.sSubject = 'Judul grup telah diubah ke \n@subject'
@@ -274,3 +294,8 @@ async function _quickTest() {
 _quickTest()
   .then(() => conn.logger.info('☑️ Quick Test Done'))
   .catch(console.error)
+
+  
+
+
+  
