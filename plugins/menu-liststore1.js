@@ -73,6 +73,7 @@ rows: [
         {title: "📱 • PULSA TELKOMSEL  ", rowId: ".game22"},
         {title: "💲 •  PAYMENT", rowId: ".game23"},
         {title: "🎮 • FORMAT SEMUA TOP UP GAME  ", rowId: ".game24"},
+	{title: "🎮 • FORMAT SEMUA KOUTA  ", rowId: ".game25"},
 ]},
 ]
 
