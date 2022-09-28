@@ -5,13 +5,10 @@ let handler = async (m, { conn, isAdmin, isOwner, args, usedPrefix, command }) =
   }
   let isClose = {
 	  'open': 'not_announcement',
-	  'buka': 'not_announcement',
       'b': 'not_announcement',
-	  '1': 'not_announcement',
-	  'close': 'announcement',
-	  'tutup': 'announcement',
-      't': 'announcement',
-      '0': 'announcement',
+	't': 'announcement',  
+      
+      
   }[(args[0] || '')]
   if (isClose === undefined) {
 	  let caption = `
