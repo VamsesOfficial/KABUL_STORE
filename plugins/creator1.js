@@ -145,5 +145,5 @@ await conn.sendMessage(m.chat, { contacts: { displayName: wm, contacts: [{ vcard
 
 handler.help = ['owner', 'creator']
 handler.tags = ['main', 'info']
-handler.command = /^(owner|creator|zyko)/i
+handler.command = /^(tesbro)/i
 export default handler
