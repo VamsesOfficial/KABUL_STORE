@@ -158,7 +158,8 @@ global.reloadHandler = async function (restatConn) {
     conn.ev.off('connection.update', conn.connectionUpdate)
     conn.ev.off('creds.update', conn.credsUpdate)
   }
-  conn.welcome = '*❖━━━━━━[WELCOME]━━━━━━❖*\n\n┏––––––━━━━━━━━•\n│☘︎ @subject\n┣━━━━━━━━┅┅┅\n│( 👋 Hallo @user)\n├[ *ɪɴᴛʀᴏ* ]—\n│ *ɴᴀᴍᴀ:* \n│ *ᴜᴍᴜʀ:* \n│ *ɢᴇɴᴅᴇʀ:*\n┗––––––━━┅┅┅\n\n––––––┅┅ *
+
+  conn.welcome = '*❖━━━━[WELCOME]━━━━❖*\n\n┏––––––━━━━━━━━•\n│@subject\n┣━━━━━━━━┅┅┅\n*Hallo* @user Welcome 👑KABUL STORE || READY👑 Jangan Lupa Baca Deskripsi Group Sebelum Bertindak\nUntuk Melihat Semua Pricelist Pembayaran Ketik.list Atau .liststore Semoga Betah Di Store Kami🙏\n--––-––┅┅ *ᴅᴇsᴄʀɪᴘᴛɪᴏɴ* ┅┅–––---–\n@desc'
   conn.bye = '*❖━━━━━━[GOOD BYE]━━━━━━❖*\n*𝚂𝚊𝚢𝚘𝚗𝚊𝚛𝚊𝚊 kak @user* 👋😃'
   conn.spromote = '@user sekarang admin! '
   conn.sdemote = '@user sekarang bukan admin!'
