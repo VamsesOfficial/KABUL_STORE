@@ -174,9 +174,9 @@ let welc = `
 –––┅┅ *ᴅᴇsᴄʀɪᴘᴛɪᴏɴ* ┅┅––––––
 @desc
 
-Script My Bot : https://youtube.com/channel/UCjoPsysjCn2Qa0dRalUb2mg`
+Script My Bot : https://youtube.com/channel/UCw_cGRQ09dexTXTJtve3NHg`
 let lef = 
-`❖━━━[ *SEEYOU* ]━━━❖
+`❖━━━[ *GOOD BYE* ]━━━❖
 𝚂𝚊𝚢𝚘𝚗𝚊𝚛𝚊𝚊 *@user* 👋😃`
 
   conn.welcome = welc
