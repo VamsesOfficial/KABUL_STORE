@@ -1,7 +1,7 @@
 import fs from 'fs'
 import fetch from 'node-fetch'
 let handler  = async (m, { conn, usedPrefix: _p }) => {
-    let info = fs.readFileSync(',AUD-20220920-WA0041.mp3')
+    let info = fs.readFileSync('./mp3/AUD-20220920-WA0041.mp3')
 
 let td = 'application/vnd.openxmlformats-officedocument.wordprocessingml.document'
 
