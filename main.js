@@ -176,7 +176,7 @@ let welc = `
 
 `
 let lef = 
-`❖━━━━━━[ *GOOD BYE* ]━━━━━━❖
+`❖━━━━━[ *GOOD BYE* ]━━━━━❖
 𝚂𝚊𝚢𝚘𝚗𝚊𝚛𝚊𝚊 *@user* 👋😃`
 
   conn.welcome = welc
