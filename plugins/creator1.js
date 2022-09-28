@@ -135,7 +135,7 @@ await conn.sendMessage(m.chat, { contacts: { displayName: wm, contacts: [{ vcard
           break
 
         default:
-          return conn.sendButton( m.chat, caption, wm, null, [`⋮☰ Menu`, `.menu`LIST`,.list,``], m)
+          return conn.sendButton( m.chat, caption, wm, null, [`⋮☰ Menu`, `.menu`'LIST`,.list,`], m)
       }
     }
   } catch (err) {
