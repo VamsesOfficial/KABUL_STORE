@@ -13,7 +13,7 @@ if (!args[0]) throw `Use example ${usedPrefix}${command} https://www.tiktok.com/
 ┇⟣⟪ ${nickname} ⟫⟢
 ▥ ━┉┄┄┈┈ ▢
 
-┇⟐⟞⟚⟝⟮ *Dᴇsᴄʀɪᴘᴛɪᴏɴ:* ⟯⟞⟚⟝⟐
+⟐⟞⟚⟝⟮ *Dᴇsᴄʀɪᴘᴛɪᴏɴ:* ⟯⟞⟚⟝⟐
 ▥ ━┉┄┄┈┈ ▢
 ${description}
 ◈ ━┉┈┄┈┈ ►
