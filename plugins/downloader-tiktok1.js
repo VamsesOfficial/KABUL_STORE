@@ -23,6 +23,6 @@ ${description}
 }
 handler.help = ['tiktok'].map(v => v + ' <url>')
 handler.tags = ['downloader']
-handler.command = /^(tiktok|tt|ttdl|tiktokdl|k|t)$/i
+handler.command = /^(tiktok|k|t)$/i
 
 export default handler
