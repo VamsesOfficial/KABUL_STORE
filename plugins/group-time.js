@@ -6,11 +6,11 @@ let handler = async (m, { conn, isAdmin, isOwner, args, usedPrefix, command }) =
   let isClose = {
 	  'open': 'not_announcement',
 	  'buka': 'not_announcement',
-      'on': 'not_announcement',
+      't': 'not_announcement',
 	  '1': 'not_announcement',
 	  'close': 'announcement',
 	  'tutup': 'announcement',
-      'off': 'announcement',
+      'b': 'announcement',
       '0': 'announcement',
   }[(args[0] || '')]
   if (isClose === undefined) {
