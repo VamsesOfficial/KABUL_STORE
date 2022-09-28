@@ -48,5 +48,5 @@ const listMessage = {
   }
    handler.help = ['liststore']
   handler.tags = ['nocategoty']
-  handler.command = /^(edan)$/i
+  handler.command = /^(kabul)$/i
     export default handler
