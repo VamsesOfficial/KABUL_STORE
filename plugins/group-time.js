@@ -24,7 +24,7 @@ Maka grup akan di buka otomatis 1 jam kemudian.
   }
   let timeoutset = 86400000 * args[1] / 24
   await conn.groupSettingUpdate(m.chat, isClose).then(async _=> {
-	  m.reply(`Group berhasil di${isClose == 'announcement' ? 'tutup' : 'buka'} `$(name)',oleh +62 81386943282${args[1] ? `, grup akan dibuka setelah *${clockString(timeoutset)}*` : ''}`)
+	  m.reply(`Group berhasil di${isClose == 'announcement' ? 'tutup' : 'buka'} oleh +62 81386943282${args[1] ? `, grup akan dibuka setelah *${clockString(timeoutset)}*` : ''}`)
   })
   if (args[1]) {
 	 setTimeout(async () => {
@@ -34,9 +34,9 @@ Maka grup akan di buka otomatis 1 jam kemudian.
         }, timeoutset)
   }
   }
-handler.help = ['grouptime <open/close> <number>']
+handler.help = ['grouptime <b/t> <open/close> <number>']
 handler.tags = ['group']
-handler.command = /^(grouptime|gctime)$/i
+handler.command = /^(grouptime|gctime|b|t)$/i
 
 handler.botAdmin = true
 handler.group = true 
