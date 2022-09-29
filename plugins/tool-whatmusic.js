@@ -26,4 +26,3 @@ handler.tags = ['tools']
 handler.command = /^(whatmusic)$/i
 
 export default handler
-
