@@ -25,21 +25,21 @@ let rules = `➯ *Tɪᴅᴀᴋ Sᴘᴀᴍ Bᴏᴛ*
 ⟬Lu Di Chet Ayang Lu Aja Lama Blesny⟭
 ➯ *Maksa Masukin Gc Lu*
 ⟬Minimal Donasi Lah Cuy Biar Cuan Gw⟭
-➯ *Chet Aneh² Di Cwe Gw, Gw Block Lu Hdup²*
+➯ *Cʜᴇᴛ Bᴏᴛ ᴀɴᴇʜ² ɢᴜᴀ ᴛɪᴅᴜʀɪɴ Lᴏʜ ʜɪᴅᴜᴘ²*
 ⟬Mɪɴɪᴍᴀʟ Nɢᴏᴛᴀᴋ⟭
 ❏┳━━◩
 ┍┛
 ┆⟥⟤ ➠ (${global.bottime})
 └─┈⟅`
 let nth = `☰⟥⟝⟞⟝❨ *Rᴜʟᴇs Mʏ Bᴏᴛ* ❩⟞⟝⟞⟤☰`
-conn.send3ButtonImg(m.chat, `${pickRandom(flaaa2)}` + `${ucapan()} ` + `${name}`, nth, rules, 'Menu', '.menu', 'Owner', '.owner', 'Credit', '.credit', m, { contextInfo: { externalAdReply: { showAdAttribution: true,
-    mediaUrl: 'https://wa.me/p/5489299044451325/6281361281833',
+conn.send3ButtonImg(m.chat, `${pickRandom(flaaa2)}` + `${ucapan()} ` + `${name}`, nth, rules, 'Menu', '.menu', 'Owner', '.owner', 'StoreBot', '.storebot', m, { contextInfo: { externalAdReply: { showAdAttribution: true,
+    mediaUrl: 'wa.me/6283193831650',
     mediaType: 2, 
     description: sgc,
     title: "Sᴇᴡᴀ Cᴇᴋ Dɪsɪɴɪ Cᴜʏ!!!",
     body: wm,
-    thumbnail: fs.readFileSync('./media/qr.png'),
-    sourceUrl: 'https://wa.me/p/5489299044451325/6281361281833',
+    thumbnail: fs.readFileSync('./thumbnail.jpg'),
+    sourceUrl: 'wa.me/6283193831650',
      }}
   })
 }
@@ -70,5 +70,6 @@ function ucapan() {
 function pickRandom(list) {
   return list[Math.floor(Math.random() * list.length)]
 }
+
 const more = String.fromCharCode(8206)
 const readMore = more.repeat(4001)
