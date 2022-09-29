@@ -43,5 +43,5 @@ let handler = async (m, { text, usedPrefix, command }) => {
 handler.help = ['artinama'].map(v => v + ' [nama]')
 handler.tags = ['kerang']
 handler.command =/^(kabul)$/i
+export default handler
 
-module.exports = handler
