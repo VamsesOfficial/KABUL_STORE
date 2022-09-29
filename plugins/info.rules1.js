@@ -11,7 +11,7 @@ let flaaa2 = [
 'https://flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=amped-logo&doScale=true&scaleWidth=800&scaleHeight=500&text=',
 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextType=1&fillTextPattern=Warning!&text=',
 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextType=1&fillTextPattern=Warning!&fillColor1Color=%23f2aa4c&fillColor2Color=%23f2aa4c&fillColor3Color=%23f2aa4c&fillColor4Color=%23f2aa4c&fillColor5Color=%23f2aa4c&fillColor6Color=%23f2aa4c&fillColor7Color=%23f2aa4c&fillColor8Color=%23f2aa4c&fillColor9Color=%23f2aa4c&fillColor10Color=%23f2aa4c&fillOutlineColor=%23f2aa4c&fillOutline2Color=%23f2aa4c&backgroundColor=%23101820&text=']
-let rules = `➯ *PERATURAN GROUP*
+let rules = `➯ *Kabul store ||ready*
 1. NO PROMOSI❌
 2. NO CULIK MEMBER❌
 3. KIRIM BUKTI TF PALSU❌
@@ -25,13 +25,13 @@ let rules = `➯ *PERATURAN GROUP*
 ┆⟥⟤ ➠ (${global.bottime})
 └─┈⟅`
 let nth = `☰⟥⟝⟞⟝❨ *PERATURAN GROUP* ❩⟞⟝⟞⟤☰`
-conn.send3ButtonImg(m.chat, `${pickRandom(flaaa2)}` + `${ucapan()} ` + `${name}`, nth, rules, 'LIST', '.list', 'STORE', '.store', m, { contextInfo: { externalAdReply: { showAdAttribution: true,
+conn.send3ButtonImg(m.chat, `${pickRandom(flaaa2)}` + `${ucapan()} ` + `${name}`, nth, rules, 'LIST', '.list', 'STORE', '.store', 'LISTSTORE', '.liststore', m, { contextInfo: { externalAdReply: { showAdAttribution: true,
     mediaUrl: 'wa.me/6281386943282',
     mediaType: 2, 
     description: sgc,
     title: "Sᴇᴡᴀ Cᴇᴋ Dɪsɪɴɪ Cᴜʏ!!!",
     body: wm,
-    thumbnail: fs.readFileSync('./Percobaan/thumbnail.jpg'),
+    thumbnail: fs.readFileSync('./thumbnail.jpg'),
     sourceUrl: 'wa.me/6285715382503',
      }}
   })
