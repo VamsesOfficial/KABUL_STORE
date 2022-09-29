@@ -1,6 +1,17 @@
-let fetch = require('node-fetch')
-let handler = async (m, { conn }) => conn.send3ButtonImg(m.chat, await (await fetch(fla+ 'Rules')).buffer(),`
-*Rules Bot*:
+import fs from 'fs'
+import moment from 'moment-timezone'
+let handler = async (m, { conn, usedPrefix, __dirname, text, command }) => {
+let tag = `@${m.sender.replace(/@.+/, '')}`
+  let mentionedJid = [m.sender]
+let name = conn.getName(m.sender)
+let esce = `text nya `
+let flaaa2 = [
+'https://flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=water-logo&script=water-logo&fontsize=90&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextColor=%23000&shadowGlowColor=%23000&backgroundColor=%23000&text=',
+'https://flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=crafts-logo&fontsize=90&doScale=true&scaleWidth=800&scaleHeight=500&text=',
+'https://flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=amped-logo&doScale=true&scaleWidth=800&scaleHeight=500&text=',
+'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextType=1&fillTextPattern=Warning!&text=',
+'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextType=1&fillTextPattern=Warning!&fillColor1Color=%23f2aa4c&fillColor2Color=%23f2aa4c&fillColor3Color=%23f2aa4c&fillColor4Color=%23f2aa4c&fillColor5Color=%23f2aa4c&fillColor6Color=%23f2aa4c&fillColor7Color=%23f2aa4c&fillColor8Color=%23f2aa4c&fillColor9Color=%23f2aa4c&fillColor10Color=%23f2aa4c&fillOutlineColor=%23f2aa4c&fillOutline2Color=%23f2aa4c&backgroundColor=%23101820&text=']
+let rules = `➯ *PERATURAN*
 1. NO PROMOSI❌
 2. NO CULIK MEMBER❌
 3. KIRIM BUKTI TF PALSU❌
@@ -9,24 +20,49 @@ let handler = async (m, { conn }) => conn.send3ButtonImg(m.chat, await (await fe
 6. CULIK MEMBER LAPOR ADMIN❌
 7. DILARANG MAEN BOT❌
 8. *SEKIAN TERIMAKASIH❌*
-`.trim(), 'Kebijakan ©2022 By KABUL STORE', '⋮☰ LIST', '.list', 'STORE', '..store', 'Donasi', '.donasi', m, {
-    quoted: m,
-    contextInfo: {
-        externalAdReply: {
-            title: 'Harap patuhin peraturan tersebut yah kak >~<',
-            body: `${pickRandom(['udah makan belum kak?', 'udh mandi belum kak?', 'Semangat ya kak!', 'Jangan begadang mulu ya!', 'jangan spam ya kak!', 'Jangan lupa donasi yak kak! >.<', 'Jaga kesehatan yaw kak!', 'Jangan lupa makan!', 'Jangan lupa istirahat yak! >.<', 'I Love you kak >.< 💗✨', 'Pr nya udh belum kak?', 'Jangan kebanyakan main hp yk! nanti sakit :‹'])}`,
-            description: `${pickRandom(['udah makan belum kak?', 'udh mandi belum kak?', 'Semangat ya kak!', 'Jangan begadang mulu ya!', 'jangan spam ya kak!', 'Jangan lupa donasi yak kak! >.<', 'Jaga kesehatan yaw kak!', 'Jangan lupa makan!', 'Jangan lupa istirahat yak! >.<', 'I Love you kak >.< 💗✨', 'Pr nya udh belum kak?', 'Jangan kebanyakan main hp yk! nanti sakit :‹'])}`,
-            mediaType: 2,
-          thumbnail: await (await fetch('https://telegra.ph/file/b412e4dd6391692d975d3.jpg')).buffer(),
-         mediaUrl: `https://www.facebook.com/Inunime-107082474576049/`
-        }
-     }
-    })
+❏┳━━◩
+┍┛
+┆⟥⟤ ➠ (${global.bottime})
+└─┈⟅`
+let nth = `☰⟥⟝⟞⟝❨ *Rᴜʟᴇs Mʏ Bᴏᴛ* ❩⟞⟝⟞⟤☰`
+conn.send3ButtonImg(m.chat, `${pickRandom(flaaa2)}` + `${ucapan()} ` + `${name}`, nth, rules, 'LIST', '.list', '.STORE', '.store', m, { contextInfo: { externalAdReply: { showAdAttribution: true,
+    mediaUrl: 'wa.me/6281386943282',
+    mediaType: 2, 
+    description: sgc,
+    title: "Sᴇᴡᴀ Cᴇᴋ Dɪsɪɴɪ Cᴜʏ!!!",
+    body: wm,
+    thumbnail: fs.readFileSync('./thumbnail.jpg'),
+    sourceUrl: 'wa.me/6285715382503',
+     }}
+  })
+}
 handler.help = ['rules']
 handler.tags = ['info']
+handler.command = /^(peraturan group|peraturan|aturan)$/i
 
-handler.command = /^(snk|syarat|peraturan|rules)$/i
+export default handler
 
-module.exports = handler
+function ucapan() {
+  const time = moment.tz('Asia/Jakarta').format('HH')
+  let res = "Selamat Malam"
+  if (time >= 4) {
+    res = "Selamat Pagi"
+  }
+  if (time >= 10) {
+    res = "Selamat Siang"
+  }
+  if (time >= 15) {
+    res = "Selamat Sore"
+  }
+  if (time >= 18) {
+    res = "Selamat Malam"
+  }
+  return res
+}
 
-let wm = global.botwm
+function pickRandom(list) {
+  return list[Math.floor(Math.random() * list.length)]
+}
+
+const more = String.fromCharCode(8206)
+const readMore = more.repeat(4001)
