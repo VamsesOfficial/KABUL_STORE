@@ -18,5 +18,5 @@ let handler = async (m, { conn, usedPrefix, command }) => {
 }
 handler.help = ['liststore']
   handler.tags = ['nocategoty']
-  handler.command = /^(kabul)$/i
+  handler.command = /^(coba)$/i
   export default handler
