@@ -10,16 +10,39 @@ let handler = async (m, { conn, usedPrefix, command }) => {
 		title: '⬒ ───⟢⟨ *Mʏ Lɪsᴛ Sᴛᴏʀᴇ* ⟩⟣─── ⬒',
 		buttonText: 'LIST STORE',
 		description: 'Berikut daftar Menu yg Ada di List store...',
+		
 		footerText: wm
 	}
-	if (msg[0]) return await conn.sendListM(m.chat, button, row, m)
+	default:
+	if (!/[01]/.test(command)) return await conn.sendMessage(m.chat, listMessage)
+  throw false
 	else throw `\nbelum ada Menu yg Ada di list store.\nketik *${usedPrefix + command} <teks>* untuk menambahkan daftar menu.\n`
 }
-handler.help = ['list']
-handler.tags = ['store']
-handler.command = /^(coba)$/i
+handler.help = ['sewa', 'premium']
+handler.tags = ['main']
+handler.command = /^(list|store|liststore|lit|cek|tokoh)$/i
 
 export default handler
+
+function ucapan() {
+  const time = moment.tz('Asia/Jakarta').format('HH')
+  let res = "Sudah Dini Hari Kok Belum Tidur Kak? 🥱"
+  if (time >= 4) {
+    res = "Pagi Lord 🌄"
+  }
+  if (time >= 10) {
+    res = "Selamat Siang Kak ☀️"
+  }
+  if (time >= 15) {
+    res = "Selamat Sore Kak 🌇"
+  }
+  if (time >= 18) {
+    res = "Malam Kak 🌙"
+  }
+  return res
+}
+
+
 
 
 /**
