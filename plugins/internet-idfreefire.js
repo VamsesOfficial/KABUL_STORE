@@ -9,4 +9,4 @@ handler.help = ['epep'].map(v => v + ' <id>')
 handler.tags = ['internet']
 handler.command = /^(freefire|epep|idff)$/i
 
-xports = handler
+export default handler
