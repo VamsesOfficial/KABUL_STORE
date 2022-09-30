@@ -16,7 +16,7 @@ let handler = async (m, { conn, usedPrefix, command }) => {
 }
 handler.help = ['list']
 handler.tags = ['store']
-handler.command = /^(bismilah work)$/i
+handler.command = /^coba$/i
 
 export default handler
 
@@ -28,5 +28,3 @@ export default handler
  * https://github.com/fokusdotid
  *
  */
-
-
