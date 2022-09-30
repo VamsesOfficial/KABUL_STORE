@@ -19,7 +19,7 @@ let rules = `➯ *Kabul Store || Ready*
 5. KIRIM +18❌
 6. CULIK MEMBER LAPOR ADMIN❌
 7. DILARANG MAEN BOT❌
-8. *SEKIAN TERIMAKASIH❌*
+8. *SEKIAN TERIMAKASIH*
 ❏┳━━◩
 ┍┛
 ┆⟥⟤ ➠ (${global.bottime})
