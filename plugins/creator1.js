@@ -42,7 +42,7 @@ const sections = [
 	rows: [
 	    {title: "⸙ • Nomor", rowId: ".owner nomor"},
 	   {title: "⸙ • Biodata Kabul", rowId: ".owner bio"},
-       {title: "⸙ • Biodata Lisa", rowId: ".owner bio"},
+       {title: "⸙ • Biodata Lisa", rowId: ".owner bio2"},
 	   {title: "⸙ • Script", rowId: ".sc"},
 	]
     },{
