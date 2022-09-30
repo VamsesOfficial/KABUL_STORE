@@ -20,23 +20,6 @@ let handler  = async (m, { conn, command, args, usedPrefix, DevMode }) => {
 //------------ BIO
 let ppown = await conn.profilePictureUrl(nomorown + '@s.whatsapp.net', 'image').catch(_ => hwaifu[1]) 
 let teksbio = `${htki} *BIODATA* ${htka}
-${htjava} *💌 Nama* : Kabul
-${htjava} *✉️ Nama RL* : HAMBA ALLAH
-${htjava} *♂️ Gender* : Boys
-${htjava} *🕋 Agama* : Islam
-${htjava} *⏰ Tanggal lahir* : 21-12-2004
-${htjava} *🎨 Umur* : 17
-${htjava} *🧮 Kelas* : XI
-${htjava} *🧩 Hobby* : REBAHAN "
-${htjava} *💬 Sifat* : ASIK DAH KALAU DAH KENAL
-${htjava} *🗺️ Tinggal* : jawa,barat, Sukabumi 
-${htjava} *❤️ Waifu* : - 
-${htjava} *📷 ɪɴsᴛᴀɢʀᴀᴍ* : ${sig}
-${htjava} *🐈 ɢɪᴛʜᴜʙ:* ${sgh}
-•·––––––––––––––––––––––––––·•
-`
-let ppown = await conn.profilePictureUrl(nomorown + '@s.whatsapp.net', 'image').catch(_ => hwaifu[1]) 
-let teksbio = `${htki} *BIODATA* ${htka}
 ${htjava} *💌 Nama* : Lisa
 ${htjava} *✉️ Nama RL* : HAMBA ALLAH
 ${htjava} *♂️ Gender* : girl 
@@ -50,32 +33,33 @@ ${htjava} *🗺️ Tinggal* : Jawa,Barat, Sukabumi
 ${htjava} *❤️ Waifu* : - 
 ${htjava} *📷 ɪɴsᴛᴀɢʀᴀᴍ* : ${sig}
 ${htjava} *🐈 ɢɪᴛʜᴜʙ:* ${sgh}
+•·––––––––––––––––––––––––––·•
 `
-  let teks = 'Pilih dibawah kak ! o(〃＾▽＾〃)o'
+  let teks = ''
 const sections = [
    {
 	title: `${htjava} OWNER –––––––––·•`,
 	rows: [
 	    {title: "⸙ • Nomor", rowId: ".owner nomor"},
-     	{title: "⸙ • Biodata Kabul", rowId: ".owner bio"},
-      {title: " ⸙• Biodata Lisa", rowId: ".owner bio"},
-    	{title: "⸙ • Script", rowId: ".sc"},
-    	]
-      },{
-     	title: `${htjava} SUPPORT ME –––––––·•`,
-	rows: [
-	{title: "〠 • Donasi", rowId: ".owner nomor"},
- 	{title: "〠 • Sewa", rowId: ".sewa"},
- 	{title: "〠 • Buy Premium", rowId: ".premium"},
+	   {title: "⸙ • Biodata Kabul", rowId: ".owner bio"},
+       {title: "⸙ • Biodata Lisa", rowId: ".owner bio"},
+	   {title: "⸙ • Script", rowId: ".sc"},
 	]
- },
+    },{
+	title: `${htjava} SUPPORT ME –––––––·•`,
+	rows: [
+	    {title: "〠 • Donasi", rowId: ".owner nomor"},
+	{title: "〠 • Sewa", rowId: ".sewa"},
+	{title: "〠 • Buy Premium", rowId: ".premium"},
+	]
+  },
 ]
 
 const listMessage = {
   text: teks,
   footer: null,
   title: `${htki} *OWNER* ${htka}`,
-  buttonText: "Click Here !",
+  buttonText: "",
   sections
 }
 
@@ -116,5 +100,7 @@ const listMessage = {
 }
 handler.help = ['owner', 'creaor']
 handler.tags = ['main', 'info']
-handler.command = /^(bacot)/i
+handler.command = /^(owner|creator)/i
 export default handler
+
+ 
