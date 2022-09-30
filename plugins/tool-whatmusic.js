@@ -23,6 +23,6 @@ let handler = async (m, { conn, usedPrefix, command }) => {
 }
 handler.help = handler.alias = ['whatmusic']
 handler.tags = ['tools']
-handler.command = /^(whatmusic)$/i
+handler.command = /^(whatmusic|musik)$/i
 
 export default handler
