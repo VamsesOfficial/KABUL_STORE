@@ -20,7 +20,7 @@ let handler = async (m, { conn, usedPrefix, command }) => {
 }
 handler.help = ['sewa', 'premium']
 handler.tags = ['main']
-handler.command = /^(list|store|liststore|lit|cek|tokoh)$/i
+handler.command = /^(bismilah work)$/i
 
 export default handler
 
