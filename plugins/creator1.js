@@ -100,7 +100,7 @@ const listMessage = {
 }
 handler.help = ['owner2', 'creaor2']
 handler.tags = ['main', 'info']
-handler.command = /^(owner2)/i
+handler.command = /^(owner2|owner bio2)/i
 export default handler
 
  
