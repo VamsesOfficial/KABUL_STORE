@@ -98,9 +98,9 @@ const listMessage = {
     m.reply("Error\n\n\n" + err.stack)
   }
 }
-handler.help = ['owner', 'creaor']
+handler.help = ['owner2', 'creaor2']
 handler.tags = ['main', 'info']
-handler.command = /^(owner|creator)/i
+handler.command = /^(owner2)/i
 export default handler
 
  
