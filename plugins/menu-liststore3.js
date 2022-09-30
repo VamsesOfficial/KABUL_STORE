@@ -7,6 +7,7 @@ let handler = async (m, { conn, usedPrefix, command }) => {
 		rowId: msg[v]
 	}))
 	let button = {
+		title: '⬒ ───⟢⟨ *Mʏ Lɪsᴛ Sᴛᴏʀᴇ* ⟩⟣─── ⬒',
 		buttonText: 'LIST STORE',
 		description: 'Berikut daftar Menu yg Ada di List store...',
 		footerText: wm
