@@ -37,16 +37,16 @@ let pv = '50'
 let ppm = '70'
 let wibb = `${wktuwib}`
 let info = `
-🎧 *AL-BOT WHATSAPP*
-*Silahkan pilih list Sound dibawah ini* `
+〠By *AL BOT Whatsapp*
+silahkan pilih list Sound dibawah ini  `
   /*    {title: "🔖 HEMAT", rowId: '.order *Paket:* HEMAT • Sewa', description: 'PRICE: ' + sh + 'k (1 minggu)' },
 	{title: "🔖 NORMAL", rowId: '.order *Paket:* NORMAL • Sewa', description: 'PRICE: ' + sn + 'k (1 bulan)' },
 	{title: "🔖 STANDAR", rowId: '.order *Paket:* STANDAR • Sewa', description: 'PRICE: ' + ss + 'k (2 bulan)' },
 	{title: "🔖 PRO", rowId: '.order *Paket:* PRO • Sewa', description: 'PRICE: ' + sp + 'k (4 bulan)' },
 	{title: "🔖 VIP", rowId: '.order *Paket:* VIP • Sewa', description: 'PRICE: ' + sv + 'k (12 bulan)' },*/
 const sections = [{
-  {title: `${htjava} SOUND MENU –––––––––·•`,
-	rows: [
+title: `⟥⟝⟢⟨ *🎧 Kumpulan 119 Sound* ⟩⟣⟞⟤`,
+rows: [
     {title: "Sound Ultah", rowId: ".soundultah"},
 	{title: "Sound 1", rowId: ".sound1"},
     {title: "Sound 2", rowId: ".sound2"},
@@ -166,22 +166,15 @@ const sections = [{
 	{title: "Sound 116", rowId: ".sound116"},
 	{title: "Sound 117", rowId: ".sound117"},
 	{title: "Sound 118", rowId: ".sound118"},
-	{title: "Sound 119", rowId: ".sound119"},
+	{title: "Sound 119", rowId: ".sound119"},	
+]},
 ]
-    },{
-	title: `${htjava} SUPPORT ME –––––––·•`,
-	rows: [
-	    {title: "💹 • Donasi", rowId: ".owner nomor"},
-	{title: "🔖 • Sewa", rowId: ".sewa"},
-	{title: "🌟 • Buy Premium", rowId: ".premium"},
-	]
-  },
-]
+
 const listMessage = {
   text: info,
   footer:  `Hai kak ${name}\n⌚ : ${wibb}\n📆 : ${week} ${date}`,
-  title: '⬒ ───⟢⟨ *🎧 Kumpulan 119 Sound* ⟩⟣─── ⬒',
-  〠By AL BOT Whatsapp
+  title: '––––––『🎧 *SOUND MENU* 』––––––
+Pilih dibawah kak ! o(〃＾▽＾〃)o',
   buttonText: "Click Here!",
   sections
 }
@@ -209,7 +202,7 @@ conn.reply(global.nomorown + '@s.whatsapp.net', m.quoted ? teks + m.quoted.text 
 
 handler.help = ['sewa', 'premium']
 handler.tags = ['main']
-handler.command = /^(coba sound|so)$/i
+handler.command = /^(tes)$/i
 
 export default handler
 
@@ -229,4 +222,8 @@ function ucapan() {
     res = "Malam Kak 🌙"
   }
   return res
-}
+} 
+	
+    
+
+
