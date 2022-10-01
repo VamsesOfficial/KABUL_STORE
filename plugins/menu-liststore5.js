@@ -37,9 +37,9 @@ let pv = '50'
 let ppm = '70'
 let wibb = `${wktuwib}`
 let info = `
-🛒 *KABUL STORE || READY*
-Dijamin 100% amanah *#STAYHALAL*
-Silahkan pilih list Store dibawah ini `
+🔞 *MP4 BOKEP*
+Silahkan pilih list menu bokep dibawah ini
+ `
   /*    {title: "🔖 HEMAT", rowId: '.order *Paket:* HEMAT • Sewa', description: 'PRICE: ' + sh + 'k (1 minggu)' },
 	{title: "🔖 NORMAL", rowId: '.order *Paket:* NORMAL • Sewa', description: 'PRICE: ' + sn + 'k (1 bulan)' },
 	{title: "🔖 STANDAR", rowId: '.order *Paket:* STANDAR • Sewa', description: 'PRICE: ' + ss + 'k (2 bulan)' },
@@ -48,8 +48,8 @@ Silahkan pilih list Store dibawah ini `
 const sections = [{
 title: `⟥⟝⟢⟨ 👑KABUL STORE || READY👑 ⟩⟣⟞⟤`,
 rows: [
-        {title: "💎 • Top Up FREE FIRE", rowId: ".bokep1"},
-	{title: "💎 • Top Up FREE FIRE", rowId: ".bokep2"},
+        {title: "💎 • BOKEP COLMEK1", rowId: ".bokep1"},
+	{title: "💎 • BOKEP COLMEK2", rowId: ".bokep2"},
         {title: "💎 • Top Up DOMINO QIU QIU", rowId: ".game2"},
         {title: "💎 • Top Up ARENA OF VALOR(AOV)", rowId: ".game3"},
         {title: "💎 • Top Up POKER TEXAS", rowId: ".game4"},
@@ -80,7 +80,7 @@ rows: [
 const listMessage = {
   text: info,
   footer:  `Hai kak ${name}\n⌚ : ${wibb}\n📆 : ${week} ${date}`,
-  title: '⬒ ───⟢⟨ *Mʏ Lɪsᴛ Sᴛᴏʀᴇ* ⟩⟣─── ⬒',
+  title: '⬒ ───⟢⟨ *kepmenu* ⟩⟣─── ⬒',
   buttonText: "Click Here!",
   sections
 }
