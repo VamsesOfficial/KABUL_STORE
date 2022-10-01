@@ -187,7 +187,7 @@ const listMessage = {
   }
 }
 
-handler.help = ['kepmenu']
+handler.help = ['soundmenu']
 handler.tags = ['fun']
 handler.command = /^(kepmenu)/i
 export default handler
