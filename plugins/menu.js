@@ -86,7 +86,7 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args }) => {
   'host': 'Host',
   'advanced': 'Advanced',
   'info': 'Info',
-  'kabul': 'kabul',
+  'kabul': 'Kabul',
   '': 'No Category',
 }
   if (teks == 'game') tags = {
@@ -187,8 +187,8 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args }) => {
  if (teks == 'nsfw') tags = {
     'nsfw': 'Nsfw'
 }
- if (teks == 'albotwhatsapp') tags = {
-    'kabul': 'kabul'
+ if (teks == 'kabul') tags = {
+    'kabul': 'Kabul'
   }
   if (teks == 'nocategory') tags = {
     'nocategory': 'No Category'
@@ -242,7 +242,7 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args }) => {
 	title: `${htki} MENU ${htka}`,
 	rows: [
 	    {title: `💬 ${pmenus} All`, rowId: ".? all", description: "Menampilkan Semua command BOT"},
-	    {title: `🛒 ${pmenus} Kabul`, rowId: ".? kabul", description: "albotwhatsapp"},
+	    {title: `🛒 ${pmenus} Kabul`, rowId: ".? kabul", description: "KABUL"},
 	    {title: `🌱 ${pmenus} Rpg`, rowId: ".? rpg", description: "Game Epic Rpg!"},
 	{title: `✨ ${pmenus} Exp`, rowId: ".? xp", description: "Ayo tingkatkan pangkat mu!"},
 	{title: `🎮 ${pmenus} Game`, rowId: ".? game", description: "Gamenya seru seru lho >-<"},
