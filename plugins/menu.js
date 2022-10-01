@@ -54,7 +54,7 @@ const defaultMenu = {
 let handler = async (m, { conn, usedPrefix: _p, __dirname, args }) => {
 	let tags
 	let teks = `${args[0]}`.toLowerCase()
-  let arrayMenu = ['all', 'anime', 'update', 'maker', 'berita', 'edukasi', 'news', 'random', 'logo', 'game', 'xp', 'islamic', 'stiker', 'rpg', 'kerangajaib', 'quotes', 'admin', 'group', 'premium', 'internet', 'anonymous', 'nulis', 'downloader', 'tools', 'fun', 'database','quran', 'vote', 'nsfw', 'audio', 'jadibot', 'info', 'owner', 'menubokep', 'nocategory']
+  let arrayMenu = ['all', 'anime', 'update', 'maker', 'berita', 'edukasi', 'news', 'random', 'logo', 'game', 'xp', 'islamic', 'stiker', 'rpg', 'kerangajaib', 'quotes', 'admin', 'group', 'premium', 'internet', 'anonymous', 'nulis', 'downloader', 'tools', 'fun', 'database','quran', 'vote', 'nsfw', 'audio', 'jadibot', 'info', 'owner', 'menu liststore', 'nocategory']
   if (!arrayMenu.includes(teks)) teks = '404'
   if (teks == 'all') tags = {
   'main': 'Main',
@@ -85,6 +85,7 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args }) => {
   'owner': 'Owner',
   'host': 'Host',
   'advanced': 'Advanced',
+'menu liststore': 'menu liststore',	 
   'info': 'Info',
   '': 'No Category',
 }
@@ -185,7 +186,10 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args }) => {
   }
  if (teks == 'nsfw') tags = {
     'nsfw': 'Nsfw'
-  }
+ } 
+	if (teks == 'menu list store') tags = {
+    'menu liststore': 'menu liststore'
+ }
   if (teks == 'nocategory') tags = {
     'nocategory': 'No Category'
   }
@@ -225,6 +229,8 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args }) => {
 	    {title: `⚡ ${pmenus} SPEED BOT`, rowId: ".speed", description: "Menampilkan kecepatan respon BOT"},
 	    {title: `💌 ${pmenus} OWNER BOT`, rowId: ".owner", description: "Menampilkan List owner BOT"},
 	    {title: `📔 ${pmenus} SCRIPT BOT`, rowId: ".sc", description: `Source Code ${namebot}`},
+		{title: `📔 ${pmenus} menu liststore`, rowId: ".liststore", description: `Source Code ${namebot}`},
+	
 	]
     },{
 	title: `${htki} SUPPORT ${htka}`,
