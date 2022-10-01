@@ -48,9 +48,9 @@ Silahkan pilih list menu bokep dibawah ini
 const sections = [{
 title: `⟥⟝⟢⟨ 👑KABUL STORE || READY👑 ⟩⟣⟞⟤`,
 rows: [
-        {title: "💎 • BOKEP COLMEK1", rowId: ".bokep1"},
-	{title: "💎 • BOKEP COLMEK2", rowId: ".bokep2"},
-        {title: "💎 • Top Up DOMINO QIU QIU", rowId: ".game2"},
+        {title: "🔞 • BOKEP COLMEK1", rowId: ".bokep1"},
+	{title: "🔞 • BOKEP COLMEK2", rowId: ".bokep2"},
+        {title: "🔞 • Top Up DOMINO QIU QIU", rowId: ".bokep3"},
         {title: "💎 • Top Up ARENA OF VALOR(AOV)", rowId: ".game3"},
         {title: "💎 • Top Up POKER TEXAS", rowId: ".game4"},
         {title: "💎 • Top Up POINT BLANK ZEPETTO", rowId: ".game5"},
