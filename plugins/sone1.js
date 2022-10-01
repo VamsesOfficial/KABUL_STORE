@@ -9,12 +9,12 @@ conn.reply(m.chat, info, m, { quoted: fkontak },{ contextInfo: { externalAdReply
     mediaUrl: "https://www.youtube.com/channel/UCMx4e8anOq_Olt2nMSv0Cow",
     mediaType: 2,
     description: "https://www.youtube.com/channel/UCMx4e8anOq_Olt2nMSv0Cow", 
-    title: 'WH-BOT-V1-ᴍᴜʟᴛɪᴅᴇᴠɪᴄᴇ',
+    title: 'whmods-ᴍᴜʟᴛɪᴅᴇᴠɪᴄᴇ',
     body: wm,
     thumbnail: thumb,
     sourceUrl: sig  }}})
 }
-handler.customPrefix = /^(bokep1|kep)$/i
-handler.command = new RegExp
-
+handler.command = ['bokep1']
+handler.help = ['bokep1']
 export default handler
+
