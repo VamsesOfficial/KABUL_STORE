@@ -107,7 +107,7 @@ conn.reply(global.nomorown + '@s.whatsapp.net', m.quoted ? teks + m.quoted.text 
 }
 
 handler.help = ['teks', 'premium']
-handler.tags = ['albotwhatsapp']
+handler.tags = ['kabul']
 handler.command = /^(teks|caca)$/i
 
 export default handler
