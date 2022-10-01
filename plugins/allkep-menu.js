@@ -23,8 +23,8 @@ const sections = [
 	title: `${htjava} KEPMENU –––––––––·•`,
 	rows: [
 	{title: "bokep 1", rowId: ".bokep1"},
-    {title: "Sound 2", rowId: ".sound2"},
-	{title: "Sound 3", rowId: ".sound3"},
+    {title: "bokep 2", rowId: ".bokep2"},
+	{title: "Sound 3", rowId: ".bokep3"},
 	{title: "Sound 4", rowId: ".sound4"},
 	{title: "Sound 5", rowId: ".sound5"},
 	{title: "Sound 6", rowId: ".sound6"},
