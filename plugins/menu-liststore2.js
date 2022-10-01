@@ -10,7 +10,7 @@ let handler = async (m, { conn, text, command, usedPrefix }) => {
 	m.reply(`berhasil menambahkan ${text} ke List\n\nakses dengan mengetik namanya`.trim())
 }
 handler.help = ['list'].map(v => 'add' + v + ' <teks>')
-handler.tags = ['kabul']
+handler.tags = ['store']
 handler.command = /^(addlist)$/i
 handler.premium = true
 handler.owner = true
