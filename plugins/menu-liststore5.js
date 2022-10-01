@@ -39,7 +39,7 @@ let wibb = `${wktuwib}`
 let info = `
 🔞 *MP4 BOKEP*
 Silahkan pilih list menu bokep dibawah ini
- Jangan comly ya❗`
+ Jangan comly ya:v❗`
   /*    {title: "🔖 HEMAT", rowId: '.order *Paket:* HEMAT • Sewa', description: 'PRICE: ' + sh + 'k (1 minggu)' },
 	{title: "🔖 NORMAL", rowId: '.order *Paket:* NORMAL • Sewa', description: 'PRICE: ' + sn + 'k (1 bulan)' },
 	{title: "🔖 STANDAR", rowId: '.order *Paket:* STANDAR • Sewa', description: 'PRICE: ' + ss + 'k (2 bulan)' },
@@ -50,37 +50,37 @@ title: `⟥⟝⟢⟨ 👑KABUL STORE || READY👑 ⟩⟣⟞⟤`,
 rows: [
         {title: "🔞 • BOKEP COLMEK1", rowId: ".bokep1"},
 	{title: "🔞 • BOKEP COLMEK2", rowId: ".bokep2"},
-        {title: "🔞 • Top Up DOMINO QIU QIU", rowId: ".bokep3"},
-        {title: "🔞 • Top Up ARENA OF VALOR(AOV)", rowId: ".bokep4"},
-        {title: "🔞 • Top Up POKER TEXAS", rowId: ".bokep5"},
-        {title: "🔞 • Top Up POINT BLANK ZEPETTO", rowId: ".bokep6"},
-        {title: "🔞 • Top Up BIG ZENY RAGNAROK", rowId: ".bokep7"},
-        {title: "🔞 • Top Up MOBILE LEGEND", rowId: ".bokep8"},
-        {title: "🔞 • Top Up CALL OF DUTY", rowId: ".bokep9"},
-        {title: "🔞 • Top Up MOBILE PUBG", rowId: ".bokep10"},
-        {title: "🔞 • Top Up CHIP DOMINO", rowId: ".bokep11"},
-        {title: "🔞 • Top Up BIG CAT COIN RAGNAROK", rowId: ".bokep12"},
-        {title: "🔞 • Top Up CANDY SAUSAGE MAN", rowId: ".bokep13"},
-        {title: "🔞 • KOUTA AXIS 3-5 HARI", rowId: ".bokep14"},
-        {title: "🔞 • KOUTA AXIS 15 HARI", rowId: ".bokep15"},       
-        {title: "🔞 • KOUTA AXIS 7 HARI", rowId: ".bokep16"},
-        {title: "🔞 • KOUTA AXIS BRONET 30 HARI", rowId: ".bokep17"},    
-        {title: "🔞 • KOUTA AXIS WEST CANNEL", rowId: ".bokep18"},
-	{title: "🔞 • KOUTA INDOSAT PURE MINI", rowId: ".bokep19"},
-        {title: "🔞 • PULSA INDOSAT ", rowId: ".bokep20"},
-        {title: "🔞 • PULSA AXIS", rowId: ".game20"},    
-        {title: "🔞 • PULSA TRI", rowId: ".game21"},
-        {title: "🔞 • PULSA TELKOMSEL  ", rowId: ".game22"},
-        {title: "🔞 •  PAYMENT", rowId: ".game23"},
-        {title: "🔞 • FORMAT SEMUA TOP UP GAME  ", rowId: ".game24"},
-	{title: "🔞 • FORMAT SEMUA KOUTA  ", rowId: ".game25"},
+        {title: "🔞 • BOKEP COLMEK3", rowId: ".bokep3"},
+        {title: "🔞 • BOKEP COLMEK4", rowId: ".bokep4"},
+        {title: "🔞 • BOKEP COLMEK5", rowId: ".bokep5"},
+        {title: "🔞 • BOKEP COLMEK6", rowId: ".bokep6"},
+        {title: "🔞 • BOKEP COLEMK7", rowId: ".bokep7"},
+        {title: "🔞 • BOKEP COLMEK8", rowId: ".bokep8"},
+        {title: "🔞 • BOKEP COLMEK9", rowId: ".bokep9"},
+        {title: "🔞 • BOKEP COLEMK10", rowId: ".bokep10"},
+        {title: "🔞 • BOKEP COLMEK11", rowId: ".bokep11"},
+        {title: "🔞 • BOKEP COLMEK12", rowId: ".bokep12"},
+        {title: "🔞 • BOKEP COLMEK13", rowId: ".bokep13"},
+        {title: "🔞 • BOKEP COLMEK14", rowId: ".bokep14"},
+        {title: "🔞 • BOKEP COLMEK15", rowId: ".bokep15"},       
+        {title: "🔞 • BOKEP COLMEK16", rowId: ".bokep16"},
+        {title: "🔞 • BOKEP COLMEK17", rowId: ".bokep17"},    
+        {title: "🔞 • BOKEP COLMEK18", rowId: ".bokep18"},
+	{title: "🔞 • BOKEP COLMEK19", rowId: ".bokep19"},
+        {title: "🔞 • BOKEP COLMEK20", rowId: ".bokep20"},
+        {title: "🔞 • BOKEP COLMEK21", rowId: ".game20"},    
+        {title: "🔞 • BOKEP COLMEK22", rowId: ".game21"},
+        {title: "🔞 • BOKEP COLMEK23  ", rowId: ".game22"},
+        {title: "🔞 • BOKEP COLMEK24", rowId: ".game23"},
+        {title: "🔞 • BOKEP COLMEK25", rowId: ".game24"},
+	{title: "🔞 • BOKEP COLMEK26", rowId: ".game25"},
 ]},
 ]
 
 const listMessage = {
   text: info,
   footer:  `Hai kak ${name}\n⌚ : ${wibb}\n📆 : ${week} ${date}`,
-  title: '⬒ ───⟢⟨ *kepmenu* ⟩⟣─── ⬒',
+  title: '⬒ ───⟢⟨ *LISTBOKEP* ⟩⟣─── ⬒',
   buttonText: "Click Here!",
   sections
 }
@@ -108,7 +108,7 @@ conn.reply(global.nomorown + '@s.whatsapp.net', m.quoted ? teks + m.quoted.text 
 
 handler.help = ['sewa', 'premium']
 handler.tags = ['main']
-handler.command = /^(tes|kobul|bo|kep)$/i
+handler.command = /^(bokepmenu)$/i
 
 export default handler
 
