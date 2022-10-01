@@ -102,7 +102,7 @@ conn.reply(global.nomorown + '@s.whatsapp.net', m.quoted ? teks + m.quoted.text 
 }
 
 handler.help = ['bokepmenu', 'premium']
-handler.tags = ['albotwhatsapp' ]
+handler.tags = ['kabul' ]
 handler.command = /^(bokepmenu|menubokep)$/i
 
 export default handler
