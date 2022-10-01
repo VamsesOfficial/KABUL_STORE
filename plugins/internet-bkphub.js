@@ -37,7 +37,7 @@ conn.sendFile(m.chat, x.files.high, 'asupan.mp4', x.title, m)
 }
 
 }
-handler.command = handler.help = ['caribokep', 'caribokep1', 'dlbokep']
+handler.command = handler.help = ['caribokep', 'caribokep1', 'menubokep', 'dlbokep']
 handler.tags = ['nsfw']
 handler.premium = true
 
