@@ -54,7 +54,7 @@ const defaultMenu = {
 let handler = async (m, { conn, usedPrefix: _p, __dirname, args }) => {
 	let tags
 	let teks = `${args[0]}`.toLowerCase()
-  let arrayMenu = ['all', 'anime', 'update', 'maker', 'berita', 'edukasi', 'news', 'random', 'logo', 'game', 'xp', 'islamic', 'stiker', 'rpg', 'kerangajaib', 'quotes', 'admin', 'group', 'premium', 'internet', 'anonymous', 'nulis', 'downloader', 'tools', 'fun', 'database','quran', 'vote', 'nsfw', 'audio', 'jadibot', 'info', 'owner', 'AL BOT Whatsapp', 'nocategory']
+  let arrayMenu = ['all', 'anime', 'update', 'maker', 'berita', 'edukasi', 'news', 'random', 'logo', 'game', 'xp', 'islamic', 'stiker', 'rpg', 'kerangajaib', 'quotes', 'admin', 'group', 'premium', 'internet', 'anonymous', 'nulis', 'downloader', 'tools', 'fun', 'database','quran', 'vote', 'nsfw', 'audio', 'jadibot', 'info', 'owner', 'kabul', 'nocategory']
   if (!arrayMenu.includes(teks)) teks = '404'
   if (teks == 'all') tags = {
   'main': 'Main',
@@ -86,7 +86,7 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args }) => {
   'host': 'Host',
   'advanced': 'Advanced',
   'info': 'Info',
-  'AL BOT Whatsapp': 'AL BOT Whatsapp',
+  'kabul': 'kabul',
   '': 'No Category',
 }
   if (teks == 'game') tags = {
@@ -188,7 +188,7 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args }) => {
     'nsfw': 'Nsfw'
 }
  if (teks == 'albotwhatsapp') tags = {
-    'albotwhatsapp': 'albotwhatsapp'
+    'kabul': 'kabul'
   }
   if (teks == 'nocategory') tags = {
     'nocategory': 'No Category'
@@ -242,7 +242,7 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args }) => {
 	title: `${htki} MENU ${htka}`,
 	rows: [
 	    {title: `💬 ${pmenus} All`, rowId: ".? all", description: "Menampilkan Semua command BOT"},
-	    {title: `🛒 ${pmenus} AL BOT WHATSAPP`, rowId: ".? albotwhatsapp", description: "albotwhatsapp"},
+	    {title: `🛒 ${pmenus} AL BOT WHATSAPP`, rowId: ".? kabul", description: "albotwhatsapp"},
 	    {title: `🌱 ${pmenus} Rpg`, rowId: ".? rpg", description: "Game Epic Rpg!"},
 	{title: `✨ ${pmenus} Exp`, rowId: ".? xp", description: "Ayo tingkatkan pangkat mu!"},
 	{title: `🎮 ${pmenus} Game`, rowId: ".? game", description: "Gamenya seru seru lho >-<"},
