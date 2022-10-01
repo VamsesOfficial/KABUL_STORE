@@ -47,6 +47,6 @@ const listMessage = {
   //conn.sendHydrated(m.chat, info, wm, null, sgc, "🌎 Group Official", null,null, [['Owner','.owner']], m)
   }
    handler.help = ['liststore']
-  handler.tags = ['nocategoty']
-  handler.command = /^(kabul)$/i
+  handler.tags = ['kabul']
+  handler.command = /^(kosong)$/i
     export default handler
