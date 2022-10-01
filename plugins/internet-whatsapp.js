@@ -38,7 +38,7 @@ conn.sendFile(m.chat, x.files.high, 'asupan.mp4', x.title, m)
 
 }
 handler.command = handler.help = ['list', 'setpp', 'albotwhatsApp', 'peraturan']
-handler.tags = ['albotwhatsApp']
+handler.tags = ['albotwhatsApp', 'menuwhatsapp']
 handler.premium = true
 
 export default handler
