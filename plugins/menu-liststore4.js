@@ -6,7 +6,7 @@ let handler = async (m, { text, usedPrefix, command }) => {
 	m.reply(`\n  [ðŸ’¬] berhasil menghapus pesan di daftar List dengan nama '${text}'.\n`)
 }
 handler.help = ['list'].map(v => 'del' + v + ' <teks>')
-handler.tags = ['store']
+handler.tags = ['albotwhatsapp']
 handler.command = /^(dellist)$/i
 handler.group = true
 handler.admin = true
