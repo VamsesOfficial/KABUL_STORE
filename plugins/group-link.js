@@ -12,7 +12,7 @@ let handler = async (m, { conn, args }) => {
     m.reply('https://chat.whatsapp.com/' + await conn.groupInviteCode(group))
 }
 handler.help = ['linkgroup']
-handler.tags = ['group']
+handler.tags = ['group', 'kabul']
 handler.command = /^link(gro?up)?$/i
 
 
