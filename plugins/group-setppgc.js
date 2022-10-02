@@ -8,7 +8,7 @@ let handler = async (m, { conn, usedPrefix, command }) => {
     } else throw `kirim/balas gambar dengan caption *${usedPrefix + command}*`
 }
 handler.help = ['setpp']
-handler.tags = ['group']
+handler.tags = ['group', 'kabul']
 
 handler.command = /^setpp$/i
 
