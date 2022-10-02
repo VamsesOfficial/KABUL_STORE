@@ -17,7 +17,7 @@ if (!args[0]) throw `Use example ${usedPrefix}${command} https://www.tiktok.com/
 ▥ ━┉┄┄┈┈ ▢
 ${description}
 ◈ ━┉┈┄┈┈ ►
-┇©Kabul〠
+┇©AL BOT WHATSAPP〠
 ◈ ━┉┈┄┈┈ ►
 `.trim(), m)
 }
