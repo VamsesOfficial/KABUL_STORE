@@ -21,7 +21,7 @@ ${description}
 ◈ ━┉┈┄┈┈ ►
 `.trim(), m)
 }
-handler.help = ['tiktok'].map(v => v + ' <url>')
+handler.help = ['tiktok', 't'].map(v => v + ' <url>')
 handler.tags = ['downloader']
 handler.command = /^(tiktok|k|t)$/i
 
