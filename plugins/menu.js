@@ -86,7 +86,7 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args }) => {
   'host': 'Host',
   'advanced': 'Advanced',
   'info': 'Info',
-  'kabul': 'Kabul',
+  'kabul': 'Kabul Store || Ready',
   '': 'No Category',
 }
   if (teks == 'game') tags = {
@@ -188,7 +188,7 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args }) => {
     'nsfw': 'Nsfw'
 }
  if (teks == 'kabul') tags = {
-    'kabul': 'Kabul'
+    'kabul': 'Kabul Store || Ready'
   }
   if (teks == 'nocategory') tags = {
     'nocategory': 'No Category'
@@ -242,7 +242,7 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args }) => {
 	title: `${htki} MENU ${htka}`,
 	rows: [
 	    {title: `💬 ${pmenus} All`, rowId: ".? all", description: "Menampilkan Semua command BOT"},
-	    {title: `🛒 ${pmenus} Kabul`, rowId: ".? kabul", description: "KABUL"},
+	    {title: `🛒 ${pmenus} KABUL STORE || READY`, rowId: ".? kabul", description: "Kabul Store ||Ready"},
 	    {title: `🌱 ${pmenus} Rpg`, rowId: ".? rpg", description: "Game Epic Rpg!"},
 	{title: `✨ ${pmenus} Exp`, rowId: ".? xp", description: "Ayo tingkatkan pangkat mu!"},
 	{title: `🎮 ${pmenus} Game`, rowId: ".? game", description: "Gamenya seru seru lho >-<"},
@@ -255,13 +255,13 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args }) => {
 	{title: `🎭 ${pmenus} Anonymous Chats`, rowId: ".? anonymous", description: "Bicara dengan orang tidak dikenal"},
 	{title: `📖 ${pmenus} Al-Quran`, rowId: ".? quran", description: "Tobat yuk kak"},
 	{title: `🌎 ${pmenus} Internet`, rowId: ".? internet", description: "Cari sesuatu diBOT"},
-  {title: `🌎 ${pmenus} Berita`, rowId: ".? berita", description: "Cari berita terupdate"},
+       {title: `🌎 ${pmenus} Berita`, rowId: ".? berita", description: "Cari berita terupdate"},
 	{title: `📩 ${pmenus} Downloaders`, rowId: ".? downloader", description: "Download sesuatu diBOT"},
 	{title: `🎨 ${pmenus} Stikers`, rowId: ".? stiker", description: "Buat Sticker diBOT"},
 	{title: `🎨 ${pmenus} Logo`, rowId: ".? logo", description: "Buat Logo Kamu diBOT"},
 	{title: `✏️ ${pmenus} Nulis`, rowId: ".? nulis", description: "Nulis kok males kak?"},
 	{title: `🎧 ${pmenus} Audio`, rowId: ".? audio", description: "Ubah Audio dengan Filter"},
-  {title: `🎧 ${pmenus} Sound Menu`, rowId: ".soundmenu", description: "Kumpulan 120 Sound"},
+        {title: `🎧 ${pmenus} Sound Menu`, rowId: ".soundmenu", description: "Kumpulan 120 Sound"},
 	{title: `🏢 ${pmenus} Group`, rowId: ".? group", description: "Only Groups"},
 	{title: `👑 ${pmenus} Admin`, rowId: ".? admin", description: "Only Admin Group"},
 	{title: `🗂️ ${pmenus} Database`, rowId: ".? database", description: "Simpan sesuatu diBOT"},
