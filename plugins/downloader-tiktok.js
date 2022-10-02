@@ -10,7 +10,7 @@ if (!args[0]) throw `Use example ${usedPrefix}${command} https://www.tiktok.com/
         .catch(async _ => await tiktokdl(args[0]))
     const url = video.no_watermark || video.no_watermark2 || video.no_watermark_raw
     if (!url) throw 'Can\'t download video!'
-    conn.sendFile(m.chat, url, 'tiktok.mp4', 
+    conn.sendFile(m.chat, url, 'tiktok.mp4', 'tiktok.mp3',
 `              *「 🇹 ᴛ ɪ ᴋ ᴛ ᴏ ᴋ 」*
                  ████████▀▀▀████
                  ████████────▀██
@@ -23,7 +23,7 @@ if (!args[0]) throw `Use example ${usedPrefix}${command} https://www.tiktok.com/
 ────────── ⇆ㅤ◁ㅤ ❚❚ㅤ ▷ㅤ↻ ──────────
 *Nickname:* ${nickname}
 *Description:* ${description}
-_©Kabul〠_
+_©AL BOT WHATSAPP〠_
 `.trim(), m)
 } catch {
     if (!args[0]) throw 'Uhm...url nya mana?'
