@@ -308,7 +308,7 @@ let tek = `*${ucapan()} ${conn.getName(m.sender)}*
 ${clockStringP(usrs.premiumTime - new Date())}` : ''} `
   const listMessage = {
   text: tek,
-  footer: '© *By* AL BOT WHATSAPP',
+  footer: '*©By AL BOT WHATSAPP*',
   mentions: await conn.parseMention(tek),
   title: `${htki} *LIST MENU* ${htka}`,
   buttonText: `CLICK HERE ⎙`, 
