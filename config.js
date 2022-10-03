@@ -47,7 +47,7 @@ global.psaweria = 'https://saweria.com/mrw4h1d'
 
 /*============== NOMOR ==============*/
 global.nomorbot = '6285715382503'
-global.nomorown = '6281386943282'
+global.nomorown = '6282124046059'
 global.namebot = 'KABUL STORE'
 global.nameown = 'KABUL STORE '
 
@@ -58,7 +58,7 @@ global.lolkey = '8e66d0934cf741bfd2182c16' // PUNYA KABUL 357d3c85079c4e0818731e
 
 /*============== STAFF ==============*/
 global.owner = [
-  ['6281386943282', 'KABUL STORE', true],
+  ['6282124046059', 'KABUL STORE', true],
   ['-', 'isi_kalau_ada', true],
   ['-', 'isi_kalau_ada', true],
   ['-', 'isi_kalau_ada', true] //Ganti jd nomormu sama Namamu
