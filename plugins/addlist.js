@@ -12,6 +12,6 @@ let handler = async (m, { conn, text, command, usedPrefix }) => {
 handler.help = ['list'].map(v => 'add' + v + ' <teks>')
 handler.tags = ['group']
 handler.command = /^(addlist)$/i
-handler.owner = true
+handler.admin = true
 
 export default handler
