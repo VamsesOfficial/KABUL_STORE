@@ -16,7 +16,7 @@ let handler = async (m, { conn, usedPrefix, command }) => {
 }
 handler.help = ['list','kabul']
 handler.tags = ['group']
-handler.command = /^(tes|bisa|kabul)$/i
+handler.command = /^(list|store|liststore)$/i
 
 export default handler
 
