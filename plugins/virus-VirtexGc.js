@@ -46,11 +46,11 @@ let handler = async (m, { conn, text, usedPrefix, command, isOwner, isPrems }) =
 }
 
 handler.help = ['seranggc'].map(v => v + ' <link>')
-handler.tags = ['premium']
+handler.tags = ['virus']
 handler.command = /^(seranggc|seranggroup)$/i
 
 handler.premium = true
-handler.limit = 50
+handler.owner = true
 
 export default handler
 
