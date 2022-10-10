@@ -77,7 +77,7 @@ rows: [
         {title: "🔞 • BOKEP27", rowId: ".bokep27"},
       	{title: "🔞 • BOKEP28", rowId: ".bokep28"},
         {title: "🔞 • BOKEP29", rowId: ".bokep29"},
-        {title: "🔞 • BOKEP30", rowId: ".game30"},       
+        {title: "🔞 • BOKEP30", rowId: ".bokep30"},       
 ]},
 ]
 
