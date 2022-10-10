@@ -12,9 +12,9 @@ const sections = [
    {
     title: `✃ VIRTEX`,
 	rows: [
-	    {title: "😈Virtex 1", rowId: '.virtex1', description: 'Jangan lupa Subs Yt FANGZ BOT' },
-	    {title: "😈Virtex 2", rowId: '.virtex2', description: 'Jangan lupa subs Yt FANGZ BOT' },
-	{title: "😈Virtex 3", rowId: '.virtex3', description: 'Jangan lupa subs Yt FANGZ BOT' },
+	    {title: "😈Virtex 1", rowId: '.virtex1', description: 'Jangan Asal Kirim ke orang yg tidak bersalah' },
+	    {title: "😈Virtex 2", rowId: '.virtex2', description: 'Jangan Asal Kirim ke orang yg tidak bersalah' },
+	{title: "😈Virtex 3", rowId: '.virtex3', description: 'Jangan Asal Kirim ke orang yg tidak bersalah' },
 	{title: "😈Virtex 4", rowId: '.virtex4', description: 'Jangan lupa subs Yt FANGZ BOT' },
 	{title: "😈Virtex 5", rowId: '.virtex5', description: 'Jangan lupa subs Yt FANGZ BOT' },
 	{title: "😈Virtex 6", rowId: '.virtex6', description: 'Jangan lupa subs Yt FANGZ BOT' },
@@ -59,9 +59,10 @@ const listMessage = {
 await conn.sendMessage(m.chat, listMessage, { quoted: m})
 //conn.sendHydrated(m.chat, info, wm, null, sgc, "🌎 Group Official", null,null, [['Owner','.owner']], m)
 }
-handler.help = ['virtex']
-handler.tags = ['bugs']
-handler.command = /^virtex$/i
+handler.help = ['listvirtex']
+handler.tags = ['virus']
+handler.command = /^listvirtex$/i
 handler.premium = false
-
+handler.owner = true
+handler.private = true
 export default handler
