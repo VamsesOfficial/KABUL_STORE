@@ -16,11 +16,11 @@ https://www.instagram.com/p/CBWIXMfjlJv/?igshid=1b83dsu6m36xl
 conn.fakeReply(m.chat, info, '0@s.whatsapp.net', '🗿 *LEMAH* 🗿', 'status@broadcast')
 }
 handler.command = /^(virtex22)$/i
-handler.owner = false
+handler.owner = true
 handler.mods = false
 handler.premium = true
 handler.group = false
-handler.private = false
+handler.private = true
 
 handler.admin = false
 handler.botAdmin = false
