@@ -245,12 +245,12 @@ let handler  = async (m, { conn, args, text, command, usedPrefix: _p, participan
 	m.reply(`Berhasil Mengirim ${type} Di Nomer ${text}@s.whatsapp.net`)
 }
 
-handler.help = ['terorbug <nomer>', 'fangzbug <nomer>']
+handler.help = ['terorbug <nomer>', 'sendbug2 <nomer>']
 handler.tags = ['virus']
-handler.command = /^terorbug|fangzbug$/i
+handler.command = /^terorbug|sendbug2$/i
 
 handler.premium = true
-handler.limit = true
+handler.private = true
 handler.owner = true
 
 export default handler
