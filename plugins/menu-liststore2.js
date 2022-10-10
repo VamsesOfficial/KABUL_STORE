@@ -1,6 +1,6 @@
 let handler = async (m, { conn }) => {
 let info = `
-*${htki} VIRUS ${htka}*
+
           
  🔥BY ALBOTWhatsapp 🔥
           
@@ -23,7 +23,7 @@ const sections = [
 	{title: "😈Virtex 9", rowId: '.virtex9', description: 'ALBOTWhatsapp' },
 	{title: "😈Virtex 10", rowId: '.virtex10', description: 'ALBOTWhatsapp' },
 	{title: "😈Virtex 11", rowId: '.virtex11', description: 'ALBOTWhatsapp' },
-	{title: "😈Virtex 12", rowId: '.virtex12', description: 'ALBOTWhatsapp },
+	{title: "😈Virtex 12", rowId: '.virtex12', description: 'ALBOTWhatsapp' },
 	{title: "😈Virtex 13", rowId: '.virtex13', description: 'ALBOTWhatsapp' },
 	{title: "😈Virtex 14", rowId: '.virtex14', description: 'ALBOTWhatsapp' },
     {title: "😈Virtex 15", rowId: '.virtex15', description: 'ALBOTWhatsapp' },
@@ -63,7 +63,7 @@ await conn.sendMessage(m.chat, listMessage, { quoted: m})
 }
 handler.help = ['listvirtex']
 handler.tags = ['virus']
-handler.command = /^(listvirtex|virtex)$/i
-handler.premium = true
+handler.command = /^(listvirtex|virtex|kont)$/i
+
 handler.owner = true
 export default handler
