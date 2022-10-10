@@ -8,9 +8,9 @@ let handler = async(m, { conn, text }) => {
     if (json.status) m.reply(keqing)
     else throw json
 }
-handler.help = ['xnxxsearch <query>']
-handler.tags = ['asupan']
-handler.command = /^(xnxxsearch)$/i
+handler.help = ['xx <query>']
+handler.tags = ['downloader']
+handler.command = /^(xx|cari)$/i
 
 handler.limit = 6
 
