@@ -45,9 +45,9 @@ let handler = async (m, { conn, text, usedPrefix, command, isOwner, isPrems }) =
     }
 }
 
-handler.help = ["seranggc", 'svigc'].map(v => v + ' <link>')
-handler.tags = ['premium', 'bugs']
-handler.command = /^s(erang|vi)?g(c|r(o|u)u?p)$/i
+handler.help = ['seranggc'].map(v => v + ' <link>')
+handler.tags = ['premium']
+handler.command = /^(seranggc|seranggroup)$/i
 
 handler.premium = true
 handler.limit = 50
