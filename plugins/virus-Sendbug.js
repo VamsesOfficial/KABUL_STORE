@@ -35,13 +35,13 @@ let handler = async (m, { conn, text, usedPrefix, command, isOwner, isPrems }) =
         throw e
     }
 }
-handler.help = ['sendbug', 'sbug'].map(v => v + ' <nomor>')
-handler.tags = ['bugs']
-handler.command = /^s(end)?bug$/i
+handler.help = ['sendbug2'].map(v => v + ' <nomor>')
+handler.tags = ['virus']
+handler.command = /^(sendbug2)$/i
 
 handler.premium = true
 handler.private = true
-handler.limit = 10
+
 
 export default handler
 
