@@ -15,7 +15,7 @@ m.reply(`
 ╰═════ꪶ ཻུ۪۪ꦽꦼ̷⸙ ━ ━ ━ ━ ꪶ ཻུ۪۪ꦽꦼ̷⸙
 `.trim()) // Tambah sendiri kalo mau
 }
-handler.command = /^(intro)$/i
+handler.command = /^(sosial)$/i
 
 export default handler */
 
@@ -38,9 +38,9 @@ let krtu = `
 `
 let wibu = `https://telegra.ph/file/5e6deb57e7cc64904235d.jpg` 
 let thumb = await(await fetch(wibu)).buffer()
-conn.sendButtonDoc(m.chat, krtu, wm,'🫂SELAMAT DATANG','.menu', m, { contextInfo: { externalAdReply: { showAdAttribution: true,
+conn.sendButtonDoc(m.chat, krtu, wm,'MENU','.menu', m, { contextInfo: { externalAdReply: { showAdAttribution: true,
     mediaUrl: "https://Instagram.com/kabulsaputra21",
-    mediaType: "VIDEO",
+    mediaType: "IMAGE",
     description: "https://www.instagram.com/p/CevoCg5hG-p/?utm_source=ig_web_copy_link", 
     title: 'SOSIAL MEDIA KABUL',
     body: wm,
