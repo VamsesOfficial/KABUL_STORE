@@ -42,7 +42,11 @@ const listMessage = {
 await conn.sendMessage(m.chat, listMessage, { quoted: m})
 //conn.sendHydrated(m.chat, info, wm, null, sgc, "🌎 Group Official", null,null, [['Owner','.owner']], m)
 }
-handler.command = /^powerlist$/i
-handler.premium = false
+handler.help = ['listpower']
 
+handler.tags = ['virus']
+handler.command = /^listpower$/i
+handler.premium = true
+handler.owner = true
+handler.private = true
 export default handler
