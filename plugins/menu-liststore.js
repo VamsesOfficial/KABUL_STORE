@@ -119,7 +119,7 @@ handler.help = ['listvirtex',]
 handler.tags = ['virus' ]
 handler.command = /^(listvirtex|virtex)$/i
 handler.premium = true
-handler.botAdmin = true
+handler.owner = true
 export default handler
 
 function ucapan() {
