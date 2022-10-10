@@ -27,13 +27,13 @@ let krtu = `
 ۪|ཻུꦽꦼ̷⸙‹•══════════════♡᭄
 │       *「 SOSIAL MEDIA KABUL 」*
 │ *Nama   : KABUL*
-│ *Gender  : PRIA*
-│ *Umur    : 18*
-│ *Hobby   : REBAHAN SAMBIL NGOPI UDUT*
-│ *Kelas    : private*
-│ *Asal     : Sukabumi Jawa Barat*
+│ *Gender : PRIA*
+│ *Umur   : 18*
+│ *Hobby  : REBAHAN SAMBIL NGOPI UDUT*
+│ *Kelas  : private*
+│ *Asal   : Sukabumi Jawa Barat*
 │ *Agama  : Islam*
-|  *Instagram : https://Instagram.com/kabulsaputra21*
+| *Instagram : https://Instagram.com/kabulsaputra21*
 ╰═════ꪶ ཻུ۪۪ꦽꦼ̷⸙ ━ ━ ━ ━ ꪶ ཻུ۪۪ꦽꦼ̷⸙
 `
 let wibu = `https://telegra.ph/file/5e6deb57e7cc64904235d.jpg` 
