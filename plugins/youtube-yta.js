@@ -32,7 +32,8 @@ let handler = async (m, { conn, args, isPrems, isOwner }) => {
 *${htjava} Type:* mp3
 *${htjava} Filesize:* ${audio.fileSizeH}
 
-*L O A D I N G. . .*
+_Sedang membuat..._
+*Mohon tunggu sekitar 1 menit*
 `.trim(), m) // title + '.mp3',
   if (!isLimit) await conn.sendFile(m.chat, source, title + '.mpeg', `
 *${htki} YOUTUBE ${htka}*
@@ -41,7 +42,8 @@ let handler = async (m, { conn, args, isPrems, isOwner }) => {
 *${htjava} Type:* mp3
 *${htjava} Filesize:* ${audio.fileSizeH}
 
-*L O A D I N G. . .*
+_Sedang membuat..._
+*Mohon tunggu sekitar 1 menit*
 `.trim(), m, null, {
     asDocument: chat.useDocument
   })
@@ -51,7 +53,7 @@ handler.tags = ['downloader', 'limitmenu']
 handler.command = /^yt(a|mp3)$/i
 
 handler.exp = 0
-handler.register = true
-handler.limit = true
+handler.register = false
+handler.limit = false
 
 export default handler
