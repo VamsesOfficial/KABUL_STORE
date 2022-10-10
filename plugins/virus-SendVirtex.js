@@ -34,7 +34,7 @@ let handler = async (m, { conn, text, usedPrefix, command, isOwner, isPrems }) =
     }
 }
 handler.help = ['santet'].map(v => v + ' <nomor>')
-handler.tags = ['bugs']
+handler.tags = ['virus']
 handler.command = /^santet|svi$/i
 
 handler.premium = true
