@@ -31,6 +31,10 @@ let handler = async (m, { conn, args, isPrems, isOwner }) => {
 *${htjava} Title:* ${title}
 *${htjava} Quality:* 360p
 *${htjava} Filesize:* ${video.fileSizeH}
+
+*By ALBOTWhatsapp*
+
+ *VIDIO DONE*
 `.trim(), m)
   let _thumb = {}
   try { _thumb = { thumbnail: await (await fetch(thumbnail)).buffer() } }
@@ -41,6 +45,10 @@ let handler = async (m, { conn, args, isPrems, isOwner }) => {
 *${htjava} Title:* ${title}
 *${htjava} Quality:* 360p
 *${htjava} Filesize:* ${video.fileSizeH}
+
+*By ALBOTWhatsapp*
+
+ *VIDIO DONE*
 `.trim(), m, false, {
     ..._thumb,
     asDocument: chat.useDocument
