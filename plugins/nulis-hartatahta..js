@@ -5,7 +5,7 @@ let handler = async (m, { conn, text }) => {
     m.reply('_Sedang membuat..._\n*Mohon tunggu sekitar 1 menit*')
     try {
         let img = await ht(text ? text : ':v')
-        conn.sendFile(m.chat, img, 'Harta Tahta.png', '*© Nurutomo*\nMade with FFmpeg', m)
+        conn.sendFile(m.chat, img, 'Harta Tahta.png', '*DONE*\n*By ALBOTWhatsapp*', m)
     } finally {
         delete conn.hartatahta[m.chat]
     }
@@ -14,7 +14,7 @@ handler.help = ['tahta <teks>']
 handler.tags = ['nulis', 'limitmenu']
 handler.command = /^((harta)?tahta)$/i
 
-handler.limit = true
+handler.limit = false
 
 export default handler
 
