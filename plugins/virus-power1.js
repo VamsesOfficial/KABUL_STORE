@@ -19,14 +19,14 @@ let info = `
 conn.fakeReply(m.chat, info, '0@s.whatsapp.net', '🗿 *LEMAH* 🗿', 'status@broadcast')
 }
 handler.command = /^(virtex21)$/i
-handler.owner = false
-handler.mods = false
+handler.owner = true
+
 handler.premium = true
 handler.group = false
-handler.private = false
+handler.private = true
+handler.owner = true
 
-handler.admin = false
-handler.botAdmin = false
+
 
 handler.fail = null
 
