@@ -31,12 +31,12 @@ conn.send3ButtonImg(m.chat, `${pickRandom(flaaa2)}` + `${ucapan()} ` + `${name}`
     description: sgc,
     title: "Sᴇᴡᴀ Cᴇᴋ Dɪsɪɴɪ Cᴜʏ!!!",
     body: wm,
-    thumbnail: fs.readFileSync('./Poto/thumbnail.jpg'),
+    thumbnail: fs.readFileSync('./thumbnail.jpg'),
     sourceUrl: 'wa.me/6281386943282',
      }}
   })
 }
-handler.help = ['rules']
+handler.help = ['peraturangroup']
 handler.tags = ['info']
 handler.command = /^(peraturan group|peraturan|aturan|pe)$/i
 
