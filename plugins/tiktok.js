@@ -34,6 +34,6 @@ _©ALBOTWhatsapp🍭_
 }
 handler.help = ['tiktok2'].map(v => v + ' <url>')
 handler.tags = ['downloader']
-handler.command = /^(tiktok2)?)$/i
+handler.command = /^(tiktok2|t|k)?)$/i
 
 export default handler
