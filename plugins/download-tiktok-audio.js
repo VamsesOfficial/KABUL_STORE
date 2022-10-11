@@ -11,7 +11,8 @@ let handler = async (m, { conn, args, usedprefix, command }) => {
     if (!url) throw 'can\'t download video!'
 let f = await(await fetch(url)).buffer()
 let audio = await toAudio(f, 'mp4')
-    conn.sendFile(m.chat, audio.data, 'tiktok.mp3', `              *「 🇹 ᴛ ɪ ᴋ ᴛ ᴏ ᴋ 」*
+    conn.sendFile(m.chat, audio.data, 'tiktok.mp3', `                *「 🇹 ᴛ ɪ ᴋ ᴛ ᴏ ᴋ 」*
+    *「 🇹 ᴛ ɪ ᴋ ᴛ ᴏ ᴋ 」*
     ████████▀▀▀████
     ████████────▀██
     ████████──█▄──█
@@ -23,10 +24,10 @@ let audio = await toAudio(f, 'mp4')
 ────────── ⇆ㅤ◁ㅤ ❚❚ㅤ ▷ㅤ↻ ──────────
 *Nickname:* ${nickname}
 *Description:* ${description}
-_©ALBOTWhatsapp🍭_
-`.trim(), m, null, { mimetype:'audio/mpeg'})
+*©ALBOTWhatsapp* `
+.trim(), m, null, { mimetype:'audio/mpeg'})
 }
-handler.help = ['tiktokmusik', 'ttmusik', 'tiktokaudio', 'tta'].map(v => v + ' <url>')
+handler.help = ['tiktokmusik'].map(v => v + ' <url>')
 handler.tags = ['downloader']
 handler.command = /^(tiktokmusik|ttmusik|tiktokaudio|tta)$/i
 
