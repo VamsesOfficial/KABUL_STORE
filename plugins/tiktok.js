@@ -4,6 +4,11 @@ import { tiktokdl, tiktokdlv2, tiktokdlv3 } from '@bochilteam/scraper'
 
 let handler = async (m, { conn, args, usedPrefix, command }) => {
     //try {
+    if (m.chat in conn.hartatahta) throw 'Masih ada yang sedang membuat\nTeks Harta Tahta\ndi chat ini... tunggu sampai selesai'
+
+    else conn.hartatahta[m.chat] = true
+
+    m.reply('_Sedang membuat..._\n*Mohon tunggu sekitar 1 menit*')
 if (!args[0]) throw `Use example ${usedPrefix}${command} https://www.tiktok.com/@omagadsus/video/7025456384175017243`
     const { author: { nickname }, video, description } = await tiktokdlv3(args[0])
     .catch(async _ => await tiktokdlv2(args[0]))
